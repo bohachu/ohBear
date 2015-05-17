@@ -1,0 +1,4627 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Churchope\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-02-04 01:58+0700\n"
+"PO-Revision-Date: 2015-02-04 01:58+0700\n"
+"Last-Translator: \n"
+"Language-Team: Themoholics <mail@themoholics.com>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_x\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: lib/revslider\n"
+"X-Poedit-SearchPathExcluded-1: js\n"
+
+#: 404.php:8
+msgid "The page you are trying to reach can&apos;t be found"
+msgstr "Die Seite konnte nicht gefunden werden"
+
+#: 404.php:10
+msgid ""
+"Try refining your search, or use the navigation above to locate the post."
+msgstr ""
+"Versuchen Sie Ihre Suche besser einzugrenzen oder nutzen Sie die Navigation "
+"um den gesuchten Eintrag zu finden."
+
+#: 404.php:11
+#, fuzzy
+msgid "Back to home"
+msgstr "Zur&uuml;ck"
+
+#: classes/Admin/Theme/Element/Catlist.php:25
+#: classes/Admin/Theme/Element/Pagelist.php:25
+#: classes/Admin/Theme/Element/Termlist.php:25
+#: lib/shortcode/shortcodes/social_button.php:282
+#: lib/shortcode/shortcodes/social_button.php:300
+msgid "None"
+msgstr ""
+
+#: classes/Admin/Theme/Element/File.php:34
+#, fuzzy
+msgid "Upload"
+msgstr "W&auml;holen Sie eine WXR Datei zum hochladen."
+
+#: classes/Admin/Theme/Element/InstallDummy.php:20
+msgid ""
+"<p><strong>Warning!</strong><br> DO NOT INSTALL dummy data on your live "
+"website. <br>It will corrupt your existing data.</p><p>We suggest you "
+"install dummy data only on clean WordPress setup.</p><p><small>We do not "
+"hold any responsibility if you lost existing data.</small></p>"
+msgstr ""
+
+#: classes/Admin/Theme/Element/InstallDummy.php:24
+msgid "Dummy content already installed."
+msgstr ""
+
+#: classes/Admin/Theme/Element/InstallDummy.php:26
+msgid "Install dummy content"
+msgstr ""
+
+#: classes/Admin/Theme/Element/InstallDummy.php:29
+#: classes/Admin/Theme/Element/SidebarDelete.php:33
+msgid "Loading"
+msgstr ""
+
+#: classes/Admin/Theme/Element/Sidebar.php:21
+#, fuzzy
+msgid "Add sidebar"
+msgstr "Neu Hinzuf&uuml;gen"
+
+#: classes/Admin/Theme/Element/SidebarDelete.php:32
+#: classes/Custom/MetaBox/Taxonomy.php:268 classes/Locate/Api/Map.php:303
+#: classes/Locate/Api/Map.php:311
+msgid "Delete"
+msgstr "L&ouml;schen"
+
+#: classes/Admin/Theme/Item/Blog.php:12 classes/Admin/Theme/Item/Blog.php:13
+#: lib/shortcode/shortcodes/blog.php:16 lib/shortcode/shortcodes/blog.php:102
+#: lib/shortcode/shortcodes/schedule.php:115
+msgid "Blog"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Blog.php:25
+msgid "Blog Settings"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Blog.php:32
+msgid "Sidebar position for blog listing"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Blog.php:33
+msgid "Choose a sidebar position for blog listing"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Blog.php:41
+#, fuzzy
+msgid "Sidebar for blog listing"
+msgstr "Die Standard-Leiste"
+
+#: classes/Admin/Theme/Item/Blog.php:42
+msgid "Choose a sidebar for blog listing"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Blog.php:52
+msgid "Hide date from post"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Blog.php:53
+msgid "Check to Hide Post Date"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Blog.php:59
+msgid "Hide feature images from posts listing"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Blog.php:60
+msgid "Check to Hide Blog Listing Post Thumbnails"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Blog.php:66
+msgid "Disable excerpts"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Blog.php:67
+msgid "Check to Hide Excerpts on Blog Listing"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Blog.php:73
+#, fuzzy
+msgid "Disable categories from single post"
+msgstr "Karten in diesem Artikel"
+
+#: classes/Admin/Theme/Item/Blog.php:74
+#, fuzzy
+msgid "Check to Hide Categories from Single Post"
+msgstr "Karten in diesem Artikel"
+
+#: classes/Admin/Theme/Item/Blog.php:80
+#, fuzzy
+msgid "Disable tags from single post"
+msgstr "Karten in diesem Artikel"
+
+#: classes/Admin/Theme/Item/Blog.php:81
+#, fuzzy
+msgid "Check to Hide Tags from Single Post"
+msgstr "Karten in diesem Artikel"
+
+#: classes/Admin/Theme/Item/Blog.php:88
+msgid "Disable about author box"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Blog.php:89
+msgid "Check to Hide About Author Box on Post Entry"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Blog.php:99
+msgid "Sidebar position for single post"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Blog.php:100
+msgid "Choose a sidebar position for single post"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Blog.php:108
+#, fuzzy
+msgid "Sidebar for single post"
+msgstr "Die Standard-Leiste"
+
+#: classes/Admin/Theme/Item/Blog.php:109
+msgid "Choose a sidebar for single post"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Blog.php:121
+#, fuzzy
+msgid "Select a  slideshow type"
+msgstr "Pr&auml;sentation"
+
+#: classes/Admin/Theme/Item/Blog.php:122
+#: classes/Admin/Theme/Item/Slideshow.php:50
+msgid "Select a global slideshow type "
+msgstr ""
+
+#: classes/Admin/Theme/Item/Blog.php:137 classes/Admin/Theme/Item/Blog.php:138
+#: classes/Admin/Theme/Item/Slideshow.php:65
+#: classes/Admin/Theme/Item/Slideshow.php:66
+#, fuzzy
+msgid "Select a slideshow category"
+msgstr "Pr&auml;sentationskategorie"
+
+#: classes/Admin/Theme/Item/Blog.php:146
+#: classes/Admin/Theme/Item/Slideshow.php:74
+msgid "How many slides to display"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Blog.php:147
+#: classes/Admin/Theme/Item/Slideshow.php:75
+msgid "Set a number of how many slides you want to use at current slider"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Blog.php:160
+#: classes/Admin/Theme/Item/Slideshow.php:83 lib/metabox/functions.php:680
+#, fuzzy
+msgid "Slideshow timeout"
+msgstr "Pr&auml;sentation"
+
+#: classes/Admin/Theme/Item/Blog.php:161
+#: classes/Admin/Theme/Item/Slideshow.php:84 lib/metabox/functions.php:681
+msgid "Milliseconds between slide transitions (0 to disable auto advance)"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Blog.php:168
+#: classes/Admin/Theme/Item/Slideshow.php:91 lib/metabox/functions.php:718
+#, fuzzy
+msgid "Slideshow speed"
+msgstr "Pr&auml;sentation"
+
+#: classes/Admin/Theme/Item/Blog.php:169
+#: classes/Admin/Theme/Item/Slideshow.php:92 lib/metabox/functions.php:719
+#, fuzzy
+msgid "Speed of the transition(Milliseconds)"
+msgstr "&Uuml;bergangseffekt:"
+
+#: classes/Admin/Theme/Item/Blog.php:176
+#: classes/Admin/Theme/Item/Slideshow.php:99 lib/metabox/functions.php:687
+#, fuzzy
+msgid "Next/Prev navigation"
+msgstr "N&auml;chster Termin in:"
+
+#: classes/Admin/Theme/Item/Blog.php:177
+#: classes/Admin/Theme/Item/Slideshow.php:100 lib/metabox/functions.php:688
+msgid "Check to show Next/Prev navigation for slideshow"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Blog.php:184
+#: classes/Admin/Theme/Item/Slideshow.php:107 lib/metabox/functions.php:693
+#, fuzzy
+msgid "Slideshow fixed height"
+msgstr "Pr&auml;sentations Eintrag"
+
+#: classes/Admin/Theme/Item/Blog.php:185
+#: classes/Admin/Theme/Item/Slideshow.php:108 lib/metabox/functions.php:694
+msgid "Set custom fixed slideshow height. Write only number of pixels!"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Blog.php:192
+#: classes/Admin/Theme/Item/Slideshow.php:115 lib/metabox/functions.php:700
+msgid "Remove top and bottom paddings from slideshow"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Blog.php:193
+#: classes/Admin/Theme/Item/Slideshow.php:116 lib/metabox/functions.php:701
+msgid "Check to remove top and bottom paddings from slideshow"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Blog.php:201
+#: classes/Admin/Theme/Item/Slideshow.php:124
+#, fuzzy
+msgid "Slideshow pause on hover"
+msgstr "Pr&auml;sentations Eintrag"
+
+#: classes/Admin/Theme/Item/Blog.php:202
+#: classes/Admin/Theme/Item/Slideshow.php:125
+msgid "Check to enable slideshow pause on hover"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Blog.php:209
+#: classes/Admin/Theme/Item/Slideshow.php:132 lib/metabox/functions.php:712
+msgid "Disable autoplay"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Blog.php:210
+#: classes/Admin/Theme/Item/Slideshow.php:133
+#, fuzzy
+msgid "Check to disable Slideshow autoplay"
+msgstr "Pr&auml;sentationskategorien aktualisieren"
+
+#: classes/Admin/Theme/Item/Blog.php:218
+#, fuzzy
+msgid "Blog page title"
+msgstr "Tage Bezeichnung:"
+
+#: classes/Admin/Theme/Item/Blog.php:219
+msgid "Title will be shown on any blog post"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Captcha.php:8
+#: classes/Admin/Theme/Item/Captcha.php:9
+msgid "reCaptcha"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Captcha.php:27
+msgid ""
+"Learn more about reCaptcha <a href='//www.google.com/recaptcha/intro/index."
+"html' title='What is reCAPTCHA?'  target='_blank'>here</a>"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Captcha.php:32
+#, fuzzy
+msgid "Public Key"
+msgstr "Keine &ouml;ffentliche Nachrichten."
+
+#: classes/Admin/Theme/Item/Captcha.php:33
+#: classes/Admin/Theme/Item/Captcha.php:41
+msgid "These keys are required for using in reCaptcha."
+msgstr ""
+
+#: classes/Admin/Theme/Item/Captcha.php:40
+msgid "Private Key"
+msgstr ""
+
+#: classes/Admin/Theme/Item/CustomStyles.php:10
+#: classes/Admin/Theme/Item/CustomStyles.php:11
+#: classes/Admin/Theme/Item/CustomStyles.php:23
+msgid "Custom Styles"
+msgstr ""
+
+#: classes/Admin/Theme/Item/CustomStyles.php:30
+msgid "Custom CSS rules"
+msgstr ""
+
+#: classes/Admin/Theme/Item/CustomStyles.php:31
+msgid "Type custom CSS rules at this box."
+msgstr ""
+
+#: classes/Admin/Theme/Item/Dummy.php:13 classes/Admin/Theme/Item/Dummy.php:14
+msgid "Dummy content"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Dummy.php:25
+msgid "Dummy content install"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Events.php:10
+#: classes/Admin/Theme/Item/Events.php:11
+#: classes/Custom/Posts/Type/Event.php:226
+#: lib/shortcode/shortcodes/event.php:96
+msgid "Events"
+msgstr "Termine"
+
+#: classes/Admin/Theme/Item/Events.php:22
+#, fuzzy
+msgid "Events Settings"
+msgstr "Kategorie der Termine:"
+
+#: classes/Admin/Theme/Item/Events.php:27
+msgid "Sidebar position for events listing"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Events.php:28
+msgid "Choose a sidebar position for events listing"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Events.php:36
+#, fuzzy
+msgid "Sidebar for events listing"
+msgstr "Die Standard-Leiste"
+
+#: classes/Admin/Theme/Item/Events.php:37
+#, fuzzy
+msgid "Choose a sidebar for events listing"
+msgstr "W&auml;hlen Sie aus den am meisten genutzten Terminkategorien"
+
+#: classes/Admin/Theme/Item/Events.php:43
+#, fuzzy
+msgid "Events listing order"
+msgstr "Kategorie der Termine:"
+
+#: classes/Admin/Theme/Item/Events.php:44
+msgid "Choose a events listing order - Ascending or Descending"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Events.php:56
+msgid "Sidebar position for single events"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Events.php:57
+msgid "Choose a sidebar position for single event"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Events.php:65
+#, fuzzy
+msgid "Sidebar for single events"
+msgstr "Die Standard-Leiste"
+
+#: classes/Admin/Theme/Item/Events.php:66
+msgid "Choose a sidebar for single event"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Events.php:76
+#, fuzzy
+msgid "Map types"
+msgstr "Karte gespeichert"
+
+#: classes/Admin/Theme/Item/Events.php:77
+msgid ""
+"Allow your readers to change the map type (street, satellite, or hybrid)"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Events.php:84
+#, fuzzy
+msgid "Scroll wheel zoom"
+msgstr "Zoom"
+
+#: classes/Admin/Theme/Item/Events.php:85
+msgid "Enable zoom with the mouse scroll wheel"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Events.php:92
+msgid "Tooltips"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Events.php:93
+msgid "Show marker titles as a \"tooltip\" on mouse-over"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Events.php:101
+msgid ""
+"<a href=\"http://code.google.com/apis/maps/faq.html#languagesupport\" target="
+"\"_blank\">Language</a>\t"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Events.php:102
+msgid ""
+"Use a specific for map controls (defaults to browser language). Read Google "
+"Maps API doc."
+msgstr ""
+
+#: classes/Admin/Theme/Item/Events.php:113
+#, fuzzy
+msgid "Event Post slug"
+msgstr "Karten in diesem Artikel"
+
+#: classes/Admin/Theme/Item/Events.php:114
+#: classes/Admin/Theme/Item/Events.php:122
+#: classes/Admin/Theme/Item/Galleries.php:74
+#: classes/Admin/Theme/Item/Galleries.php:82
+#: classes/Admin/Theme/Item/Sermons.php:71
+#: classes/Admin/Theme/Item/Sermons.php:79
+#: classes/Admin/Theme/Item/Sermons.php:86
+#: classes/Admin/Theme/Item/Slideshow.php:146
+#: classes/Admin/Theme/Item/Slideshow.php:154
+#: classes/Admin/Theme/Item/Testimonials.php:70
+#: classes/Admin/Theme/Item/Testimonials.php:78
+#, fuzzy
+msgid "Some description"
+msgstr "Beschreibung:"
+
+#: classes/Admin/Theme/Item/Events.php:121
+#, fuzzy
+msgid "Event Tax slug"
+msgstr "Beginn des Termins:"
+
+#: classes/Admin/Theme/Item/Footer.php:10
+#: classes/Admin/Theme/Item/Footer.php:11
+#, fuzzy
+msgid "Footer"
+msgstr "Menü der Fußzeile"
+
+#: classes/Admin/Theme/Item/Footer.php:23
+#, fuzzy
+msgid "Footer Settings"
+msgstr "Menü der Fußzeile"
+
+#: classes/Admin/Theme/Item/Footer.php:30
+msgid "Enable footer widget area"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Footer.php:31
+msgid ""
+"Check this box if you want to enable footer widgets area for whole site."
+msgstr ""
+
+#: classes/Admin/Theme/Item/Footer.php:38
+msgid "Columns number for footer widgets area"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Footer.php:39
+msgid ""
+"Select how many columns(sidebars) you want display for footer widgets area."
+msgstr ""
+
+#: classes/Admin/Theme/Item/Footer.php:53
+#, fuzzy
+msgid "Footer text"
+msgstr "Menü der Fußzeile"
+
+#: classes/Admin/Theme/Item/Footer.php:54
+msgid "Type here text that appear at botttom of each page - copyrights, etc.."
+msgstr ""
+
+#: classes/Admin/Theme/Item/Footer.php:61
+msgid "Google Analytics"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Footer.php:62
+msgid "Insert your Google Analytics (or other) code here."
+msgstr ""
+
+#: classes/Admin/Theme/Item/Footer.php:75
+#, fuzzy
+msgid "Footer background color"
+msgstr "W&auml;hlen Sie eine Farbe"
+
+#: classes/Admin/Theme/Item/Footer.php:76
+msgid "Please select your custom color for footer background"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Footer.php:83
+#, fuzzy
+msgid "Footer headings color"
+msgstr "W&auml;hlen Sie eine Farbe"
+
+#: classes/Admin/Theme/Item/Footer.php:84
+msgid "Please select your custom color for footer headings"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Footer.php:90
+#, fuzzy
+msgid "Footer text color"
+msgstr "W&auml;hlen Sie eine Farbe"
+
+#: classes/Admin/Theme/Item/Footer.php:91
+msgid "Please select your custom color for footer text"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Footer.php:97
+#, fuzzy
+msgid "Footer links color"
+msgstr "W&auml;hlen Sie eine Farbe"
+
+#: classes/Admin/Theme/Item/Footer.php:98
+msgid "Please select your custom color for footer links"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Footer.php:105
+msgid "Footer copyright text color"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Footer.php:106
+msgid "Please select your custom color for footer copyright text"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Footer.php:112
+msgid "Footer active menu item text color"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Footer.php:113
+msgid "Please select your custom color for footer active menu item text"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Galleries.php:14
+#: classes/Admin/Theme/Item/Galleries.php:15
+#: classes/Custom/Posts/Type/Gallery.php:168
+msgid "Galleries"
+msgstr "Galerien"
+
+#: classes/Admin/Theme/Item/Galleries.php:25
+#, fuzzy
+msgid "Galleries Settings"
+msgstr "Galerien"
+
+#: classes/Admin/Theme/Item/Galleries.php:30
+msgid "Sidebar position for galleries listing"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Galleries.php:31
+msgid "Choose a sidebar position for galleries listing"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Galleries.php:39
+#, fuzzy
+msgid "Sidebar for galleries listing"
+msgstr "Galerien"
+
+#: classes/Admin/Theme/Item/Galleries.php:40
+#, fuzzy
+msgid "Choose a sidebar for galleries listing"
+msgstr "W&auml;holen Sie aus den am meisten genutzten Galeriekategorien "
+
+#: classes/Admin/Theme/Item/Galleries.php:51
+msgid "Sidebar position for single gallery"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Galleries.php:52
+msgid "Choose a sidebar position for single gallery"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Galleries.php:60
+#, fuzzy
+msgid "Sidebar for single gallery"
+msgstr "Galerie Einträge"
+
+#: classes/Admin/Theme/Item/Galleries.php:61
+msgid "Choose a sidebar for single gallery"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Galleries.php:73
+#, fuzzy
+msgid "Gallery Post slug"
+msgstr "Galerie Einträge"
+
+#: classes/Admin/Theme/Item/Galleries.php:81
+#, fuzzy
+msgid "Gallery Taxonomy slug"
+msgstr "Galerie Einträge"
+
+#: classes/Admin/Theme/Item/Galleries.php:92
+msgid "Custom icons for posts listing"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Galleries.php:93
+msgid "You can upload custom icons."
+msgstr ""
+
+#: classes/Admin/Theme/Item/General.php:12
+#: classes/Admin/Theme/Item/General.php:13
+msgid "General"
+msgstr ""
+
+#: classes/Admin/Theme/Item/General.php:24 classes/Widget/MailChimp.php:38
+msgid "General Settings"
+msgstr ""
+
+#: classes/Admin/Theme/Item/General.php:29
+msgid "Check to disable Google fonts"
+msgstr ""
+
+#: classes/Admin/Theme/Item/General.php:30
+#, fuzzy
+msgid "Disable Google fonts"
+msgstr "Keine Lokalisation von Google: %s"
+
+#: classes/Admin/Theme/Item/General.php:37
+msgid "Choose a Font"
+msgstr ""
+
+#: classes/Admin/Theme/Item/General.php:38
+msgid "Choose a Font for titles, etc."
+msgstr ""
+
+#: classes/Admin/Theme/Item/General.php:53
+#, fuzzy
+msgid "Favicon URL"
+msgstr "%s ben&ouml;tigt eine korrekte URL"
+
+#: classes/Admin/Theme/Item/General.php:54
+msgid "Type full URL like a <em>http://url.com/favicon.ico</em>"
+msgstr ""
+
+#: classes/Admin/Theme/Item/General.php:66
+msgid "Disable responsive"
+msgstr ""
+
+#: classes/Admin/Theme/Item/General.php:67
+msgid "Check to disable responsive support"
+msgstr ""
+
+#: classes/Admin/Theme/Item/General.php:79
+#, fuzzy
+msgid "Use Boxed Layout"
+msgstr "Version"
+
+#: classes/Admin/Theme/Item/General.php:80
+msgid "Check to use boxed version"
+msgstr ""
+
+#: classes/Admin/Theme/Item/General.php:87
+msgid "Site background color for boxed version"
+msgstr ""
+
+#: classes/Admin/Theme/Item/General.php:88
+msgid "Please select your custom color for site background"
+msgstr ""
+
+#: classes/Admin/Theme/Item/General.php:95
+msgid "Use custom pattern image for  boxed version"
+msgstr ""
+
+#: classes/Admin/Theme/Item/General.php:96
+#: classes/Admin/Theme/Item/Header.php:56
+#: classes/Admin/Theme/Item/Header.php:96
+msgid "You can upload custom pattern image."
+msgstr ""
+
+#: classes/Admin/Theme/Item/General.php:103
+#: classes/Admin/Theme/Item/Header.php:63
+#, fuzzy
+msgid "Custom pattern repeat"
+msgstr "Wiederhole jede(n):"
+
+#: classes/Admin/Theme/Item/General.php:104
+#: classes/Admin/Theme/Item/Header.php:64
+msgid "Custom pattern repeat settings"
+msgstr ""
+
+#: classes/Admin/Theme/Item/General.php:112
+#: classes/Admin/Theme/Item/General.php:113
+#: classes/Admin/Theme/Item/Header.php:72
+#: classes/Admin/Theme/Item/Header.php:73
+msgid "Custom pattern horizontal position"
+msgstr ""
+
+#: classes/Admin/Theme/Item/General.php:121
+#: classes/Admin/Theme/Item/General.php:122
+#: classes/Admin/Theme/Item/Header.php:81
+#: classes/Admin/Theme/Item/Header.php:82
+msgid "Custom pattern vertical position"
+msgstr ""
+
+#: classes/Admin/Theme/Item/General.php:135
+#, fuzzy
+msgid "Content text color"
+msgstr "W&auml;hlen Sie eine Farbe"
+
+#: classes/Admin/Theme/Item/General.php:136
+msgid "Please select your custom color for all elements on light background."
+msgstr ""
+
+#: classes/Admin/Theme/Item/General.php:142
+#, fuzzy
+msgid "Content headings color"
+msgstr "W&auml;hlen Sie eine Farbe"
+
+#: classes/Admin/Theme/Item/General.php:143
+#: classes/Admin/Theme/Item/General.php:150
+msgid ""
+"Please select your custom color for all elements on dark background (footer "
+"area)."
+msgstr ""
+
+#: classes/Admin/Theme/Item/General.php:149
+#, fuzzy
+msgid "Content links color"
+msgstr "W&auml;hlen Sie eine Farbe"
+
+#: classes/Admin/Theme/Item/General.php:158
+#, fuzzy
+msgid "Show preview switcher"
+msgstr "Bildvorschau"
+
+#: classes/Admin/Theme/Item/General.php:159
+msgid "Check to show preview color switcher"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Header.php:10
+#: classes/Admin/Theme/Item/Header.php:11
+#, fuzzy
+msgid "Header"
+msgstr "Menü der Kopfzeile"
+
+#: classes/Admin/Theme/Item/Header.php:22
+#, fuzzy
+msgid "Header Settings"
+msgstr "Menü der Kopfzeile"
+
+#: classes/Admin/Theme/Item/Header.php:27
+msgid "Use custom logo image"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Header.php:28
+msgid "You can upload custom logo image."
+msgstr ""
+
+#: classes/Admin/Theme/Item/Header.php:35
+msgid "Use custom logo image for Retina"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Header.php:36
+msgid "You can upload custom logo image for Retina (2x)"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Header.php:43
+#, fuzzy
+msgid "Hide logo image"
+msgstr "Abgelaufene Termine verstecken:"
+
+#: classes/Admin/Theme/Item/Header.php:44
+msgid ""
+"Check this box if you want to hide logo image and use text site name instead"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Header.php:55
+msgid "Use custom pattern image for  header section"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Header.php:95
+msgid "Use custom pattern image for color header section"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Header.php:103
+msgid "Custom pattern repeat for color header section"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Header.php:104
+msgid "Custom pattern repeat settings for color header"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Header.php:112
+#: classes/Admin/Theme/Item/Header.php:113
+msgid "Custom pattern horizontal position  for color header"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Header.php:121
+#: classes/Admin/Theme/Item/Header.php:122
+msgid "Custom pattern vertical position  for color header"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Header.php:134
+msgid "Call to action header ribbon URL"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Header.php:135
+msgid "Type here URL for call to action header ribbon"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Header.php:146
+#, fuzzy
+msgid "Align menu to left"
+msgstr "Menü der Kopfzeile"
+
+#: classes/Admin/Theme/Item/Header.php:147
+msgid "Switch on to align menu to left side"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Header.php:161
+#, fuzzy
+msgid "Header background color"
+msgstr "W&auml;hlen Sie eine Farbe"
+
+#: classes/Admin/Theme/Item/Header.php:162
+msgid "Please select your custom color for header background"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Header.php:168
+#, fuzzy
+msgid "Header text color"
+msgstr "W&auml;hlen Sie eine Farbe"
+
+#: classes/Admin/Theme/Item/Header.php:169
+msgid "Please select your custom color for header text"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Header.php:176
+#, fuzzy
+msgid "Color area background color"
+msgstr "W&auml;hlen Sie eine Farbe"
+
+#: classes/Admin/Theme/Item/Header.php:177
+msgid "Please select your custom color for color area background"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Header.php:183
+#, fuzzy
+msgid "Color area text color"
+msgstr "W&auml;hlen Sie eine Farbe"
+
+#: classes/Admin/Theme/Item/Header.php:184
+msgid "Please select your custom color for color area text"
+msgstr ""
+
+#: classes/Admin/Theme/Item/MailChimp.php:6
+#: classes/Admin/Theme/Item/MailChimp.php:7 classes/Widget/MailChimp.php:10
+msgid "MailChimp"
+msgstr ""
+
+#: classes/Admin/Theme/Item/MailChimp.php:17
+#: classes/Admin/Theme/Item/MailChimp.php:32
+#: classes/Admin/Theme/Item/MailChimp.php:33
+msgid "MailChimp API key"
+msgstr ""
+
+#: classes/Admin/Theme/Item/MailChimp.php:23
+msgid ""
+"Enter a valid MailChimp API key here to get started. Once you've done that, "
+"you can use the MailChimp Widget from the Widgets menu. You will need to "
+"have at least MailChimp list set up before the using the widget."
+msgstr ""
+
+#: classes/Admin/Theme/Item/MailChimp.php:28
+msgid ""
+"Don't know where to get your API key? Please, visit this link: <a href="
+"\"http://kb.mailchimp.com/article/how-do-i-log-in-to-the-mailchimp-iphone-"
+"app-through-google-apps\" target=\"_blank\">Get API Key</a>"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Sermons.php:10
+#: classes/Admin/Theme/Item/Sermons.php:11
+#: classes/Custom/Posts/Type/Sermon.php:265
+msgid "Sermons"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Sermons.php:22
+#, fuzzy
+msgid "Sermons Settings"
+msgstr "Termineintr&auml;ge"
+
+#: classes/Admin/Theme/Item/Sermons.php:27
+#, fuzzy
+msgid "Sidebar position for sermons listing"
+msgstr "Empfehlungskategorien suchen"
+
+#: classes/Admin/Theme/Item/Sermons.php:28
+#, fuzzy
+msgid "Choose a sidebar position for sermons listing"
+msgstr "Empfehlungskategorien suchen"
+
+#: classes/Admin/Theme/Item/Sermons.php:36
+#, fuzzy
+msgid "Sidebar for sermons listing"
+msgstr "Die Standard-Leiste"
+
+#: classes/Admin/Theme/Item/Sermons.php:37
+#, fuzzy
+msgid "Choose a sidebar for sermons listing"
+msgstr "Empfehlungskategorien suchen"
+
+#: classes/Admin/Theme/Item/Sermons.php:48
+#, fuzzy
+msgid "Sidebar position for single sermons"
+msgstr "Empfehlungen mischen:"
+
+#: classes/Admin/Theme/Item/Sermons.php:49
+#, fuzzy
+msgid "Choose a sidebar position for single sermon"
+msgstr "Empfehlungen mischen:"
+
+#: classes/Admin/Theme/Item/Sermons.php:57
+#, fuzzy
+msgid "Sidebar for single sermons"
+msgstr "Die Standard-Leiste"
+
+#: classes/Admin/Theme/Item/Sermons.php:58
+#, fuzzy
+msgid "Choose a sidebar for single sermon"
+msgstr "Empfehlungen mischen:"
+
+#: classes/Admin/Theme/Item/Sermons.php:70
+#, fuzzy
+msgid "Sermon Post slug"
+msgstr "In Artikel einf&uuml;gen"
+
+#: classes/Admin/Theme/Item/Sermons.php:78
+#, fuzzy
+msgid "Sermon Tax slug"
+msgstr "Termine"
+
+#: classes/Admin/Theme/Item/Sermons.php:85
+#, fuzzy
+msgid "Sermon Speaker slug"
+msgstr "Empfehlungskategorien bearbeiten"
+
+#: classes/Admin/Theme/Item/Sidebar.php:10
+#: classes/Admin/Theme/Item/Sidebar.php:11
+msgid "Sidebars"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Sidebar.php:23
+msgid "Sidebars Settings"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Sidebar.php:28
+#, fuzzy
+msgid "Add Sidebar:"
+msgstr "Neu Hinzuf&uuml;gen"
+
+#: classes/Admin/Theme/Item/Sidebar.php:29
+msgid "Enter the name of the new sidebar that you would like to create."
+msgstr ""
+
+#: classes/Admin/Theme/Item/Sidebar.php:35
+msgid "Below are the Sidebars you have created:"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Sidebar.php:36
+msgid "Sidebars created:"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Slideshow.php:31
+#: classes/Admin/Theme/Item/Slideshow.php:32
+#: classes/Custom/Posts/Type/Slideshow.php:166
+msgid "Slideshows"
+msgstr "Pr&auml;sentationen"
+
+#: classes/Admin/Theme/Item/Slideshow.php:44
+#, fuzzy
+msgid "Slideshow Settings"
+msgstr "Pr&auml;sentation"
+
+#: classes/Admin/Theme/Item/Slideshow.php:49
+msgid "Select a global slideshow type"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Slideshow.php:145
+#, fuzzy
+msgid "Slideshow Post slug"
+msgstr "Pr&auml;sentation"
+
+#: classes/Admin/Theme/Item/Slideshow.php:153
+#, fuzzy
+msgid "Slideshow Tax slug"
+msgstr "Pr&auml;sentation"
+
+#: classes/Admin/Theme/Item/Testimonials.php:10
+#: classes/Admin/Theme/Item/Testimonials.php:11
+#: classes/Custom/Posts/Type/Testimonial.php:163
+#: classes/Widget/Testimonial.php:19 classes/Widget/Testimonial.php:116
+#: lib/shortcode/shortcodes/testimonials.php:82
+msgid "Testimonials"
+msgstr "Empfehlungen"
+
+#: classes/Admin/Theme/Item/Testimonials.php:22
+#, fuzzy
+msgid "Testimonials Settings"
+msgstr "Empfehlungen"
+
+#: classes/Admin/Theme/Item/Testimonials.php:26
+msgid "Sidebar position for testimonials listing"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Testimonials.php:27
+msgid "Choose a sidebar position for testimonials listing"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Testimonials.php:35
+#, fuzzy
+msgid "Sidebar for testimonials listing"
+msgstr "Kategorie der Empfehlungen:"
+
+#: classes/Admin/Theme/Item/Testimonials.php:36
+#, fuzzy
+msgid "Choose a sidebar for testimonials listing"
+msgstr "W&auml;holen Sie aus den am meisten genutzten Empfehlungskategorien"
+
+#: classes/Admin/Theme/Item/Testimonials.php:47
+msgid "Sidebar position for single testimonial"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Testimonials.php:48
+msgid "Choose a sidebar position for single testimonial"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Testimonials.php:56
+#, fuzzy
+msgid "Sidebar for single testimonial"
+msgstr "Empfehlungs Eintrag"
+
+#: classes/Admin/Theme/Item/Testimonials.php:57
+msgid "Choose a sidebar for single testimonial"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Testimonials.php:69
+#, fuzzy
+msgid "Testimonial Post slug"
+msgstr "Empfehlung"
+
+#: classes/Admin/Theme/Item/Testimonials.php:77
+#, fuzzy
+msgid "Testimonial Tax slug"
+msgstr "Empfehlung"
+
+#: classes/Admin/Theme/Item/Twitter.php:7
+#, fuzzy
+msgid "Authenticating for Twitter"
+msgstr "Twitter Benutzername:"
+
+#: classes/Admin/Theme/Item/Twitter.php:8
+#, fuzzy
+msgid "Twitter OAuth"
+msgstr "Twitter"
+
+#: classes/Admin/Theme/Item/Twitter.php:17
+msgid "Authenticating a User Timeline for Twitter OAuth API V1.1"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Twitter.php:23
+msgid "Enter a valid Twitter OAuth settings here to get started."
+msgstr ""
+
+#: classes/Admin/Theme/Item/Twitter.php:28
+msgid ""
+"Don't know where to get your API key? Please, visit this link: <a href="
+"\"http://www.webdevdoor.com/php/authenticating-twitter-feed-timeline-oauth/"
+"\" target=\"_blank\">Authenticating for Twitter </a>"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Twitter.php:32
+#: classes/Admin/Theme/Item/Twitter.php:33
+msgid "Consumer key"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Twitter.php:39
+#: classes/Admin/Theme/Item/Twitter.php:40
+msgid "Consumer secret"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Twitter.php:46
+#: classes/Admin/Theme/Item/Twitter.php:47
+msgid "Access token"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Twitter.php:53
+#: classes/Admin/Theme/Item/Twitter.php:54
+msgid "Access token secret"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Update.php:10
+msgid "Theme updater"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Update.php:11
+msgid "Theme Updater"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Update.php:23
+#, fuzzy
+msgid "User Account Information"
+msgstr "Artikel einem existierenden Benutzer zuweisen:"
+
+#: classes/Admin/Theme/Item/Update.php:27
+msgid ""
+"Don't know where to get your API key? Please, visit this link: <a href="
+"\"http://www.themeforest.net/help/api\" target=\"_blank\">Get API Key</a>"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Update.php:33
+#, fuzzy
+msgid "Marketplace Username"
+msgstr "Twitter Benutzername:"
+
+#: classes/Admin/Theme/Item/Update.php:34
+msgid "Please provide Username for theme update"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Update.php:44
+msgid "Secret API Key"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Update.php:45
+msgid "Please provide API Key for theme update"
+msgstr ""
+
+#: classes/Admin/Theme/Menu.php:182 classes/Admin/Theme/Menu.php:193
+msgid "Security check"
+msgstr ""
+
+#: classes/Admin/Theme/Menu/Item.php:199 classes/Locate/Api/Map.php:245
+#: classes/Locate/Api/Map.php:301
+msgid "Save"
+msgstr "Speichern"
+
+#: classes/Admin/Theme/Menu/Item.php:204
+msgid "Reset"
+msgstr ""
+
+#: classes/Admin/Theme/Menu/Item.php:227
+msgid "Settings have been saved."
+msgstr ""
+
+#: classes/Admin/Theme/Menu/Item.php:230
+msgid "Settings have been reset."
+msgstr ""
+
+#: classes/Custom/MetaBox/Taxonomy.php:268
+msgid "Delete this image"
+msgstr "Dieses Bild l&ouml;schen"
+
+#: classes/Custom/MetaBox/Taxonomy.php:371
+msgid "Cannot delete file. Something's wrong."
+msgstr "Die Datei konnte nicht gel&ouml;scht werden."
+
+#: classes/Custom/MetaBox/Taxonomy.php:611
+#: classes/Custom/MetaBox/Taxonomy.php:664
+msgid "Remove"
+msgstr "Entfernen"
+
+#: classes/Custom/MetaBox/Taxonomy.php:626 classes/Locate/Api/Map.php:213
+msgid "Add"
+msgstr "Hinzuf&uuml;gen"
+
+#: classes/Custom/MetaBox/Taxonomy.php:950
+msgid "Upload new files"
+msgstr "Neue Dateien hochladen"
+
+#: classes/Custom/MetaBox/Taxonomy.php:1062
+msgid "Select a color"
+msgstr "W&auml;hlen Sie eine Farbe"
+
+#: classes/Custom/Posts/Type/Event.php:133
+#: classes/Custom/Posts/Type/Gallery.php:111
+#: classes/Custom/Posts/Type/Sermon.php:194
+#: classes/Custom/Posts/Type/Slideshow.php:108
+#: classes/Custom/Posts/Type/Testimonial.php:108
+#, fuzzy
+msgid "Show All"
+msgstr "Alle"
+
+#: classes/Custom/Posts/Type/Event.php:150
+msgid "Event Item Title"
+msgstr "Termin &Uuml;berschrift"
+
+#: classes/Custom/Posts/Type/Event.php:151
+#: classes/Custom/Posts/Type/Gallery.php:129
+#: classes/Custom/Posts/Type/Sermon.php:212
+#: classes/Custom/Posts/Type/Slideshow.php:127
+msgid "Image preview"
+msgstr "Bildvorschau"
+
+#: classes/Custom/Posts/Type/Event.php:152
+msgid "Assign to Events Category(s)"
+msgstr "Zu Terminkategorie(n) zuweisen"
+
+#: classes/Custom/Posts/Type/Event.php:153
+msgid "Event start at:"
+msgstr "Beginn des Termins:"
+
+#: classes/Custom/Posts/Type/Event.php:154
+msgid "Is repetition:"
+msgstr "Wiederholt sich:"
+
+#: classes/Custom/Posts/Type/Event.php:155
+msgid "Repeat every:"
+msgstr "Wiederhole jede(n):"
+
+#: classes/Custom/Posts/Type/Event.php:156
+#, fuzzy
+msgid "Event end at:"
+msgstr "Ende"
+
+#: classes/Custom/Posts/Type/Event.php:157
+msgid "Skipped dates:"
+msgstr ""
+
+#: classes/Custom/Posts/Type/Event.php:195 lib/shortcode/contact-form.php:88
+msgid "Yes"
+msgstr "Ja"
+
+#: classes/Custom/Posts/Type/Event.php:199
+msgid "No"
+msgstr "Nein"
+
+#: classes/Custom/Posts/Type/Event.php:227
+msgid "Event Posts"
+msgstr "Termineintr&auml;ge"
+
+#: classes/Custom/Posts/Type/Event.php:228
+msgid "Event"
+msgstr "Termin"
+
+#: classes/Custom/Posts/Type/Event.php:229
+#: classes/Custom/Posts/Type/Gallery.php:171
+#: classes/Custom/Posts/Type/Sermon.php:268
+#: classes/Custom/Posts/Type/Slideshow.php:169
+#: classes/Custom/Posts/Type/Testimonial.php:166
+msgid "Add New"
+msgstr "Neu Hinzuf&uuml;gen"
+
+#: classes/Custom/Posts/Type/Event.php:230
+#: classes/Custom/Posts/Type/Gallery.php:172
+#: classes/Custom/Posts/Type/Sermon.php:269
+#: classes/Custom/Posts/Type/Slideshow.php:170
+#: classes/Custom/Posts/Type/Testimonial.php:167
+msgid "Add New Item"
+msgstr "Neuen Eintrag hinzuf&uuml;gen"
+
+#: classes/Custom/Posts/Type/Event.php:231
+#: classes/Custom/Posts/Type/Gallery.php:173
+#: classes/Custom/Posts/Type/Sermon.php:270
+#: classes/Custom/Posts/Type/Slideshow.php:171
+#: classes/Custom/Posts/Type/Testimonial.php:168
+msgid "Edit Item"
+msgstr "Bearbeiten"
+
+#: classes/Custom/Posts/Type/Event.php:232
+#: classes/Custom/Posts/Type/Gallery.php:174
+#: classes/Custom/Posts/Type/Sermon.php:271
+#: classes/Custom/Posts/Type/Slideshow.php:172
+#: classes/Custom/Posts/Type/Testimonial.php:169
+msgid "New Item"
+msgstr "Neu"
+
+#: classes/Custom/Posts/Type/Event.php:233
+#: classes/Custom/Posts/Type/Gallery.php:175
+#: classes/Custom/Posts/Type/Sermon.php:272
+#: classes/Custom/Posts/Type/Slideshow.php:173
+#: classes/Custom/Posts/Type/Testimonial.php:170
+msgid "View Item"
+msgstr "Eintrag anzeigen"
+
+#: classes/Custom/Posts/Type/Event.php:234
+#: classes/Custom/Posts/Type/Gallery.php:176
+#: classes/Custom/Posts/Type/Sermon.php:273
+#: classes/Custom/Posts/Type/Slideshow.php:174
+#: classes/Custom/Posts/Type/Testimonial.php:171
+msgid "Search Items"
+msgstr "Eintrag suchen"
+
+#: classes/Custom/Posts/Type/Event.php:235
+#: classes/Custom/Posts/Type/Gallery.php:177
+#: classes/Custom/Posts/Type/Sermon.php:274
+#: classes/Custom/Posts/Type/Slideshow.php:175
+#: classes/Custom/Posts/Type/Testimonial.php:172
+msgid "No items found"
+msgstr "Keine Eintr&auml;ge gefunden"
+
+#: classes/Custom/Posts/Type/Event.php:236
+#: classes/Custom/Posts/Type/Gallery.php:178
+#: classes/Custom/Posts/Type/Sermon.php:275
+#: classes/Custom/Posts/Type/Slideshow.php:176
+#: classes/Custom/Posts/Type/Testimonial.php:173
+msgid "No items found in Trash"
+msgstr "Keine Eintr&auml;ge im Papierkorb gefunden"
+
+#: classes/Custom/Posts/Type/Event.php:246
+msgid "Event Categories"
+msgstr "Terminkategorien"
+
+#: classes/Custom/Posts/Type/Event.php:247
+msgid "Event Category"
+msgstr "Terminkategorie"
+
+#: classes/Custom/Posts/Type/Event.php:248
+msgid "Search Events Categories"
+msgstr "Terminkategorie suchen"
+
+#: classes/Custom/Posts/Type/Event.php:249
+msgid "Popular Events Categories"
+msgstr "Beliebte Terminkategorien"
+
+#: classes/Custom/Posts/Type/Event.php:250
+msgid "All Events Categories"
+msgstr "Alle Terminkategorien"
+
+#: classes/Custom/Posts/Type/Event.php:253
+msgid "Edit Events Category"
+msgstr "Terminkategorien bearbeiten"
+
+#: classes/Custom/Posts/Type/Event.php:254
+msgid "Update Events Category"
+msgstr "Terminkategorien aktualisieren"
+
+#: classes/Custom/Posts/Type/Event.php:255
+msgid "Add New Events Category"
+msgstr "Neue Terminkategorie hinzuf&uuml;gen"
+
+#: classes/Custom/Posts/Type/Event.php:256
+msgid "New Events Category Name"
+msgstr "Name der neuen Terminkategorie"
+
+#: classes/Custom/Posts/Type/Event.php:257
+msgid "Add or remove Events Categories"
+msgstr "Terminkategorien hinzuf&uuml;gen oder l&ouml;schen"
+
+#: classes/Custom/Posts/Type/Event.php:258
+msgid "Choose from the most used Events Categories"
+msgstr "W&auml;hlen Sie aus den am meisten genutzten Terminkategorien"
+
+#: classes/Custom/Posts/Type/Event.php:259
+msgid "Separate Events Categories with commas"
+msgstr "Trennen Sie Terminkategorien mit Kommata"
+
+#: classes/Custom/Posts/Type/Gallery.php:128
+msgid "Gallery Item Title"
+msgstr "Galerie &Uuml;berschrift"
+
+#: classes/Custom/Posts/Type/Gallery.php:130
+msgid "Assign to Galleries Category(s)"
+msgstr "Zu Galeriekategorie(n) zuweisen"
+
+#: classes/Custom/Posts/Type/Gallery.php:169
+msgid "Gallery Posts"
+msgstr "Galerie Einträge"
+
+#: classes/Custom/Posts/Type/Gallery.php:170
+#: lib/shortcode/shortcodes/gallery.php:8
+#: lib/shortcode/shortcodes/gallery.php:77
+msgid "Gallery"
+msgstr "Galerie"
+
+#: classes/Custom/Posts/Type/Gallery.php:188
+msgid "Gallery Categories"
+msgstr "Galeriekategorien"
+
+#: classes/Custom/Posts/Type/Gallery.php:189
+msgid "Gallery Category"
+msgstr "Galeriekategorie"
+
+#: classes/Custom/Posts/Type/Gallery.php:190
+msgid "Search Galleries Categories"
+msgstr "Galeriekategorien suchen"
+
+#: classes/Custom/Posts/Type/Gallery.php:191
+msgid "Popular Galleries Categories"
+msgstr "Beliebte Galeriekategorien"
+
+#: classes/Custom/Posts/Type/Gallery.php:192
+msgid "All Galleries Categories"
+msgstr "Alle Galeriekategorien"
+
+#: classes/Custom/Posts/Type/Gallery.php:195
+msgid "Edit Galleries Category"
+msgstr "Galeriekategorien bearbeiten"
+
+#: classes/Custom/Posts/Type/Gallery.php:196
+msgid "Update Galleries Category"
+msgstr "Galeriekategorien aktualisieren"
+
+#: classes/Custom/Posts/Type/Gallery.php:197
+msgid "Add New Galleries Category"
+msgstr "Neue Galeriekategorie hinzuf&uuml;gen"
+
+#: classes/Custom/Posts/Type/Gallery.php:198
+msgid "New Galleries Category Name"
+msgstr "Name der neuen Galeriekategorie"
+
+#: classes/Custom/Posts/Type/Gallery.php:199
+msgid "Add or remove Galleries Categories"
+msgstr "Galeriekategorien hinzuf&uuml;gen oder l&ouml;schen"
+
+#: classes/Custom/Posts/Type/Gallery.php:200
+msgid "Choose from the most used Galleries Categories"
+msgstr "W&auml;holen Sie aus den am meisten genutzten Galeriekategorien "
+
+#: classes/Custom/Posts/Type/Gallery.php:201
+msgid "Separate Galleries Categories with commas"
+msgstr "Trennen Sie Galeriekategorien mit Kommata"
+
+#: classes/Custom/Posts/Type/Sermon.php:211
+#, fuzzy
+msgid "Sermon Item Title"
+msgstr "Galerie &Uuml;berschrift"
+
+#: classes/Custom/Posts/Type/Sermon.php:213
+#, fuzzy
+msgid "Assign to Sermons Category(s)"
+msgstr "Zu Terminkategorie(n) zuweisen"
+
+#: classes/Custom/Posts/Type/Sermon.php:214
+#, fuzzy
+msgid "Assign to Sermons Speaker(s)"
+msgstr "Zu Terminkategorie(n) zuweisen"
+
+#: classes/Custom/Posts/Type/Sermon.php:266
+#, fuzzy
+msgid "Sermon Posts"
+msgstr "Aktuelle Artikel"
+
+#: classes/Custom/Posts/Type/Sermon.php:267
+#: lib/shortcode/shortcodes/sermons.php:8
+msgid "Sermon"
+msgstr ""
+
+#: classes/Custom/Posts/Type/Sermon.php:285
+#: classes/Widget/Sermon/Categories.php:12
+#: classes/Widget/Sermon/Categories.php:21
+#, fuzzy
+msgid "Sermon Categories"
+msgstr "Kategorien:"
+
+#: classes/Custom/Posts/Type/Sermon.php:286
+#, fuzzy
+msgid "Sermon Category"
+msgstr "Kategorie:"
+
+#: classes/Custom/Posts/Type/Sermon.php:287
+#, fuzzy
+msgid "Search Sermons Categories"
+msgstr "Terminkategorie suchen"
+
+#: classes/Custom/Posts/Type/Sermon.php:288
+#, fuzzy
+msgid "Popular Sermons Categories"
+msgstr "Beliebte Terminkategorien"
+
+#: classes/Custom/Posts/Type/Sermon.php:289
+#, fuzzy
+msgid "All Sermons Categories"
+msgstr "Alle Terminkategorien"
+
+#: classes/Custom/Posts/Type/Sermon.php:292
+#, fuzzy
+msgid "Edit Sermons Category"
+msgstr "Terminkategorien bearbeiten"
+
+#: classes/Custom/Posts/Type/Sermon.php:293
+#, fuzzy
+msgid "Update Sermons Category"
+msgstr "Terminkategorien aktualisieren"
+
+#: classes/Custom/Posts/Type/Sermon.php:294
+#, fuzzy
+msgid "Add New Sermons Category"
+msgstr "Neue Terminkategorie hinzuf&uuml;gen"
+
+#: classes/Custom/Posts/Type/Sermon.php:295
+#, fuzzy
+msgid "New Sermons Category Name"
+msgstr "Name der neuen Terminkategorie"
+
+#: classes/Custom/Posts/Type/Sermon.php:296
+#, fuzzy
+msgid "Add or remove Sermons Categories"
+msgstr "Terminkategorien hinzuf&uuml;gen oder l&ouml;schen"
+
+#: classes/Custom/Posts/Type/Sermon.php:297
+#, fuzzy
+msgid "Choose from the most used Sermons Categories"
+msgstr "W&auml;hlen Sie aus den am meisten genutzten Terminkategorien"
+
+#: classes/Custom/Posts/Type/Sermon.php:298
+#, fuzzy
+msgid "Separate Sermons Categories with commas"
+msgstr "Trennen Sie Terminkategorien mit Kommata"
+
+#: classes/Custom/Posts/Type/Sermon.php:306
+#: classes/Widget/Sermon/Speakers.php:19 classes/Widget/Sermon/Speakers.php:29
+msgid "Sermon Speakers"
+msgstr ""
+
+#: classes/Custom/Posts/Type/Sermon.php:307
+msgid "Sermon Speaker"
+msgstr ""
+
+#: classes/Custom/Posts/Type/Sermon.php:308
+#, fuzzy
+msgid "Search Sermons Speaker"
+msgstr "Terminkategorie suchen"
+
+#: classes/Custom/Posts/Type/Sermon.php:309
+#, fuzzy
+msgid "Popular Sermons Speakers"
+msgstr "Beliebte Terminkategorien"
+
+#: classes/Custom/Posts/Type/Sermon.php:310
+#, fuzzy
+msgid "All Sermons Speakers"
+msgstr "Fertig."
+
+#: classes/Custom/Posts/Type/Sermon.php:313
+#, fuzzy
+msgid "Edit Sermons Speaker"
+msgstr "Terminkategorien bearbeiten"
+
+#: classes/Custom/Posts/Type/Sermon.php:314
+#, fuzzy
+msgid "Update Sermons Speaker"
+msgstr "Terminkategorien aktualisieren"
+
+#: classes/Custom/Posts/Type/Sermon.php:315
+#, fuzzy
+msgid "Add New Sermons Speaker"
+msgstr "Neuen Eintrag hinzuf&uuml;gen"
+
+#: classes/Custom/Posts/Type/Sermon.php:316
+#, fuzzy
+msgid "New Sermons Speaker Name"
+msgstr "Name der neuen Terminkategorie"
+
+#: classes/Custom/Posts/Type/Sermon.php:317
+#, fuzzy
+msgid "Add or remove Sermons Speakers"
+msgstr "Terminkategorien hinzuf&uuml;gen oder l&ouml;schen"
+
+#: classes/Custom/Posts/Type/Sermon.php:318
+#, fuzzy
+msgid "Choose from the most used Sermons Speakers"
+msgstr "W&auml;hlen Sie aus den am meisten genutzten Terminkategorien"
+
+#: classes/Custom/Posts/Type/Sermon.php:319
+#, fuzzy
+msgid "Separate Sermons Speakers with commas"
+msgstr "Trennen Sie Terminkategorien mit Kommata"
+
+#: classes/Custom/Posts/Type/Slideshow.php:126
+msgid "Slideshow Item Title"
+msgstr "Pr&auml;sentation &Uuml;berschrift"
+
+#: classes/Custom/Posts/Type/Slideshow.php:128
+msgid "Assign to Slideshows Category(s)"
+msgstr "Pr&auml;sentationskategorie(n) zuweisen"
+
+#: classes/Custom/Posts/Type/Slideshow.php:167
+msgid "Slideshow Posts"
+msgstr "Pr&auml;sentations Eintrag"
+
+#: classes/Custom/Posts/Type/Slideshow.php:168
+msgid "Slideshow"
+msgstr "Pr&auml;sentation"
+
+#: classes/Custom/Posts/Type/Slideshow.php:186
+msgid "Slideshow Categories"
+msgstr "Pr&auml;sentationskategorien"
+
+#: classes/Custom/Posts/Type/Slideshow.php:187
+msgid "Slideshow Category"
+msgstr "Pr&auml;sentationskategorie"
+
+#: classes/Custom/Posts/Type/Slideshow.php:188
+msgid "Search Slideshows Categories"
+msgstr "Pr&auml;sentationskategorien suchen"
+
+#: classes/Custom/Posts/Type/Slideshow.php:189
+msgid "Popular Slideshows Categories"
+msgstr "Beliebte Pr&auml;sentationskategorien"
+
+#: classes/Custom/Posts/Type/Slideshow.php:190
+msgid "All Slideshows Categories"
+msgstr "Alle Pr&auml;sentationskategorien"
+
+#: classes/Custom/Posts/Type/Slideshow.php:193
+msgid "Edit Slideshows Category"
+msgstr "Pr&auml;sentationskategorien bearbeiten"
+
+#: classes/Custom/Posts/Type/Slideshow.php:194
+msgid "Update Slideshows Category"
+msgstr "Pr&auml;sentationskategorien aktualisieren"
+
+#: classes/Custom/Posts/Type/Slideshow.php:195
+msgid "Add New Slideshows Category"
+msgstr "Neue Pr&auml;sentationskategorie hinzuf&uuml;gen"
+
+#: classes/Custom/Posts/Type/Slideshow.php:196
+msgid "New Slideshows Category Name"
+msgstr "Name der neuen Pr&auml;sentationskategorie"
+
+#: classes/Custom/Posts/Type/Slideshow.php:197
+msgid "Add or remove Slideshows Categories"
+msgstr "Pr&auml;sentationskategorien hinzuf&uuml;gen oder l&ouml;schen"
+
+#: classes/Custom/Posts/Type/Slideshow.php:198
+msgid "Choose from the most used Slideshows Categories"
+msgstr ""
+"W&auml;holen Sie aus den am meisten genutzten Pr&auml;sentationskategorien"
+
+#: classes/Custom/Posts/Type/Slideshow.php:199
+msgid "Separate Slideshows Categories with commas"
+msgstr "Trennen Sie Pr&auml;sentationskategorien mit Kommata"
+
+#: classes/Custom/Posts/Type/Testimonial.php:125
+msgid "Testimonial Item Title"
+msgstr "Empfehlung &Uuml;berschrift"
+
+#: classes/Custom/Posts/Type/Testimonial.php:127
+msgid "Assign to Testimonials Category(s)"
+msgstr "Empfehlungskategorie(n) zuweisen"
+
+#: classes/Custom/Posts/Type/Testimonial.php:164
+msgid "Testimonial Posts"
+msgstr "Empfehlungs Eintrag"
+
+#: classes/Custom/Posts/Type/Testimonial.php:165
+msgid "Testimonial"
+msgstr "Empfehlung"
+
+#: classes/Custom/Posts/Type/Testimonial.php:183
+msgid "Testimonial Categories"
+msgstr "Empfehlungskategorien"
+
+#: classes/Custom/Posts/Type/Testimonial.php:184
+msgid "Testimonial Category"
+msgstr "Empfehlungskategorie"
+
+#: classes/Custom/Posts/Type/Testimonial.php:185
+msgid "Search Testimonials Categories"
+msgstr "Empfehlungskategorien suchen"
+
+#: classes/Custom/Posts/Type/Testimonial.php:186
+msgid "Popular Testimonials Categories"
+msgstr "Beliebte Empfehlungskategorien"
+
+#: classes/Custom/Posts/Type/Testimonial.php:187
+msgid "All Testimonials Categories"
+msgstr "Alle Empfehlungskategorien"
+
+#: classes/Custom/Posts/Type/Testimonial.php:190
+msgid "Edit Testimonials Category"
+msgstr "Empfehlungskategorien bearbeiten"
+
+#: classes/Custom/Posts/Type/Testimonial.php:191
+msgid "Update Testimonials Category"
+msgstr "Empfehlungskategorien aktualisieren"
+
+#: classes/Custom/Posts/Type/Testimonial.php:192
+msgid "Add New Testimonials Category"
+msgstr "Neue Empfehlungskategorie hinzuf&uuml;gen"
+
+#: classes/Custom/Posts/Type/Testimonial.php:193
+msgid "New Testimonials Category Name"
+msgstr "Name der neuen Empfehlungskategorie"
+
+#: classes/Custom/Posts/Type/Testimonial.php:194
+msgid "Add or remove Testimonials Categories"
+msgstr "Empfehlungskategorien hinzuf&uuml;gen oder l&ouml;schen"
+
+#: classes/Custom/Posts/Type/Testimonial.php:195
+msgid "Choose from the most used Testimonials Categories"
+msgstr "W&auml;holen Sie aus den am meisten genutzten Empfehlungskategorien"
+
+#: classes/Custom/Posts/Type/Testimonial.php:196
+msgid "Separate Testimonials Categories with commas"
+msgstr "Trennen Sie Empfehlungskategorien mit Kommata"
+
+#: classes/Envato/Theme/Backup.php:400
+#, fuzzy
+msgid "The backup file was not created"
+msgstr "Die Datei konnte nicht gel&ouml;scht werden."
+
+#: classes/Envato/Theme/Backup.php:474
+msgid "The following files are unreadable and could not be backed up: "
+msgstr ""
+
+#: classes/Envato/Theme/Protected/API.php:72
+#, fuzzy
+msgid "Please enter your Envato Marketplace Username."
+msgstr "Bitte geben Sie Ihre Nachricht ein."
+
+#: classes/Envato/Theme/Protected/API.php:77
+#, fuzzy
+msgid "Please enter your Envato Marketplace API Key."
+msgstr "Bitte geben Sie Ihre Nachricht ein."
+
+#: classes/Envato/Theme/Protected/API.php:103
+msgid "The API \"set\" is a required parameter."
+msgstr ""
+
+#: classes/Envato/Theme/Protected/API.php:183
+msgid "The Envato Marketplace \"item ID\" is a required parameter."
+msgstr ""
+
+#: classes/Import/Dummy.php:125
+msgid ""
+"Import <strong>posts, pages, comments, custom fields, categories, and tags</"
+"strong> from a WordPress export file."
+msgstr ""
+"Importieren Sie <strong>Artikel, Seiten, Kommentare, Eigene Felder, "
+"Kategorien, und Tags</strong> aus einer WordPress Export-Datei."
+
+#: classes/Import/Importer.php:154 classes/Import/Importer.php:164
+#: classes/Import/Importer.php:219 classes/Import/Importer.php:228
+msgid "Sorry, there has been an error."
+msgstr "Leider ist ein Fehler aufgetreten."
+
+#: classes/Import/Importer.php:155
+msgid "The file does not exist, please try again."
+msgstr "Die Datei existiert nicht. Bitte versuchen Sie es erneut."
+
+#: classes/Import/Importer.php:201
+msgid "All done."
+msgstr "Fertig."
+
+#: classes/Import/Importer.php:201
+msgid "Have fun!"
+msgstr "Viel Spaß!"
+
+#: classes/Import/Importer.php:237
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+"Diese WXR Datei (Version %s) scheint von dieser Version der Importfunktion "
+"nicht unterst&uuml;tzt zu werden. Bitte denken Sie dar&uuml;her nach das "
+"System zu aktualisieren."
+
+#: classes/Import/Importer.php:268
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+"Import des Autors %s fehlgeschlagen. Die Artikel werden dem aktuellen "
+"Benutzer zugewiesen."
+
+#: classes/Import/Importer.php:295
+msgid "Assign Authors"
+msgstr "Autoren zuweisen"
+
+#: classes/Import/Importer.php:296
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+"Um das Bearbeiten und Speichern des importierten Materials zu erleichtern, "
+"kann es sinnvoll sein, den Autor der importierten Eintr&auml;ge zu einem "
+"existierenden Benutzer dieser Seite zu &auml;ndern. Zum Beispiel k&ouml;"
+"nnten Sie alle Eintr&auml;ge dem Benutzer <code>admin</code> zuweisen."
+
+#: classes/Import/Importer.php:298
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+"Wenn ein neuer Benutzer von WordPress erstellt wird, wird ein zuf&auml;llig "
+"generiertes Passwort zugewiesen und die Rolle des Benutzers wird auf %s "
+"gesetzt. Es ist notwendig die Benutzerangaben manuell anzupassen."
+
+#: classes/Import/Importer.php:308
+msgid "Import Attachments"
+msgstr "Anh&auml;nge importieren"
+
+#: classes/Import/Importer.php:311
+msgid "Download and import file attachments"
+msgstr "Anh&auml;nge herunterladen und importieren"
+
+#: classes/Import/Importer.php:329
+msgid "Import author:"
+msgstr "Autor importieren:"
+
+#: classes/Import/Importer.php:343
+msgid "or create new user with login name:"
+msgstr "oder neuen Benutzter mit Namen erstellen:"
+
+#: classes/Import/Importer.php:348
+msgid "as a new user:"
+msgstr "als neuer Benutzer:"
+
+#: classes/Import/Importer.php:356
+msgid "assign posts to an existing user:"
+msgstr "Artikel einem existierenden Benutzer zuweisen:"
+
+#: classes/Import/Importer.php:358
+msgid "or assign posts to an existing user:"
+msgstr "oder Artikel einem existierenden Benutzer zuweisen:"
+
+#: classes/Import/Importer.php:359
+msgid "- Select -"
+msgstr "- Ausw&auml;hlen -"
+
+#: classes/Import/Importer.php:419
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+"Erstellen des neuen Benutzers %s fehlgeschlagen. Die Artikel werden dem "
+"aktuellen Benutzer zugewiesen."
+
+#: classes/Import/Importer.php:477
+#, php-format
+msgid "Failed to import category %s"
+msgstr "Import der Kategorie %s fehlgeschlagen"
+
+#: classes/Import/Importer.php:522
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr "Import des Artikel-Tags %s fehlgeschlagen"
+
+#: classes/Import/Importer.php:576 classes/Import/Importer.php:738
+#, php-format
+msgid "Failed to import %s %s"
+msgstr "Import von %s %s fehlgeschlagen"
+
+#: classes/Import/Importer.php:605
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+"Import von &#8220;%s&#8221; fehlgeschlagen: Fehlerhafter Artikel-Typ %s"
+
+#: classes/Import/Importer.php:628
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr "%s &#8220;%s&#8221; existiert bereits."
+
+#: classes/Import/Importer.php:699
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr "Import von %s &#8220;%s&#8221; fehlgeschlagen"
+
+#: classes/Import/Importer.php:884
+msgid "Menu item skipped due to missing menu slug"
+msgstr "Men&uuml;eintrag &uuml;berschprungen wegen fehlendem Slug"
+
+#: classes/Import/Importer.php:892
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr "Men&uuml;eintrag &uuml;berschprungen wegen fehlerhaftem Slug: %s"
+
+#: classes/Import/Importer.php:965
+msgid "Fetching attachments is not enabled"
+msgstr "Abruf der Anh&auml;nge ist nicht erlaubt"
+
+#: classes/Import/Importer.php:978
+msgid "Invalid file type"
+msgstr ""
+
+#: classes/Import/Importer.php:1025
+msgid "Remote server did not respond"
+msgstr "Der Server antwortet nicht"
+
+#: classes/Import/Importer.php:1032
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr "Der Server hat mit dem Fehler %1$d %2$s geantwortet"
+
+#: classes/Import/Importer.php:1040
+msgid "Remote file is incorrect size"
+msgstr "Entfernte Datei hat die falsche Gr&ouml;&szlig;e"
+
+#: classes/Import/Importer.php:1046
+msgid "Zero size file downloaded"
+msgstr "Datei mit der ge&ouml;&szlig;e Null heruntergeladen"
+
+#: classes/Import/Importer.php:1053
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr "Entfernte Datei ist zu gro&szlig;. Das Limit ist %s."
+
+#: classes/Import/Importer.php:1162
+msgid "Import WordPress"
+msgstr "WordPress importieren"
+
+#: classes/Import/Importer.php:1170
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+"Eine neue Version der Import-Funktion ist verf&uuml;gbar. Bitte "
+"aktualisieren Sie auf Version %s um die kompatibilit&auml;t mit neuen Export-"
+"Dateien sicherzustellen."
+
+#: classes/Import/Importer.php:1187
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+"Laden Sie Ihre WordPress eXtended RSS (WXR) Datei hoch und wir werden "
+"Artikel, Seiten, Kommentare, Eigene Felder, Kategorien, und Tags in diese "
+"Seite importieren."
+
+#: classes/Import/Importer.php:1188
+msgid "Choose a WXR file to upload, then click Upload file and import."
+msgstr "W&auml;holen Sie eine WXR Datei zum hochladen."
+
+#: classes/Import/Parser.php:42 classes/Import/Parser/SimpleXML.php:14
+msgid "There was an error when reading this WXR file"
+msgstr "Beim Lesen der WXR Datei ist ein Fehler aufgetreten."
+
+#: classes/Import/Parser.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+"Details werden oben angezeigt. Die Import-Funktion wird den Vorgang nun mit "
+"einem anderen Parser wiederholen ..."
+
+#: classes/Import/Parser/Regex.php:89 classes/Import/Parser/SimpleXML.php:18
+#: classes/Import/Parser/SimpleXML.php:23 classes/Import/Parser/XML.php:43
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+"Dies scheint keine korrekte WXR Datei zu sein: Fehlende WXR Versionenummer"
+
+#: classes/Locate/Api/Map.php:217
+msgid "Location"
+msgstr "Ort"
+
+#: classes/Locate/Api/Map.php:232
+msgid "Current Maps"
+msgstr "Aktuelle Karten"
+
+#: classes/Locate/Api/Map.php:233
+msgid "New Map"
+msgstr "Neue Karte"
+
+#: classes/Locate/Api/Map.php:242 classes/Locate/Api/Map.php:308
+#: classes/Widget/SocialLinks.php:207
+msgid "Title"
+msgstr "&Uuml;berschrift"
+
+#: classes/Locate/Api/Map.php:246 lib/metabox/functions.php:595
+msgid "Center"
+msgstr "Zentrieren"
+
+#: classes/Locate/Api/Map.php:288
+msgid "Maps in this post"
+msgstr "Karten in diesem Artikel"
+
+#: classes/Locate/Api/Map.php:289
+msgid "There are no maps yet for this post"
+msgstr "Bisher gibt es f&uuml;r diesen Artikel keine Karten"
+
+#: classes/Locate/Api/Map.php:290
+msgid "Create a new map"
+msgstr "Eine neue Karte erstellen"
+
+#: classes/Locate/Api/Map.php:291
+msgid "Map ID"
+msgstr "Karten-ID"
+
+#: classes/Locate/Api/Map.php:292 classes/Locate/Map.php:75
+msgid "Untitled"
+msgstr "Unbenannt"
+
+#: classes/Locate/Api/Map.php:293
+msgid "The starting or ending address could not be found."
+msgstr "Die Start- oder Endadresse konnte nicht gefunden werden."
+
+#: classes/Locate/Api/Map.php:294
+msgid ""
+"Google cannot return directions between those addresses.  There is no route "
+"between them or the routing information is not available."
+msgstr ""
+"Google dann keine Verbindung zwischen den angegebenen Adressen finden. "
+"Entweder gibt es keine Verbindung, oder die Information ist nicht verf&uuml;"
+"gbar."
+
+#: classes/Locate/Api/Map.php:295
+msgid "Unknown error, unable to return directions.  Status code = "
+msgstr "Unbekannter Fehler. Konnte keine Route berechnen. Status-Code = "
+
+#: classes/Locate/Api/Map.php:296
+msgid "Enter address"
+msgstr "Adresse eingeben"
+
+#: classes/Locate/Api/Map.php:297
+msgid "No matching address"
+msgstr "Keine passende Adresse"
+
+#: classes/Locate/Api/Map.php:298
+msgid "Did you mean: "
+msgstr "Meinten Sie:"
+
+#: classes/Locate/Api/Map.php:299
+msgid "Directions"
+msgstr "Route"
+
+#: classes/Locate/Api/Map.php:300
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: classes/Locate/Api/Map.php:302
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: classes/Locate/Api/Map.php:304
+msgid "View"
+msgstr "Anzeigen"
+
+#: classes/Locate/Api/Map.php:305
+msgid "Back"
+msgstr "Zur&uuml;ck"
+
+#: classes/Locate/Api/Map.php:306
+msgid "Insert into post"
+msgstr "In Artikel einf&uuml;gen"
+
+#: classes/Locate/Api/Map.php:307
+msgid "Select a map"
+msgstr "Eine Karte ausw&auml;hlen"
+
+#: classes/Locate/Api/Map.php:309
+msgid "Delete this map marker?"
+msgstr "Diese Markierung l&ouml;schen?"
+
+#: classes/Locate/Api/Map.php:310
+msgid "Delete this map?"
+msgstr "Diese Karte l&ouml;schen?"
+
+#: classes/Locate/Api/Map.php:312
+msgid "Map saved"
+msgstr "Karte gespeichert"
+
+#: classes/Locate/Api/Map.php:313
+msgid "Map deleted"
+msgstr "Karte gel&ouml;scht"
+
+#: classes/Locate/Api/Map.php:314
+msgid "Error: AJAX failed!  "
+msgstr "Fehler: AJAX fehlgeschlagen!"
+
+#: classes/Locate/Api/Map.php:315
+msgid "Click & drag to move this marker"
+msgstr "Klicken & ziehen um die Markierung zu bewegen"
+
+#: classes/Locate/Api/Map.php:316
+msgid "Zoom"
+msgstr "Zoom"
+
+#: classes/Locate/Api/Map.php:317
+msgid "Traffic"
+msgstr "Verkehr"
+
+#: classes/Locate/Api/Map.php:318
+msgid "Standard icons"
+msgstr "Standard Icons"
+
+#: classes/Locate/Api/Map.php:319
+msgid "My icons"
+msgstr "Meine Icons"
+
+#: classes/Locate/Api/Map.php:342
+msgid "By car"
+msgstr "Mit dem Auto"
+
+#: classes/Locate/Api/Map.php:342
+msgid "Bicycling"
+msgstr "Fahrrad"
+
+#: classes/Locate/Api/Map.php:342
+msgid "Walking"
+msgstr "Laufen"
+
+#: classes/Locate/Api/Map.php:343
+msgid "Start"
+msgstr "Anfang"
+
+#: classes/Locate/Api/Map.php:344
+msgid "Swap start and end"
+msgstr "Anfang und Ende tauschen"
+
+#: classes/Locate/Api/Map.php:345
+msgid "End"
+msgstr "Ende"
+
+#: classes/Locate/Api/Map.php:346
+msgid "Get Directions"
+msgstr "Route berechnen"
+
+#: classes/Locate/Api/Map.php:346
+msgid "Print Directions"
+msgstr "Route drucken"
+
+#: classes/Locate/Api/Map.php:346
+msgid "Close"
+msgstr "Schlie&szlig;en"
+
+#: classes/Locate/Api/Poi.php:54
+#, php-format
+msgid "No geocoding response from Google: %s"
+msgstr "Keine Lokalisation von Google: %s"
+
+#: classes/Locate/Api/Poi.php:67
+#, php-format
+msgid "Google cannot geocode address: %s, status: %s"
+msgstr "Google can die Adresse nicht lokalisieren: %s, Status: %s"
+
+#: classes/Locate/Api/Poi.php:70
+#, php-format
+msgid "No geocoding result for address: %s"
+msgstr "Keine Lokalisation f&uuml;r die Adresse: %s"
+
+#: classes/Locate/Map.php:40
+msgid "Version"
+msgstr "Version"
+
+#: classes/Locate/Map.php:49
+msgid "Internal error, map was missing.  Your data has not been saved!"
+msgstr "Interner Fehler, Karte fehlt. Die Daten wurden nicht gespeichert!"
+
+#: classes/Locate/Map.php:55
+msgid "Internal error - unable to save map.  Your data has not been saved!"
+msgstr ""
+"Interner Fehler - konnte Karte nicht speichern. Die Daten wurden nicht "
+"gespeichert!"
+
+#: classes/Locate/Map.php:65
+msgid "Internal error when deleting map ID"
+msgstr ""
+
+#: classes/Locate/Map.php:200
+#, fuzzy
+msgid "Map"
+msgstr "Eine neue Karte erstellen"
+
+#: classes/Widget/ContactForm.php:10
+#: lib/shortcode/shortcodes/contactForm.php:9
+#, fuzzy
+msgid "Contact form"
+msgstr "Kontaktieren Sie uns"
+
+#: classes/Widget/ContactForm.php:11
+#, fuzzy
+msgid "Contact form widget"
+msgstr "E-Mail anzeigen:"
+
+#: classes/Widget/ContactForm.php:44 comments.php:57
+#: lib/shortcode/shortcodes/contactForm.php:129
+#: lib/shortcode/shortcodes/speakers.php:97
+msgid "Name"
+msgstr "Name"
+
+#: classes/Widget/ContactForm.php:47
+#, fuzzy
+msgid "E-Mail"
+msgstr "E-Mail"
+
+#: classes/Widget/ContactForm.php:50
+#, fuzzy
+msgid "Type your message here"
+msgstr "Bitte geben Sie Ihre Nachricht ein."
+
+#: classes/Widget/ContactForm.php:53
+#, fuzzy
+msgid "Send message"
+msgstr "Bitte geben Sie Ihre Nachricht ein."
+
+#: classes/Widget/ContactForm.php:73
+msgid "Please specify your name."
+msgstr "Bitte geben Sie Ihren Namen ein."
+
+#: classes/Widget/ContactForm.php:74
+msgid "Please enter your message."
+msgstr "Bitte geben Sie Ihre Nachricht ein."
+
+#: classes/Widget/ContactForm.php:76
+msgid "We need your email address to contact you."
+msgstr "Wir ben&ouml;tigen Ihre E-Mail Adresse um Sie zu kontaktieren."
+
+#: classes/Widget/ContactForm.php:77
+msgid "Your email address must be in the format of name@domain.com"
+msgstr "Ihre E-Mail Adresse muss die Form <i>name@domain.com</i> haben."
+
+#: classes/Widget/ContactForm.php:103
+msgid "Contact us"
+msgstr "Kontaktieren Sie uns"
+
+#: classes/Widget/ContactForm.php:109 classes/Widget/Event.php:343
+#: classes/Widget/Event/Upcoming.php:146 classes/Widget/FeedburnerEmail.php:71
+#: classes/Widget/Flickr.php:69 classes/Widget/Gallery.php:99
+#: classes/Widget/PopularPosts.php:112 classes/Widget/RecentPosts.php:129
+#: classes/Widget/Sermon/Categories.php:83
+#: classes/Widget/Sermon/Recent.php:149 classes/Widget/Sermon/Speakers.php:105
+#: classes/Widget/Testimonial.php:130 classes/Widget/Twitter.php:248
+#: lib/shortcode/shortcodes/price_table.php:94
+#: lib/shortcode/shortcodes/teaser.php:152 lib/shortcode/shortcodes/toc.php:82
+msgid "Title:"
+msgstr "Titel:"
+
+#: classes/Widget/ContactForm.php:113
+#, fuzzy
+msgid "Recipient email:"
+msgstr "E-Mail anzeigen:"
+
+#: classes/Widget/Event.php:131
+#, fuzzy
+msgid "Next Event"
+msgstr "N&auml;chster Termin in:"
+
+#: classes/Widget/Event.php:132
+#, fuzzy
+msgid "Next Event widget"
+msgstr "N&auml;chster Termin in:"
+
+#: classes/Widget/Event.php:272
+msgid "Next event in:"
+msgstr "N&auml;chster Termin in:"
+
+#: classes/Widget/Event.php:274
+msgid "DAYS"
+msgstr "Tage"
+
+#: classes/Widget/Event.php:275
+msgid "HR"
+msgstr "Std"
+
+#: classes/Widget/Event.php:276
+msgid "MIN"
+msgstr "Min"
+
+#: classes/Widget/Event.php:277
+msgid "SEC"
+msgstr "Sek"
+
+#: classes/Widget/Event.php:288
+msgid "Category:"
+msgstr "Kategorie:"
+
+#: classes/Widget/Event.php:309
+msgid "Event:"
+msgstr "Termin:"
+
+#: classes/Widget/Event.php:340
+msgid "No upcoming events, please create new one"
+msgstr "Keine bevorstehenden Termine. Bitte erstellen Sie ein neues."
+
+#: classes/Widget/Event.php:347
+msgid "Days title:"
+msgstr "Tage Bezeichnung:"
+
+#: classes/Widget/Event.php:351
+msgid "Hour title:"
+msgstr "Stunden Bezeichnung:"
+
+#: classes/Widget/Event.php:355
+msgid "Min title:"
+msgstr "Minuten Bezeichnung:"
+
+#: classes/Widget/Event.php:359
+msgid "Sec title:"
+msgstr "Sekunden Bezeichnung:"
+
+#: classes/Widget/Event.php:363
+msgid "Hide expired event:"
+msgstr "Abgelaufene Termine verstecken:"
+
+#: classes/Widget/Event/Upcoming.php:29
+#: lib/shortcode/shortcodes/upcoming.php:89
+#, fuzzy
+msgid "Upcoming Events"
+msgstr "Bevorstehende Termine"
+
+#: classes/Widget/Event/Upcoming.php:30
+#, fuzzy
+msgid "Upcoming Events widget"
+msgstr "Bevorstehende Termine"
+
+#: classes/Widget/Event/Upcoming.php:152
+msgid "Category of events:"
+msgstr "Kategorie der Termine:"
+
+#: classes/Widget/Event/Upcoming.php:175
+msgid "Number of events:"
+msgstr "Anzahl Termine:"
+
+#: classes/Widget/Event/Upcoming.php:180
+#: lib/shortcode/shortcodes/upcoming.php:120
+msgid "Show event time:"
+msgstr "Zeit anzeigen:"
+
+#: classes/Widget/Event/Upcoming.php:185
+#: lib/shortcode/shortcodes/upcoming.php:125
+msgid "Show event place:"
+msgstr "Ort anzeigen:"
+
+#: classes/Widget/Event/Upcoming.php:190
+#: lib/shortcode/shortcodes/upcoming.php:130
+msgid "Show event phone:"
+msgstr "Telefon anzeigen:"
+
+#: classes/Widget/Event/Upcoming.php:195
+msgid "Show contact email:"
+msgstr "E-Mail anzeigen:"
+
+#: classes/Widget/Event/Upcoming.php:207
+msgid "Upcoming events"
+msgstr "Bevorstehende Termine"
+
+#: classes/Widget/FeedburnerEmail.php:11
+msgid "FeedburnerEmail form"
+msgstr ""
+
+#: classes/Widget/FeedburnerEmail.php:12
+msgid "Feedburner subscribe by email form."
+msgstr ""
+
+#: classes/Widget/FeedburnerEmail.php:46 classes/Widget/MailChimp.php:250
+msgid "Your E-Mail"
+msgstr "Ihre E-Mail:"
+
+#: classes/Widget/FeedburnerEmail.php:46
+msgid "Submit"
+msgstr "Abschicken"
+
+#: classes/Widget/FeedburnerEmail.php:66
+msgid "Sign up for our Newsletter"
+msgstr "Unseren Newsletter abonieren"
+
+#: classes/Widget/FeedburnerEmail.php:66 classes/Widget/MailChimp.php:300
+msgid "Keep up with the latest news and events."
+msgstr "Über aktuelle Neuigkeiten und Termine auf dem laufenden bleiben."
+
+#: classes/Widget/FeedburnerEmail.php:75 classes/Widget/MailChimp.php:62
+msgid "Description:"
+msgstr "Beschreibung:"
+
+#: classes/Widget/FeedburnerEmail.php:79
+msgid "Write only feedburner name:"
+msgstr "Geben Sie Ihren Feedburner Namen ein:"
+
+#: classes/Widget/Flickr.php:13 classes/Widget/Flickr.php:64
+msgid "Flickr"
+msgstr "Flickr"
+
+#: classes/Widget/Flickr.php:14
+msgid "Show photos from Flickr.com"
+msgstr ""
+
+#: classes/Widget/Flickr.php:77
+msgid "Number of photos:"
+msgstr "Anzahl Bilder:"
+
+#: classes/Widget/Flickr.php:83
+msgid "Flickr ID"
+msgstr "Flickr ID"
+
+#: classes/Widget/Gallery.php:13
+#, fuzzy
+msgid "From Gallery"
+msgstr "Aus Galerie"
+
+#: classes/Widget/Gallery.php:14
+msgid "Show previews from gallery category"
+msgstr ""
+
+#: classes/Widget/Gallery.php:89
+msgid "From gallery"
+msgstr "Aus Galerie"
+
+#: classes/Widget/Gallery.php:105
+msgid "Category of gallery:"
+msgstr "Kategorie der Galerie:"
+
+#: classes/Widget/Gallery.php:129
+msgid "Number of items to show:"
+msgstr "Anzahl anzuzeigender Eintr&auml;ge:"
+
+#: classes/Widget/MailChimp.php:11
+msgid "Show MailChimp subscribe form"
+msgstr ""
+
+#: classes/Widget/MailChimp.php:40
+#, fuzzy
+msgid "Title :"
+msgstr "Titel:"
+
+#: classes/Widget/MailChimp.php:44
+#, fuzzy
+msgid "Select a Mailing List :"
+msgstr "W&auml;hlen Sie eine Farbe"
+
+#: classes/Widget/MailChimp.php:56
+msgid "This is the list your users will be signing up for in your sidebar."
+msgstr ""
+
+#: classes/Widget/MailChimp.php:58
+#, fuzzy
+msgid "Sign Up Button Text :"
+msgstr "Unseren Newsletter abonieren"
+
+#: classes/Widget/MailChimp.php:65
+msgid "Personal Information"
+msgstr ""
+
+#: classes/Widget/MailChimp.php:66
+msgid ""
+"These fields won't (and shouldn't) be required. Should the widget form "
+"collect users' first and last names?"
+msgstr ""
+
+#: classes/Widget/MailChimp.php:69
+#, fuzzy
+msgid "Collect first name."
+msgstr "Name der neuen Terminkategorie"
+
+#: classes/Widget/MailChimp.php:72
+#, fuzzy
+msgid "Collect last name."
+msgstr "Name"
+
+#: classes/Widget/MailChimp.php:74
+#, fuzzy
+msgid "Notifications"
+msgstr "Ort"
+
+#: classes/Widget/MailChimp.php:75
+msgid ""
+"Use these fields to customize what your visitors see after they submit the "
+"form"
+msgstr ""
+
+#: classes/Widget/MailChimp.php:77
+msgid "Success :"
+msgstr ""
+
+#: classes/Widget/MailChimp.php:81
+msgid "Failure :"
+msgstr ""
+
+#: classes/Widget/MailChimp.php:245
+#, fuzzy
+msgid "First Name :"
+msgstr "Name"
+
+#: classes/Widget/MailChimp.php:248
+#, fuzzy
+msgid "Last Name :"
+msgstr "Name"
+
+#: classes/Widget/MailChimp.php:251
+msgid "Subscribe"
+msgstr ""
+
+#: classes/Widget/MailChimp.php:296
+msgid "There was a problem processing your submission."
+msgstr ""
+
+#: classes/Widget/MailChimp.php:297
+#, fuzzy
+msgid "Sign up for our mailing list"
+msgstr "Unseren Newsletter abonieren"
+
+#: classes/Widget/MailChimp.php:298
+msgid "Join now!"
+msgstr ""
+
+#: classes/Widget/MailChimp.php:299
+msgid ""
+"Thank you for joining our mailing list. Please check your email for a "
+"confirmation link."
+msgstr ""
+
+#: classes/Widget/MailChimp/Plugin.php:24
+msgid ""
+"You'll need to set up the MailChimp signup widget plugin options before "
+"using it. "
+msgstr ""
+
+#: classes/Widget/MailChimp/Plugin.php:24 classes/Widget/Twitter.php:220
+msgid "You can make your changes"
+msgstr ""
+
+#: classes/Widget/MailChimp/Plugin.php:24 classes/Widget/Twitter.php:220
+#, fuzzy
+msgid "here"
+msgstr "Sie versuchen etwas zu finden das es hier nicht gibt."
+
+#: classes/Widget/PopularPosts.php:15 classes/Widget/PopularPosts.php:131
+msgid "Popular posts"
+msgstr "Beliebte Artikel"
+
+#: classes/Widget/PopularPosts.php:16
+#, fuzzy
+msgid "Show popular posts"
+msgstr "Beliebte Artikel"
+
+#: classes/Widget/PopularPosts.php:82
+msgid "0 - Comments"
+msgstr "Kommentare (0)"
+
+#: classes/Widget/PopularPosts.php:82
+msgid "1 - Comment"
+msgstr "Kommentar (1)"
+
+#: classes/Widget/PopularPosts.php:82
+msgid "% - Comments"
+msgstr "Kommentare (%)"
+
+#: classes/Widget/PopularPosts.php:116 classes/Widget/RecentPosts.php:133
+msgid "Number of posts to show:"
+msgstr "Anzahl anzuzeigender Artikel:"
+
+#: classes/Widget/RecentPosts.php:14 classes/Widget/RecentPosts.php:124
+msgid "Recent posts"
+msgstr "Aktuelle Artikel"
+
+#: classes/Widget/RecentPosts.php:15
+#, fuzzy
+msgid "Show recent posts"
+msgstr "Aktuelle Artikel"
+
+#: classes/Widget/Sermon/Categories.php:13
+#, fuzzy
+msgid "A list of Sermon categories"
+msgstr "Terminkategorien"
+
+#: classes/Widget/Sermon/Categories.php:33
+#, fuzzy
+msgid "Select Category"
+msgstr "- Ausw&auml;hlen -"
+
+#: classes/Widget/Sermon/Categories.php:87
+msgid "Display as dropdown"
+msgstr ""
+
+#: classes/Widget/Sermon/Categories.php:90
+#, fuzzy
+msgid "Show post counts"
+msgstr "In Artikel einf&uuml;gen"
+
+#: classes/Widget/Sermon/Categories.php:93
+#, fuzzy
+msgid "Show hierarchy"
+msgstr "Zeit anzeigen:"
+
+#: classes/Widget/Sermon/Recent.php:15
+#, fuzzy
+msgid "Recent Sermons"
+msgstr "Aktuelle Artikel"
+
+#: classes/Widget/Sermon/Recent.php:16
+#, fuzzy
+msgid "Show recent sermons"
+msgstr "Aktuelle Artikel"
+
+#: classes/Widget/Sermon/Recent.php:93 classes/Widget/Sermon/Recent.php:99
+#: lib/shortcode/shortcodes.php:406 lib/shortcode/shortcodes.php:1730
+#: lib/shortcode/shortcodes.php:1740 lib/shortcode/shortcodes.php:1749
+#: lib/shortcode/shortcodes.php:1773 loop-sermons.php:181 loop-sermons.php:189
+#: loop-sermons.php:196 loop-sermons.php:218 loop-sermons.php:267
+#: loop-sermons.php:275 loop-sermons.php:282 loop-sermons.php:304 loop.php:118
+#: loop.php:123 loop.php:164 loop.php:169 search.php:18
+msgid "Permanent Link to"
+msgstr "Permanent Link zu"
+
+#: classes/Widget/Sermon/Recent.php:93 lib/metabox/functions.php:102
+#: lib/shortcode/shortcodes.php:1740 lib/shortcode/shortcodes/video.php:75
+#: loop-sermons.php:80 loop-sermons.php:189 loop-sermons.php:275
+msgid "Video"
+msgstr ""
+
+#: classes/Widget/Sermon/Recent.php:99 lib/metabox/functions.php:108
+#: lib/shortcode/shortcodes.php:1749 loop-sermons.php:85 loop-sermons.php:196
+#: loop-sermons.php:282
+msgid "Audio"
+msgstr ""
+
+#: classes/Widget/Sermon/Recent.php:105
+#, fuzzy
+msgid "Download PDF"
+msgstr "Anh&auml;nge herunterladen und importieren"
+
+#: classes/Widget/Sermon/Recent.php:106 lib/metabox/functions.php:114
+#: lib/shortcode/shortcodes.php:1759 loop-sermons.php:90 loop-sermons.php:204
+#: loop-sermons.php:290
+msgid "PDF"
+msgstr ""
+
+#: classes/Widget/Sermon/Recent.php:144
+#, fuzzy
+msgid "Recent sermons"
+msgstr "Aktuelle Artikel"
+
+#: classes/Widget/Sermon/Recent.php:153
+#, fuzzy
+msgid "Number of sermons to show:"
+msgstr "Wie viele Sekunden anzeigen?"
+
+#: classes/Widget/Sermon/Speakers.php:20
+msgid "A list of Sermon Speakers"
+msgstr ""
+
+#: classes/Widget/Sermon/Speakers.php:109
+msgid "Speakers (multiple):"
+msgstr ""
+
+#: classes/Widget/Sermon/Speakers.php:111 lib/shortcode/shortcodes.php:533
+#: lib/shortcode/shortcodes/testimonials.php:90
+#: lib/shortcode/shortcodes/upcoming.php:97
+msgid "All"
+msgstr "Alle"
+
+#: classes/Widget/SocialLinks.php:107
+msgid "Social Links"
+msgstr ""
+
+#: classes/Widget/SocialLinks.php:108
+msgid "Show social network links"
+msgstr ""
+
+#: classes/Widget/SocialLinks.php:196
+msgid "Hide icon:"
+msgstr "Icon verstecken:"
+
+#: classes/Widget/Testimonial.php:20
+#, fuzzy
+msgid "Show Testimonials"
+msgstr "Empfehlungen"
+
+#: classes/Widget/Testimonial.php:136
+msgid "Category of testimonials:"
+msgstr "Kategorie der Empfehlungen:"
+
+#: classes/Widget/Testimonial.php:157
+#: lib/shortcode/shortcodes/testimonials.php:105
+msgid "Number of second to show:"
+msgstr "Wie viele Sekunden anzeigen?"
+
+#: classes/Widget/Testimonial.php:161
+#: lib/shortcode/shortcodes/testimonials.php:110
+msgid "Randomize testimonial:"
+msgstr "Empfehlungen mischen:"
+
+#: classes/Widget/Testimonial.php:169
+#: lib/shortcode/shortcodes/testimonials.php:115
+msgid "Transition effect:"
+msgstr "&Uuml;bergangseffekt:"
+
+#: classes/Widget/Twitter.php:16 classes/Widget/Twitter.php:234
+msgid "Twitter"
+msgstr "Twitter"
+
+#: classes/Widget/Twitter.php:17
+#, fuzzy
+msgid "Show latest tweets"
+msgstr "Anzahl Tweets:"
+
+#: classes/Widget/Twitter.php:48
+msgid "Can't connect to twitter."
+msgstr "Kann nicht zu Twitter verbinden."
+
+#: classes/Widget/Twitter.php:54
+msgid "There are no public messages."
+msgstr "Keine &ouml;ffentliche Nachrichten."
+
+#: classes/Widget/Twitter.php:220
+msgid ""
+"You'll need to set up Twitter Feed Authenticate options before using it. "
+msgstr ""
+
+#: classes/Widget/Twitter.php:227
+msgid "cURL extension requred."
+msgstr ""
+
+#: classes/Widget/Twitter.php:228
+msgid "Please contact your System Administrator."
+msgstr ""
+
+#: classes/Widget/Twitter.php:253
+msgid "Twitter username:"
+msgstr "Twitter Benutzername:"
+
+#: classes/Widget/Twitter.php:258
+msgid "Number of tweets:"
+msgstr "Anzahl Tweets:"
+
+#: classes/Widget/Twitter.php:263
+msgid "Show date posted:"
+msgstr "Datum anzeigen:"
+
+#: classes/Widget/Twitter.php:268
+msgid "Discover hyperlinks:"
+msgstr "Links verfolgen:"
+
+#: classes/Widget/Twitter.php:273
+msgid "Discover @replies:"
+msgstr "@replies verfolgen:"
+
+#: classes/Widget/Twitter.php:278
+msgid "UTF8 Encode:"
+msgstr "UTF8 kodieren:"
+
+#: classes/Widget/Twitter.php:283
+#, fuzzy
+msgid "Open in new tab:"
+msgstr "als neuer Benutzer:"
+
+#: classes/Widget/Twitter/Feed.php:99
+#, php-format
+msgid "%s ago"
+msgstr "Vor %s"
+
+#: classes/Widget/Twitter/Feed.php:105
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: comments.php:3
+msgid "Please do not load this page directly. Thanks!"
+msgstr "Bitte versuchen Sie nicht diese Seite direkt aufzurufen. Danke!"
+
+#: comments.php:8
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+"Dieser Eintrag ist Passwortgeschützt. Geben Sie das Passwort ein um die "
+"Kommentare anzuzeigen."
+
+#: comments.php:61
+msgid "E-mail"
+msgstr "E-Mail"
+
+#: comments.php:64 lib/shortcode/shortcodes/contactForm.php:133
+msgid "Website"
+msgstr "Webseite"
+
+#: functions.php:15 functions.php:46
+msgid "Theme Options"
+msgstr ""
+
+#: functions.php:270
+msgid "Header Menu"
+msgstr "Menü der Kopfzeile"
+
+#: functions.php:271
+msgid "Footer Menu"
+msgstr "Menü der Fußzeile"
+
+#: functions.php:342
+msgid ""
+"<p><strong>You have installed theme incorrectly!</strong> Please, check "
+"instructions at documentation.</p></div>"
+msgstr ""
+
+#: functions.php:408
+#, fuzzy
+msgid "Something going wrong with connection..."
+msgstr "Die Datei konnte nicht gel&ouml;scht werden."
+
+#: functions.php:567
+msgid "The default sidebar!"
+msgstr "Die Standard-Leiste"
+
+#: functions.php:568
+#, fuzzy
+msgid "Default sidebar"
+msgstr "Die Standard-Leiste"
+
+#: functions.php:577
+#, fuzzy
+msgid "Header sidebar"
+msgstr "Menü der Kopfzeile"
+
+#: functions.php:586
+#, fuzzy
+msgid "Footer Column 1"
+msgstr "Menü der Fußzeile"
+
+#: functions.php:595
+#, fuzzy
+msgid "Footer Column 2"
+msgstr "Menü der Fußzeile"
+
+#: functions.php:604
+#, fuzzy
+msgid "Footer Column 3"
+msgstr "Menü der Fußzeile"
+
+#: functions.php:613
+#, fuzzy
+msgid "Footer Column 4"
+msgstr "Menü der Fußzeile"
+
+#: functions.php:643
+#, php-format
+msgid "Posted on %1$s at %2$s"
+msgstr "Erstellt am %1$s um %2$s"
+
+#: functions.php:652
+msgid "Your comment is awaiting moderation."
+msgstr "Ihr Kommentar wartet auf Freischaltung"
+
+#: header.php:48 title.php:200
+#, php-format
+msgid "Events for %s"
+msgstr "Termine für den %s"
+
+#: header.php:248
+msgid ""
+"<p class=chromeframe>Your browser is <em>ancient!</em> <a href=\"http://"
+"browsehappy.com/\">Upgrade to a different browser</a> or <a href=\"http://"
+"www.google.com/chromeframe/?redirect=true\">install Google Chrome Frame</a> "
+"to experience this site.</p>"
+msgstr ""
+
+#: header.php:302
+#, fuzzy
+msgid "Navigation"
+msgstr ""
+"Versuchen Sie Ihre Suche besser einzugrenzen oder nutzen Sie die Navigation "
+"um den gesuchten Eintrag zu finden."
+
+#: lib/metabox/functions.php:71
+#, fuzzy
+msgid "Use global sidebar"
+msgstr "Die Standard-Leiste"
+
+#: lib/metabox/functions.php:95
+#, fuzzy
+msgid "Sermon Options"
+msgstr "Empfehlungs Eintrag"
+
+#: lib/metabox/functions.php:103
+msgid "You can provide a youtube or vimeo video URL"
+msgstr ""
+
+#: lib/metabox/functions.php:109
+msgid "You can upload your audio file"
+msgstr ""
+
+#: lib/metabox/functions.php:115
+msgid "You can upload your PDF file"
+msgstr ""
+
+#: lib/metabox/functions.php:120
+#, fuzzy
+msgid "Hide speakers"
+msgstr "Icon verstecken:"
+
+#: lib/metabox/functions.php:121
+msgid "Check to hide sermon speakers box at the bottom of your Sermon Post"
+msgstr ""
+
+#: lib/metabox/functions.php:131
+#, fuzzy
+msgid "Event options"
+msgstr "Termin:"
+
+#: lib/metabox/functions.php:138
+#, fuzzy
+msgid "Event Start Date"
+msgstr "Beginn des Termins:"
+
+#: lib/metabox/functions.php:139
+#, fuzzy
+msgid "Event will happen on..."
+msgstr "Beginn des Termins:"
+
+#: lib/metabox/functions.php:144
+#, fuzzy
+msgid "Event Start Time"
+msgstr "Beginn des Termins:"
+
+#: lib/metabox/functions.php:145
+#, fuzzy
+msgid "Event starts at..."
+msgstr "Beginn des Termins:"
+
+#: lib/metabox/functions.php:150
+msgid "Is Repeating?"
+msgstr ""
+
+#: lib/metabox/functions.php:151
+#, fuzzy
+msgid "Is this event repeatable?"
+msgstr "Beginn des Termins:"
+
+#: lib/metabox/functions.php:156
+#, fuzzy
+msgid "Repeat Event Every:"
+msgstr "Wiederhole jede(n):"
+
+#: lib/metabox/functions.php:157
+#, fuzzy
+msgid "Repetition interval"
+msgstr "Wiederholt sich:"
+
+#: lib/metabox/functions.php:161
+#, fuzzy
+msgid "Every day"
+msgstr "Tag"
+
+#: lib/metabox/functions.php:162
+msgid "Every week(initial day of week)"
+msgstr ""
+
+#: lib/metabox/functions.php:163
+msgid "Every month(initial date of month)"
+msgstr ""
+
+#: lib/metabox/functions.php:164
+msgid "Every year(initial date of year)"
+msgstr ""
+
+#: lib/metabox/functions.php:168
+#, fuzzy
+msgid "Event End Date"
+msgstr "Ende"
+
+#: lib/metabox/functions.php:169
+#, fuzzy
+msgid "Event will end on..."
+msgstr "Ende"
+
+#: lib/metabox/functions.php:174
+#, fuzzy
+msgid "Event Skip Dates"
+msgstr "Beginn des Termins:"
+
+#: lib/metabox/functions.php:175
+msgid "List of skipped dates"
+msgstr ""
+
+#: lib/metabox/functions.php:185
+#, fuzzy
+msgid "Event Additional Information"
+msgstr "Beginn des Termins:"
+
+#: lib/metabox/functions.php:192
+#, fuzzy
+msgid "Phone"
+msgstr "Telefon anzeigen:"
+
+#: lib/metabox/functions.php:193
+#, fuzzy
+msgid "Contact phone"
+msgstr "Telefon anzeigen:"
+
+#: lib/metabox/functions.php:204
+#, fuzzy
+msgid "Address"
+msgstr "Keine Lokalisation f&uuml;r die Adresse: %s"
+
+#: lib/metabox/functions.php:205
+#, fuzzy
+msgid "Exact Address"
+msgstr "Adresse eingeben"
+
+#: lib/metabox/functions.php:214
+#, fuzzy
+msgid "Custom sidebar"
+msgstr "Die Standard-Leiste"
+
+#: lib/metabox/functions.php:221 lib/metabox/functions.php:463
+#, fuzzy
+msgid "Sidebar"
+msgstr "Die Standard-Leiste"
+
+#: lib/metabox/functions.php:222 lib/metabox/functions.php:464
+#, fuzzy
+msgid "Sidebar to display"
+msgstr "Die Standard-Leiste"
+
+#: lib/metabox/functions.php:231
+#, fuzzy
+msgid "Title area settings"
+msgstr "Tage Bezeichnung:"
+
+#: lib/metabox/functions.php:248
+#, fuzzy
+msgid "Title additional text"
+msgstr "Tage Bezeichnung:"
+
+#: lib/metabox/functions.php:249
+msgid "Extra text on right side of title. HTML markup supported."
+msgstr ""
+
+#: lib/metabox/functions.php:259
+msgid "Under title sidebar instance"
+msgstr ""
+
+#: lib/metabox/functions.php:260
+msgid "Sidebar to display under title on gray line."
+msgstr ""
+
+#: lib/metabox/functions.php:269
+#, fuzzy
+msgid "Header Color Settings"
+msgstr "W&auml;hlen Sie eine Farbe"
+
+#: lib/metabox/functions.php:278
+msgid "Custom header section settings"
+msgstr ""
+
+#: lib/metabox/functions.php:283 lib/metabox/functions.php:456
+#: lib/metabox/functions.php:630
+msgid "Use global"
+msgstr ""
+
+#: lib/metabox/functions.php:284
+#, fuzzy
+msgid "Custom Color"
+msgstr "W&auml;hlen Sie eine Farbe"
+
+#: lib/metabox/functions.php:288
+msgid "Header custom color value"
+msgstr ""
+
+#: lib/metabox/functions.php:289
+msgid "Custom color for post elements"
+msgstr ""
+
+#: lib/metabox/functions.php:339
+#, fuzzy
+msgid "Testimonial Options"
+msgstr "Empfehlung"
+
+#: lib/metabox/functions.php:346
+#, fuzzy
+msgid "Author"
+msgstr "Autor:"
+
+#: lib/metabox/functions.php:347
+#, fuzzy
+msgid "Testimonial Author"
+msgstr "Empfehlung"
+
+#: lib/metabox/functions.php:352
+msgid "Job"
+msgstr ""
+
+#: lib/metabox/functions.php:353
+#, fuzzy
+msgid "Testimonial Author Job"
+msgstr "Empfehlung"
+
+#: lib/metabox/functions.php:363
+msgid "LightBox Options"
+msgstr ""
+
+#: lib/metabox/functions.php:370
+msgid "Use lightbox"
+msgstr ""
+
+#: lib/metabox/functions.php:371
+msgid "Use LightBox for preview thumbnail"
+msgstr ""
+
+#: lib/metabox/functions.php:376
+#, fuzzy
+msgid "URL"
+msgstr "%s ben&ouml;tigt eine korrekte URL"
+
+#: lib/metabox/functions.php:377
+#, fuzzy
+msgid "Custom URL LightBox"
+msgstr "%s ben&ouml;tigt eine korrekte URL"
+
+#: lib/metabox/functions.php:393
+#, fuzzy
+msgid "Gallery Options"
+msgstr "Galerie"
+
+#: lib/metabox/functions.php:400 lib/metabox/functions.php:401
+#, fuzzy
+msgid "Live URL"
+msgstr "%s ben&ouml;tigt eine korrekte URL"
+
+#: lib/metabox/functions.php:406 lib/metabox/functions.php:407
+msgid "Live URL button text"
+msgstr ""
+
+#: lib/metabox/functions.php:412
+msgid "Live URL target at new window"
+msgstr ""
+
+#: lib/metabox/functions.php:413
+#, fuzzy
+msgid "Live URL  _blank "
+msgstr "%s ben&ouml;tigt eine korrekte URL"
+
+#: lib/metabox/functions.php:418
+#, fuzzy
+msgid "Hide more"
+msgstr "mehr Informationen"
+
+#: lib/metabox/functions.php:419
+msgid "Hide more button from preview"
+msgstr ""
+
+#: lib/metabox/functions.php:424
+#, fuzzy
+msgid "Hide feature image"
+msgstr "Abgelaufene Termine verstecken:"
+
+#: lib/metabox/functions.php:425
+msgid "Hide feature image from single gallery post"
+msgstr ""
+
+#: lib/metabox/functions.php:430
+#, fuzzy
+msgid "Preview icon"
+msgstr "Icon verstecken:"
+
+#: lib/metabox/functions.php:441
+msgid "Layout Type"
+msgstr ""
+
+#: lib/metabox/functions.php:451
+msgid "Template"
+msgstr ""
+
+#: lib/metabox/functions.php:457
+msgid "Full width"
+msgstr ""
+
+#: lib/metabox/functions.php:458
+#, fuzzy
+msgid "Left sidebar"
+msgstr "Die Standard-Leiste"
+
+#: lib/metabox/functions.php:459
+#, fuzzy
+msgid "Right sidebar"
+msgstr "Die Standard-Leiste"
+
+#: lib/metabox/functions.php:474
+#, fuzzy
+msgid "Link current slide to"
+msgstr "Aktuelle Karten"
+
+#: lib/metabox/functions.php:481
+#, fuzzy
+msgid "Write your URL"
+msgstr "Geben Sie Ihren Feedburner Namen ein:"
+
+#: lib/metabox/functions.php:482
+msgid "Future image and call to action button wil be linked to that URL."
+msgstr ""
+
+#: lib/metabox/functions.php:487
+#, fuzzy
+msgid "Link whole slide"
+msgstr "Permanent Link zu"
+
+#: lib/metabox/functions.php:488
+msgid ""
+"This option will cover whole slide content with link. Be careful with this "
+"option and interactive content of your slide!"
+msgstr ""
+
+#: lib/metabox/functions.php:493
+msgid "Open link in a new tab"
+msgstr ""
+
+#: lib/metabox/functions.php:494
+msgid "Check to open link in a new tab"
+msgstr ""
+
+#: lib/metabox/functions.php:503
+msgid "Options for jCycle slider"
+msgstr ""
+
+#: lib/metabox/functions.php:510
+msgid "Slide layout"
+msgstr ""
+
+#: lib/metabox/functions.php:515
+msgid "Left content"
+msgstr ""
+
+#: lib/metabox/functions.php:516
+msgid "Right content"
+msgstr ""
+
+#: lib/metabox/functions.php:517
+#, fuzzy
+msgid "Only image"
+msgstr "Dieses Bild l&ouml;schen"
+
+#: lib/metabox/functions.php:518
+msgid "Full width content"
+msgstr ""
+
+#: lib/metabox/functions.php:522
+msgid "Inner content align"
+msgstr ""
+
+#: lib/metabox/functions.php:527
+msgid "Left align"
+msgstr ""
+
+#: lib/metabox/functions.php:528
+msgid "Right align"
+msgstr ""
+
+#: lib/metabox/functions.php:529
+#, fuzzy
+msgid "Center align"
+msgstr "Zentrieren"
+
+#: lib/metabox/functions.php:533
+#, fuzzy
+msgid "Hide title"
+msgstr "Icon verstecken:"
+
+#: lib/metabox/functions.php:539
+msgid "Hide feature image frame for content"
+msgstr ""
+
+#: lib/metabox/functions.php:545
+msgid "Text for call to action button"
+msgstr ""
+
+#: lib/metabox/functions.php:546
+msgid "It will display only if this option active."
+msgstr ""
+
+#: lib/metabox/functions.php:551
+msgid "Use feature image as background of slide"
+msgstr ""
+
+#: lib/metabox/functions.php:557
+#, fuzzy
+msgid "Background image width"
+msgstr "Dieses Bild l&ouml;schen"
+
+#: lib/metabox/functions.php:562
+msgid "Fluid"
+msgstr ""
+
+#: lib/metabox/functions.php:563
+msgid "Fixed"
+msgstr ""
+
+#: lib/metabox/functions.php:567
+#, fuzzy
+msgid "Background image repeating"
+msgstr "Dieses Bild l&ouml;schen"
+
+#: lib/metabox/functions.php:572
+#, fuzzy
+msgid "No repeat"
+msgstr "Wiederhole jede(n):"
+
+#: lib/metabox/functions.php:573
+#, fuzzy
+msgid "Repeat"
+msgstr "Wiederhole jede(n):"
+
+#: lib/metabox/functions.php:574
+#, fuzzy
+msgid "Repeat vertically only"
+msgstr "Geben Sie Ihren Feedburner Namen ein:"
+
+#: lib/metabox/functions.php:575
+#, fuzzy
+msgid "Repeat horizontally only"
+msgstr "Geben Sie Ihren Feedburner Namen ein:"
+
+#: lib/metabox/functions.php:579
+msgid "Background image vertical position"
+msgstr ""
+
+#: lib/metabox/functions.php:584
+msgid "Top"
+msgstr ""
+
+#: lib/metabox/functions.php:585
+msgid "Middle"
+msgstr ""
+
+#: lib/metabox/functions.php:586
+msgid "Bottom"
+msgstr ""
+
+#: lib/metabox/functions.php:590
+msgid "Background image horizontal position"
+msgstr ""
+
+#: lib/metabox/functions.php:596
+msgid "Left"
+msgstr ""
+
+#: lib/metabox/functions.php:597
+msgid "Right"
+msgstr ""
+
+#: lib/metabox/functions.php:616
+#, fuzzy
+msgid "Slideshow options"
+msgstr "Pr&auml;sentation"
+
+#: lib/metabox/functions.php:625
+#, fuzzy
+msgid "Select Slider Type"
+msgstr "- Ausw&auml;hlen -"
+
+#: lib/metabox/functions.php:631
+msgid "jCycle"
+msgstr ""
+
+#: lib/metabox/functions.php:632
+msgid "revSlider"
+msgstr ""
+
+#: lib/metabox/functions.php:633
+msgid "Disable"
+msgstr ""
+
+#: lib/metabox/functions.php:644
+#, fuzzy
+msgid "Select a slider category"
+msgstr "Kategorie:"
+
+#: lib/metabox/functions.php:651
+#, fuzzy
+msgid "Number of Slides to Show:"
+msgstr "Wie viele Sekunden anzeigen?"
+
+#: lib/metabox/functions.php:652
+msgid "Sets the number of slides that will be shown in a current slider"
+msgstr ""
+
+#: lib/metabox/functions.php:663
+#, fuzzy
+msgid "Slideshow effect options"
+msgstr "Pr&auml;sentation"
+
+#: lib/metabox/functions.php:706
+#, fuzzy
+msgid "Slideshow pause"
+msgstr "Pr&auml;sentation"
+
+#: lib/metabox/functions.php:707
+msgid "On to Slideshow pause enable \"pause on hover\""
+msgstr ""
+
+#: lib/metabox/functions.php:713
+#, fuzzy
+msgid "\"On\" to disable Slideshow autoplay"
+msgstr "Pr&auml;sentations Eintrag"
+
+#: lib/shortcode/contact-form.php:64 lib/shortcode/contact-form.php:74
+#: lib/shortcode/contact-form.php:79 lib/shortcode/contact-form.php:95
+#: lib/shortcode/contact-form.php:112
+msgid "(required)"
+msgstr "(Pflicht)"
+
+#: lib/shortcode/contact-form.php:134
+#, php-format
+msgid "%s requires a valid email address"
+msgstr "%s ben&ouml;tigt eine korrekte E-Mail Adresse"
+
+#: lib/shortcode/contact-form.php:138
+#, php-format
+msgid "%s requires a valid url"
+msgstr "%s ben&ouml;tigt eine korrekte URL"
+
+#: lib/shortcode/contact-form.php:147
+#, php-format
+msgid "%s is required"
+msgstr "%s darf nicht leer sein"
+
+#: lib/shortcode/contactForm/contactsend.php:53
+msgid "Your message has been successfully sent to us!"
+msgstr ""
+
+#: lib/shortcode/eventsCalendar.php:439
+msgid "view all events"
+msgstr "Alle Termine anzeigen"
+
+#: lib/shortcode/shortcodes.php:356
+msgid "by: "
+msgstr ""
+
+#: lib/shortcode/shortcodes.php:546 loop-galleries.php:11
+msgid "Launch project"
+msgstr "Projekt starten"
+
+#: lib/shortcode/shortcodes.php:721 loop-galleries.php:191
+msgid "more info"
+msgstr "mehr Informationen"
+
+#: lib/shortcode/shortcodes.php:1429
+msgid "Previous"
+msgstr ""
+
+#: lib/shortcode/shortcodes.php:1430
+#, fuzzy
+msgid "Next"
+msgstr "N&auml;chster Termin in:"
+
+#: lib/shortcode/shortcodes.php:1613 loop-sermons.php:135
+msgid "Speaker:"
+msgstr ""
+
+#: lib/shortcode/shortcodes.php:1768 loop-sermons.php:213 loop-sermons.php:299
+#: loop.php:120 loop.php:166
+msgid "Comments (0)"
+msgstr "Kommentare (0)"
+
+#: lib/shortcode/shortcodes.php:1768 loop-sermons.php:213 loop-sermons.php:299
+#: loop.php:120 loop.php:166
+msgid "Comment (1)"
+msgstr "Kommentar (1)"
+
+#: lib/shortcode/shortcodes.php:1768 loop-sermons.php:213 loop-sermons.php:299
+#: loop.php:120 loop.php:166
+msgid "Comments (%)"
+msgstr "Kommentare (%s)"
+
+#: lib/shortcode/shortcodes.php:1773 loop-sermons.php:218 loop-sermons.php:304
+#: loop.php:123 loop.php:169
+msgid "Read more"
+msgstr "Mehr lesen"
+
+#: lib/shortcode/shortcodes/blog.php:108
+#, fuzzy
+msgid "Category of blog:"
+msgstr "Kategorie:"
+
+#: lib/shortcode/shortcodes/blog.php:109
+#: lib/shortcode/shortcodes/event.php:102
+#: lib/shortcode/shortcodes/sermons.php:76
+#, fuzzy
+msgid "Choose a category:"
+msgstr "Kategorie:"
+
+#: lib/shortcode/shortcodes/blog.php:127
+#: lib/shortcode/shortcodes/gallery.php:97
+#: lib/shortcode/shortcodes/sermons.php:95
+#, fuzzy
+msgid "Show per page:"
+msgstr "Zeit anzeigen:"
+
+#: lib/shortcode/shortcodes/blog.php:128
+#: lib/shortcode/shortcodes/gallery.php:98
+#: lib/shortcode/shortcodes/sermons.php:96
+#, fuzzy
+msgid "Number to show:"
+msgstr "Anzahl anzuzeigender Eintr&auml;ge:"
+
+#: lib/shortcode/shortcodes/blog.php:132
+#: lib/shortcode/shortcodes/sermons.php:100
+msgid "Pagination:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/blog.php:133
+#: lib/shortcode/shortcodes/sermons.php:101
+msgid "Check if you want show pagination:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/blog.php:139
+#: lib/shortcode/shortcodes/buttons.php:150
+#: lib/shortcode/shortcodes/event.php:138
+#: lib/shortcode/shortcodes/gallery.php:115
+#: lib/shortcode/shortcodes/notifications.php:104
+#: lib/shortcode/shortcodes/price_table.php:128
+#: lib/shortcode/shortcodes/schedule.php:161
+#: lib/shortcode/shortcodes/sermons.php:107
+#: lib/shortcode/shortcodes/social_button.php:413
+#: lib/shortcode/shortcodes/social_link.php:236
+#: lib/shortcode/shortcodes/speakers.php:109
+#: lib/shortcode/shortcodes/teaser.php:174
+#: lib/shortcode/shortcodes/testimonials.php:139
+#: lib/shortcode/shortcodes/toc.php:94 lib/shortcode/shortcodes/toggle.php:95
+#: lib/shortcode/shortcodes/upcoming.php:140
+#: lib/shortcode/shortcodes/video.php:96
+#, fuzzy
+msgid "Insert"
+msgstr "In Artikel einf&uuml;gen"
+
+#: lib/shortcode/shortcodes/buttons.php:15
+#, fuzzy
+msgid "Insert Button"
+msgstr "In Artikel einf&uuml;gen"
+
+#: lib/shortcode/shortcodes/buttons.php:111
+#: lib/shortcode/shortcodes/social_link.php:174
+msgid "Buttons"
+msgstr ""
+
+#: lib/shortcode/shortcodes/buttons.php:117
+#: lib/shortcode/shortcodes/social_link.php:179
+msgid "Type of button:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/buttons.php:118
+#: lib/shortcode/shortcodes/event.php:128
+#: lib/shortcode/shortcodes/notifications.php:82
+#: lib/shortcode/shortcodes/social_link.php:180
+#: lib/shortcode/shortcodes/toggle.php:70
+msgid "Choose a type:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/buttons.php:120
+#: lib/shortcode/shortcodes/notifications.php:84
+#: lib/shortcode/shortcodes/social_link.php:182
+#: lib/shortcode/shortcodes/teaser.php:132
+#: lib/shortcode/shortcodes/toggle.php:72
+#, fuzzy
+msgid "Select type"
+msgstr "- Ausw&auml;hlen -"
+
+#: lib/shortcode/shortcodes/buttons.php:121
+msgid "Simple button"
+msgstr ""
+
+#: lib/shortcode/shortcodes/buttons.php:122
+msgid "Simple button black"
+msgstr ""
+
+#: lib/shortcode/shortcodes/buttons.php:123
+#, fuzzy
+msgid "Big color button"
+msgstr "W&auml;hlen Sie eine Farbe"
+
+#: lib/shortcode/shortcodes/buttons.php:128
+#: lib/shortcode/shortcodes/social_link.php:219
+#: lib/shortcode/shortcodes/teaser.php:162
+#, fuzzy
+msgid "URL for button:"
+msgstr "%s ben&ouml;tigt eine korrekte URL"
+
+#: lib/shortcode/shortcodes/buttons.php:129
+#: lib/shortcode/shortcodes/social_link.php:220
+msgid "Type your URL here:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/buttons.php:133
+#: lib/shortcode/shortcodes/social_link.php:224
+#, fuzzy
+msgid "Link target:"
+msgstr "Permanent Link zu"
+
+#: lib/shortcode/shortcodes/buttons.php:134
+#: lib/shortcode/shortcodes/social_link.php:225
+#: lib/shortcode/shortcodes/teaser.php:168
+msgid "Check if you want open in new window:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/buttons.php:143
+#: lib/shortcode/shortcodes/notifications.php:97
+#: lib/shortcode/shortcodes/social_link.php:229
+#, fuzzy
+msgid "Preview:"
+msgstr "Bildvorschau"
+
+#: lib/shortcode/shortcodes/contactForm.php:113
+msgid "Your new field was saved successfully"
+msgstr ""
+
+#: lib/shortcode/shortcodes/contactForm.php:119
+#, fuzzy
+msgid "Edit this new field"
+msgstr "Bearbeiten"
+
+#: lib/shortcode/shortcodes/contactForm.php:121
+msgid "Label"
+msgstr ""
+
+#: lib/shortcode/shortcodes/contactForm.php:122
+#, fuzzy
+msgid "New field"
+msgstr "Neu"
+
+#: lib/shortcode/shortcodes/contactForm.php:124
+msgid "Field type"
+msgstr ""
+
+#: lib/shortcode/shortcodes/contactForm.php:126
+msgid "Checkbox"
+msgstr ""
+
+#: lib/shortcode/shortcodes/contactForm.php:127
+msgid "Drop down"
+msgstr ""
+
+#: lib/shortcode/shortcodes/contactForm.php:128
+#, fuzzy
+msgid "Email"
+msgstr "%s ben&ouml;tigt eine korrekte E-Mail Adresse"
+
+#: lib/shortcode/shortcodes/contactForm.php:130
+msgid "Radio"
+msgstr ""
+
+#: lib/shortcode/shortcodes/contactForm.php:131
+msgid "Text"
+msgstr ""
+
+#: lib/shortcode/shortcodes/contactForm.php:132
+msgid "Textarea"
+msgstr ""
+
+#: lib/shortcode/shortcodes/contactForm.php:139
+msgid "Options"
+msgstr ""
+
+#: lib/shortcode/shortcodes/contactForm.php:140
+msgid "First option"
+msgstr ""
+
+#: lib/shortcode/shortcodes/contactForm.php:143
+#, fuzzy
+msgid "Add another option"
+msgstr "Neu Hinzuf&uuml;gen"
+
+#: lib/shortcode/shortcodes/contactForm.php:150
+#, fuzzy
+msgid "Required?"
+msgstr "(Pflicht)"
+
+#: lib/shortcode/shortcodes/contactForm.php:156
+msgid "Use for reply?"
+msgstr ""
+
+#: lib/shortcode/shortcodes/contactForm.php:161
+#, fuzzy
+msgid "Save this field"
+msgstr "Speichern"
+
+#: lib/shortcode/shortcodes/contactForm.php:166
+msgid "Here's what your form will look like"
+msgstr ""
+
+#: lib/shortcode/shortcodes/contactForm.php:171
+#, fuzzy
+msgid "Add a new field"
+msgstr "Neuen Eintrag hinzuf&uuml;gen"
+
+#: lib/shortcode/shortcodes/contactForm.php:174
+msgid "Add this form to my post"
+msgstr ""
+
+#: lib/shortcode/shortcodes/contactForm.php:177
+#, fuzzy
+msgid "Email settings"
+msgstr "E-Mail anzeigen:"
+
+#: lib/shortcode/shortcodes/contactForm.php:179
+#, fuzzy
+msgid "Enter your email address"
+msgstr "Adresse eingeben"
+
+#: lib/shortcode/shortcodes/contactForm.php:182
+msgid "What should the subject line be?"
+msgstr ""
+
+#: lib/shortcode/shortcodes/contactForm.php:185
+msgid "Send button text"
+msgstr ""
+
+#: lib/shortcode/shortcodes/contactForm.php:188
+msgid "Use reCaptcha(Public&Private keys must be set)"
+msgstr ""
+
+#: lib/shortcode/shortcodes/contactForm.php:189
+msgid "Theme Options -> reCaptcha"
+msgstr ""
+
+#: lib/shortcode/shortcodes/event.php:8
+#, fuzzy
+msgid "Events Calendar"
+msgstr "Kategorie der Termine:"
+
+#: lib/shortcode/shortcodes/event.php:101
+#, fuzzy
+msgid "Category of event:"
+msgstr "Terminkategorie"
+
+#: lib/shortcode/shortcodes/event.php:117
+#: lib/shortcode/shortcodes/sermons.php:92
+#: lib/shortcode/shortcodes/speakers.php:91
+msgid "* if no one selected, then selected ALL"
+msgstr ""
+
+#: lib/shortcode/shortcodes/event.php:120
+#, fuzzy
+msgid "Date range:"
+msgstr "Datum anzeigen:"
+
+#: lib/shortcode/shortcodes/event.php:121
+#, fuzzy
+msgid "Event begin date:"
+msgstr "Datum anzeigen:"
+
+#: lib/shortcode/shortcodes/event.php:123
+#, fuzzy
+msgid "Event finish date:"
+msgstr "Datum anzeigen:"
+
+#: lib/shortcode/shortcodes/event.php:127
+msgid "Type of layout:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/event.php:130
+msgid "Full"
+msgstr ""
+
+#: lib/shortcode/shortcodes/event.php:131
+msgid "Active"
+msgstr ""
+
+#: lib/shortcode/shortcodes/gallery.php:83
+msgid "Taxonomy terms:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/gallery.php:84
+msgid "Choose a taxonomy terms:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/gallery.php:92
+msgid "Filterable"
+msgstr ""
+
+#: lib/shortcode/shortcodes/gallery.php:93
+msgid "Pagination"
+msgstr ""
+
+#: lib/shortcode/shortcodes/gallery.php:104
+msgid "Layout Type:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/gallery.php:105
+msgid "Choose a layout type:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/gallery.php:107
+msgid "Big"
+msgstr ""
+
+#: lib/shortcode/shortcodes/gallery.php:108
+msgid "Medium"
+msgstr ""
+
+#: lib/shortcode/shortcodes/gallery.php:109
+msgid "Small"
+msgstr ""
+
+#: lib/shortcode/shortcodes/notifications.php:8
+#, fuzzy
+msgid "Insert Notification"
+msgstr "In Artikel einf&uuml;gen"
+
+#: lib/shortcode/shortcodes/notifications.php:75
+#, fuzzy
+msgid "Notification"
+msgstr "Ort"
+
+#: lib/shortcode/shortcodes/notifications.php:81
+msgid "Type of notification:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/notifications.php:85
+msgid "Successful"
+msgstr ""
+
+#: lib/shortcode/shortcodes/notifications.php:86
+#, fuzzy
+msgid "Error"
+msgstr "Beim Lesen der WXR Datei ist ein Fehler aufgetreten."
+
+#: lib/shortcode/shortcodes/notifications.php:87
+#, fuzzy
+msgid "Info"
+msgstr "mehr Informationen"
+
+#: lib/shortcode/shortcodes/notifications.php:88
+msgid "Warning"
+msgstr ""
+
+#: lib/shortcode/shortcodes/notifications.php:89
+msgid "Successful Tiny"
+msgstr ""
+
+#: lib/shortcode/shortcodes/notifications.php:90
+#, fuzzy
+msgid "Error Tiny"
+msgstr "Fehler: AJAX fehlgeschlagen!"
+
+#: lib/shortcode/shortcodes/notifications.php:91
+#, fuzzy
+msgid "Info Tiny"
+msgstr "mehr Informationen"
+
+#: lib/shortcode/shortcodes/notifications.php:92
+msgid "Warning Tiny"
+msgstr ""
+
+#: lib/shortcode/shortcodes/price_table.php:8
+#, fuzzy
+msgid "Insert Price Table"
+msgstr "In Artikel einf&uuml;gen"
+
+#: lib/shortcode/shortcodes/price_table.php:86
+msgid "Price Table"
+msgstr ""
+
+#: lib/shortcode/shortcodes/price_table.php:92
+msgid "Offer details:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/price_table.php:95
+msgid "Sale"
+msgstr ""
+
+#: lib/shortcode/shortcodes/price_table.php:98
+msgid "Price:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/price_table.php:99
+msgid "$47/month"
+msgstr ""
+
+#: lib/shortcode/shortcodes/price_table.php:102
+msgid "Offer text:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/price_table.php:103
+msgid "offer details"
+msgstr ""
+
+#: lib/shortcode/shortcodes/price_table.php:106
+msgid "Button text:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/price_table.php:107
+msgid "Buy"
+msgstr ""
+
+#: lib/shortcode/shortcodes/price_table.php:110
+#, fuzzy
+msgid "Button URL:"
+msgstr "%s ben&ouml;tigt eine korrekte URL"
+
+#: lib/shortcode/shortcodes/price_table.php:114
+#, fuzzy
+msgid "Button Color:"
+msgstr "W&auml;hlen Sie eine Farbe"
+
+#: lib/shortcode/shortcodes/price_table.php:119
+msgid "Offers count:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/price_table.php:120
+msgid "Choose count of offers in price table:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/schedule.php:16
+msgid "Sermon Schedule"
+msgstr ""
+
+#: lib/shortcode/shortcodes/schedule.php:122
+msgid "Sermon Speaker:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/schedule.php:123
+#, fuzzy
+msgid "Choose a Speaker:"
+msgstr "Kategorie:"
+
+#: lib/shortcode/shortcodes/schedule.php:144
+#, fuzzy
+msgid "Part Title:"
+msgstr "Titel:"
+
+#: lib/shortcode/shortcodes/schedule.php:145
+#, fuzzy
+msgid "Sermon Part Title:"
+msgstr "Tage Bezeichnung:"
+
+#: lib/shortcode/shortcodes/schedule.php:149
+#: lib/shortcode/shortcodes/schedule.php:150
+#, fuzzy
+msgid "Time:"
+msgstr "Zeit anzeigen:"
+
+#: lib/shortcode/shortcodes/schedule.php:154
+#: lib/shortcode/shortcodes/schedule.php:155
+#, fuzzy
+msgid "Content:"
+msgstr ""
+"Um das Bearbeiten und Speichern des importierten Materials zu erleichtern, "
+"kann es sinnvoll sein, den Autor der importierten Eintr&auml;ge zu einem "
+"existierenden Benutzer dieser Seite zu &auml;ndern. Zum Beispiel k&ouml;"
+"nnten Sie alle Eintr&auml;ge dem Benutzer <code>admin</code> zuweisen."
+
+#: lib/shortcode/shortcodes/sermons.php:70
+#, fuzzy
+msgid "sermon"
+msgstr "Aktuelle Artikel"
+
+#: lib/shortcode/shortcodes/sermons.php:75
+#, fuzzy
+msgid "Category of sermon:"
+msgstr "Kategorie:"
+
+#: lib/shortcode/shortcodes/social_button.php:8
+#, fuzzy
+msgid "Insert Share Buttons"
+msgstr "In Artikel einf&uuml;gen"
+
+#: lib/shortcode/shortcodes/social_button.php:266
+#: lib/shortcode/shortcodes/video.php:86
+#, fuzzy
+msgid "Size:"
+msgstr "Datei mit der ge&ouml;&szlig;e Null heruntergeladen"
+
+#: lib/shortcode/shortcodes/social_button.php:267
+#, fuzzy
+msgid "Choose a size:"
+msgstr "Datei mit der ge&ouml;&szlig;e Null heruntergeladen"
+
+#: lib/shortcode/shortcodes/social_button.php:269
+msgid "Small (15px)"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:270
+#, fuzzy
+msgid "Standard(24px)"
+msgstr "Standard Icons"
+
+#: lib/shortcode/shortcodes/social_button.php:271
+msgid "Medium(20px)"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:272
+msgid "Tall(60px)"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:277
+msgid "Type of Annotation:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:278
+msgid "Choose a Annotation:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:280
+msgid "Inline"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:281
+msgid "Bubble"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:286
+msgid "Advanced options:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:287
+#, fuzzy
+msgid "HTML5 valid syntax:"
+msgstr "%s ben&ouml;tigt eine korrekte E-Mail Adresse"
+
+#: lib/shortcode/shortcodes/social_button.php:290
+#, fuzzy
+msgid "URL to +1:"
+msgstr "Kommentar (1)"
+
+#: lib/shortcode/shortcodes/social_button.php:297
+msgid "Count box position:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:298
+msgid "Choose a Position:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:301
+#: lib/shortcode/shortcodes/social_button.php:399
+msgid "Horizontal"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:302
+#: lib/shortcode/shortcodes/social_button.php:400
+msgid "Vertical"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:306
+#, fuzzy
+msgid "Button size:"
+msgstr "Datei mit der ge&ouml;&szlig;e Null heruntergeladen"
+
+#: lib/shortcode/shortcodes/social_button.php:307
+#, fuzzy
+msgid "Large:"
+msgstr "Entfernte Datei ist zu gro&szlig;. Das Limit ist %s."
+
+#: lib/shortcode/shortcodes/social_button.php:311
+#, fuzzy
+msgid "URL of the page to share:"
+msgstr "%s ben&ouml;tigt eine korrekte URL"
+
+#: lib/shortcode/shortcodes/social_button.php:312
+#, fuzzy
+msgid "URL(default: URL of the webpage):"
+msgstr "%s ben&ouml;tigt eine korrekte URL"
+
+#: lib/shortcode/shortcodes/social_button.php:317
+msgid "Recommended accounts:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:323
+#, fuzzy
+msgid "Via user:"
+msgstr "Artikel einem existierenden Benutzer zuweisen:"
+
+#: lib/shortcode/shortcodes/social_button.php:329
+#, fuzzy
+msgid "Default Tweet text:"
+msgstr "Die Standard-Leiste"
+
+#: lib/shortcode/shortcodes/social_button.php:330
+#: lib/shortcode/shortcodes/social_button.php:406
+msgid "Text:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:339
+#, fuzzy
+msgid "URL to Like:"
+msgstr "%s ben&ouml;tigt eine korrekte URL"
+
+#: lib/shortcode/shortcodes/social_button.php:340
+#: lib/shortcode/shortcodes/social_button.php:387
+#: lib/shortcode/shortcodes/social_button.php:392
+#, fuzzy
+msgid "URL:"
+msgstr "%s ben&ouml;tigt eine korrekte URL"
+
+#: lib/shortcode/shortcodes/social_button.php:344
+#: lib/shortcode/shortcodes/social_button.php:345
+msgid "Send Button:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:349
+msgid "Layout Style:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:350
+#: lib/shortcode/shortcodes/social_button.php:397
+msgid "Choose a Layout:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:352
+#, fuzzy
+msgid "Standard"
+msgstr "Standard Icons"
+
+#: lib/shortcode/shortcodes/social_button.php:353
+msgid "Button Count"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:354
+msgid "Box Count"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:358
+#: lib/shortcode/shortcodes/social_button.php:359
+#: lib/shortcode/shortcodes/video.php:87
+msgid "Width:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:363
+#, fuzzy
+msgid "Show profile picture:"
+msgstr "E-Mail anzeigen:"
+
+#: lib/shortcode/shortcodes/social_button.php:364
+#, fuzzy
+msgid "Show Faces:"
+msgstr "Zeit anzeigen:"
+
+#: lib/shortcode/shortcodes/social_button.php:368
+msgid "Verb to display"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:369
+msgid "Choose a Verb:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:371
+msgid "Like"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:372
+msgid "Recommend"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:376
+#, fuzzy
+msgid "Color Scheme "
+msgstr "W&auml;hlen Sie eine Farbe"
+
+#: lib/shortcode/shortcodes/social_button.php:377
+msgid "Choose a Scheme:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:379
+msgid "Light"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:380
+msgid "Dark"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:386
+msgid "Page the pin is on:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:391
+#, fuzzy
+msgid "Image to be pinned:"
+msgstr "Dieses Bild l&ouml;schen"
+
+#: lib/shortcode/shortcodes/social_button.php:396
+msgid "Pin Count:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:401
+msgid "No Count"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:405
+msgid "What they're pinning:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_link.php:16
+#, fuzzy
+msgid "Insert Social Link"
+msgstr "Permanent Link zu"
+
+#: lib/shortcode/shortcodes/speakers.php:8
+#, fuzzy
+msgid "Sermon speakers"
+msgstr "Empfehlungskategorien bearbeiten"
+
+#: lib/shortcode/shortcodes/speakers.php:70
+msgid "speakers"
+msgstr ""
+
+#: lib/shortcode/shortcodes/speakers.php:75
+#, fuzzy
+msgid "Sermon speakers:"
+msgstr "Empfehlungskategorien bearbeiten"
+
+#: lib/shortcode/shortcodes/speakers.php:76
+#, fuzzy
+msgid "Choose a speaker:"
+msgstr "Kategorie:"
+
+#: lib/shortcode/shortcodes/speakers.php:94
+msgid "Sort by:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/speakers.php:95
+#, fuzzy
+msgid "Choose a sort by criteria:"
+msgstr "Kategorie:"
+
+#: lib/shortcode/shortcodes/speakers.php:98
+msgid "Count"
+msgstr ""
+
+#: lib/shortcode/shortcodes/speakers.php:102
+msgid "Avatar option:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/speakers.php:103
+msgid "Check if you want disable speaker avatar"
+msgstr ""
+
+#: lib/shortcode/shortcodes/teaser.php:13
+#, fuzzy
+msgid "Insert Teaser"
+msgstr "In Artikel einf&uuml;gen"
+
+#: lib/shortcode/shortcodes/teaser.php:124
+msgid "Teaser"
+msgstr ""
+
+#: lib/shortcode/shortcodes/teaser.php:129
+#, fuzzy
+msgid "Post, Page, Gallery:"
+msgstr "Galerie Einträge"
+
+#: lib/shortcode/shortcodes/teaser.php:130
+msgid "Choose a template:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/teaser.php:147
+#, fuzzy
+msgid "Image src:"
+msgstr "Bildvorschau"
+
+#: lib/shortcode/shortcodes/teaser.php:148
+msgid "Type your image URL here:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/teaser.php:153
+msgid "Type your teaser title:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/teaser.php:157
+#, fuzzy
+msgid "Button title:"
+msgstr "Titel:"
+
+#: lib/shortcode/shortcodes/teaser.php:158
+msgid "Type your button title here:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/teaser.php:159
+#, fuzzy
+msgid "learn  more..."
+msgstr "mehr Informationen"
+
+#: lib/shortcode/shortcodes/teaser.php:163
+msgid "Type your button URL here:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/teaser.php:167
+msgid "Target Blank:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/testimonials.php:8
+#, fuzzy
+msgid "Insert Testimonials"
+msgstr "In Artikel einf&uuml;gen"
+
+#: lib/shortcode/shortcodes/testimonials.php:87
+#, fuzzy
+msgid "Testimonial Category:"
+msgstr "Empfehlungskategorie"
+
+#: lib/shortcode/shortcodes/testimonials.php:88
+#, fuzzy
+msgid "Choose testimonial category:"
+msgstr "Empfehlungskategorie"
+
+#: lib/shortcode/shortcodes/testimonials.php:106
+#, fuzzy
+msgid "Second:"
+msgstr "Wie viele Sekunden anzeigen?"
+
+#: lib/shortcode/shortcodes/testimonials.php:111
+#, fuzzy
+msgid "Randomize:"
+msgstr "Empfehlungen mischen:"
+
+#: lib/shortcode/shortcodes/testimonials.php:116
+#, fuzzy
+msgid "Choose effect:"
+msgstr "&Uuml;bergangseffekt:"
+
+#: lib/shortcode/shortcodes/toc.php:8
+#, fuzzy
+msgid "Insert Table of Contents"
+msgstr "In Artikel einf&uuml;gen"
+
+#: lib/shortcode/shortcodes/toc.php:76 lib/shortcode/shortcodes/toc.php:83
+msgid "Table of Contents"
+msgstr ""
+
+#: lib/shortcode/shortcodes/toc.php:81
+msgid "Table of Contents settings:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/toc.php:85
+#, fuzzy
+msgid "\"Hide\" link text:"
+msgstr "Permanent Link zu"
+
+#: lib/shortcode/shortcodes/toc.php:86
+#, fuzzy
+msgid "hide"
+msgstr "Abgelaufene Termine verstecken:"
+
+#: lib/shortcode/shortcodes/toc.php:88
+#, fuzzy
+msgid "\"Show\" link text:"
+msgstr "Permanent Link zu"
+
+#: lib/shortcode/shortcodes/toc.php:89
+#, fuzzy
+msgid "show"
+msgstr "Zeit anzeigen:"
+
+#: lib/shortcode/shortcodes/toggle.php:8
+#, fuzzy
+msgid "Insert Toggle"
+msgstr "In Artikel einf&uuml;gen"
+
+#: lib/shortcode/shortcodes/toggle.php:63
+msgid "Toggle"
+msgstr ""
+
+#: lib/shortcode/shortcodes/toggle.php:69
+msgid "Type of toggle:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/toggle.php:73
+msgid "White"
+msgstr ""
+
+#: lib/shortcode/shortcodes/toggle.php:74
+msgid "Gray"
+msgstr ""
+
+#: lib/shortcode/shortcodes/toggle.php:78
+#, fuzzy
+msgid "Type toggle title:"
+msgstr "Tage Bezeichnung:"
+
+#: lib/shortcode/shortcodes/toggle.php:84
+#, fuzzy
+msgid "Opened by default:"
+msgstr "Die Standard-Leiste"
+
+#: lib/shortcode/shortcodes/upcoming.php:8
+#, fuzzy
+msgid "Insert Upcoming events"
+msgstr "Bevorstehende Termine"
+
+#: lib/shortcode/shortcodes/upcoming.php:94
+#, fuzzy
+msgid "Event Category:"
+msgstr "Terminkategorie"
+
+#: lib/shortcode/shortcodes/upcoming.php:95
+#, fuzzy
+msgid "Choose event category:"
+msgstr "Terminkategorie"
+
+#: lib/shortcode/shortcodes/upcoming.php:114
+msgid "Displaying Count:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/upcoming.php:115
+msgid "Choose how many events show:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/upcoming.php:121
+#: lib/shortcode/shortcodes/upcoming.php:126
+#: lib/shortcode/shortcodes/upcoming.php:131
+#, fuzzy
+msgid "Choose to show:"
+msgstr "Zeit anzeigen:"
+
+#: lib/shortcode/shortcodes/video.php:8
+#, fuzzy
+msgid "Insert Video"
+msgstr "In Artikel einf&uuml;gen"
+
+#: lib/shortcode/shortcodes/video.php:80
+#, fuzzy
+msgid "Video URL:"
+msgstr "%s ben&ouml;tigt eine korrekte URL"
+
+#: lib/shortcode/shortcodes/video.php:81
+#, fuzzy
+msgid "YouTube or Vimeo URL:"
+msgstr "%s ben&ouml;tigt eine korrekte URL"
+
+#: lib/shortcode/shortcodes/video.php:90
+msgid "Height:"
+msgstr ""
+
+#: lib/tweaks.php:256
+msgid "Facebook"
+msgstr ""
+
+#: lib/tweaks.php:257
+#, fuzzy
+msgid "Office Phone"
+msgstr "Telefon anzeigen:"
+
+#: lib/tweaks.php:258
+#, fuzzy
+msgid "Mobile Phone"
+msgstr "Telefon anzeigen:"
+
+#: lib/tweaks.php:259
+msgid "Office Fax"
+msgstr ""
+
+#: lib/tweaks.php:262
+#, fuzzy
+msgid "Address Line 1"
+msgstr "Adresse eingeben"
+
+#: lib/tweaks.php:263
+msgid "Address Line 2 (optional)"
+msgstr ""
+
+#: lib/tweaks.php:264
+msgid "City"
+msgstr ""
+
+#: lib/tweaks.php:265
+msgid "State"
+msgstr ""
+
+#: lib/tweaks.php:266
+msgid "Zipcode"
+msgstr ""
+
+#: loop-events.php:31 loop-eventsforaday.php:51
+msgid "Day"
+msgstr "Tag"
+
+#: loop-events.php:35 loop-eventsforaday.php:55
+msgid "Week"
+msgstr "Woche"
+
+#: loop-events.php:39 loop-eventsforaday.php:59
+msgid "Month"
+msgstr "Monat"
+
+#: loop-events.php:43 loop-eventsforaday.php:63
+msgid "Year"
+msgstr "Jahr"
+
+#: loop-events.php:52 loop-events.php:98 loop-eventsforaday.php:78
+msgid "Every "
+msgstr "Jede"
+
+#: loop-events.php:187 loop-galleries.php:263 loop-sermons.php:390
+#: loop-testimonials.php:77 loop.php:249 search.php:69
+msgid "Not Found"
+msgstr "Nicht gefunden"
+
+#: loop-events.php:190 loop-eventsforaday.php:149 loop-galleries.php:266
+#: loop-sermons.php:393 loop-testimonials.php:80 loop.php:252 search.php:72
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr "Sie versuchen etwas zu finden das es hier nicht gibt."
+
+#: loop-eventsforaday.php:146
+msgid "No Found Events For This Day"
+msgstr "F&uuml;r diesen Tag sind keine Termine eingetragen"
+
+#: loop-sermons.php:32 loop.php:49
+msgid "Categories:"
+msgstr "Kategorien:"
+
+#: loop-sermons.php:62
+msgid "Please enter a valid video URL"
+msgstr ""
+
+#: loop.php:78
+msgid "Author: "
+msgstr "Autor:"
+
+#: loop.php:177
+msgid "..."
+msgstr ""
+
+#: title.php:147
+#, php-format
+msgid "Daily Archives: <span>%s</span>"
+msgstr "Tagesarchiv: <span>%s</span>"
+
+#: title.php:151
+#, php-format
+msgid "Monthly Archives: <span>%s</span>"
+msgstr "Monatsarchiv: <span>%s</span>"
+
+#: title.php:155
+#, php-format
+msgid "Yearly Archives: <span>%s</span>"
+msgstr "Jahresarchiv: <span>%s</span>"
+
+#: title.php:167
+msgid "404 - Oops!"
+msgstr "404 - Seite konnte nicht gefunden werden!"
+
+#: title.php:171
+msgid "Results for: "
+msgstr "Ergebnisse für:"
+
+#: title.php:188
+msgid "Author Archives: "
+msgstr "Autorenarchiv:"
+
+#: title.php:192
+msgid "No posts for current author"
+msgstr "Keine Einträge des Autors vorhanden"
+
+#: wpml-integration.php:41
+msgid "This post is also available in: "
+msgstr "Dieser Eintrag ist auch hier verfügbar:"
+
+#: wpml-integration.php:372
+msgid "Language switcher"
+msgstr ""
+
+#, fuzzy
+#~ msgid "Filterable gallery:"
+#~ msgstr "Galerie"
+
+#, fuzzy
+#~ msgid "Use as download:"
+#~ msgstr "Anh&auml;nge herunterladen und importieren"
+
+#, fuzzy
+#~ msgid "More than one event in this day"
+#~ msgstr "Mehr als ein Termin an diesem Tag vorhanden"
+
+#, fuzzy
+#~ msgid "Event date"
+#~ msgstr "Termin"
+
+#~ msgid "Y/m/d"
+#~ msgstr "d.m.Y"
+
+#~ msgid "Uploaded files"
+#~ msgstr "Dateien hochladen"
+
+#~ msgid "Add more files"
+#~ msgstr "Weitere Dateien hinzuf&uuml;gen"
+
+#~ msgid "Send a message"
+#~ msgstr "Sende eine Nachricht"
+
+#~ msgid "From"
+#~ msgstr "Von"
+
+#~ msgid "Message"
+#~ msgstr "Nachricht"
+
+#~ msgid "Date"
+#~ msgstr "Datum"
+
+#~ msgid "Restore"
+#~ msgstr "Wiederherstellen"
+
+#~ msgid "Delete this item permanently"
+#~ msgstr "Diesen Eintrag dauerhaft l&ouml;schen"
+
+#~ msgid "Delete Permanently"
+#~ msgstr "Dauerhaft l&ouml;schen"
+
+#~ msgid "Mark this message as spam"
+#~ msgstr "Diese Nachricht als SPAM markieren"
+
+#~ msgid "Trash"
+#~ msgstr "In Papierkorb"
+
+#~ msgid "Mark this message as NOT spam"
+#~ msgstr "Die Nachricht NICHT als SPAM markieren"
+
+#~ msgid "Y-m-d @ g:i:s A"
+#~ msgstr "d.m.Y @ g:i:s A"
+
+#~ msgid "You are not allowed to manage this item."
+#~ msgstr ""
+#~ "Sie haben nicht die erforderlichen Rechte um diesen Eintrag zu verwalten"
+
+#~ msgid "You are not allowed to move this item out of the Trash."
+#~ msgstr ""
+#~ "Sie haben nicht die erforderlichen Rechte um diesen Eintrag "
+#~ "wiederherzustellen"
+
+#~ msgid "Error in restoring from Trash."
+#~ msgstr "Fehler beim Wiederherstellen"
+
+#~ msgid "You are not allowed to move this item to the Trash."
+#~ msgstr ""
+#~ "Sie haben nicht die erforderlichen Rechte um diesen Eintrag in den "
+#~ "Papierkorb zu legen"
+
+#~ msgid "Error in moving to Trash."
+#~ msgstr "Fehler beim verschieben in den Papierkorb"
+
+#~ msgid "Messages"
+#~ msgstr "Nachrichten"
+
+#~ msgid "Spam"
+#~ msgstr "SPAM"
