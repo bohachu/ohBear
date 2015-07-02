@@ -12,7 +12,6 @@ License URI: http://themeforest.net/wiki/support/legal-terms/licensing-terms/
 
 
 
-
 /********每頁都套用的********/ 
 /*頁首*/
 
@@ -33,34 +32,42 @@ License URI: http://themeforest.net/wiki/support/legal-terms/licensing-terms/
     display: inline;
     float: left;
     margin: 3% auto 5%;
-    width: 50%;
+    width: 35%;
 }
 
 .header_right { 
     display: inline;
     float: right;
     margin: 3% auto 5%;
-    width: 50%;
+    width: 40%;
 }
-
 
 .header_center  { 
     display: inline;
     float: left;
-    margin: 0 16px;   
-    width: 30%;
+    margin: 2% auto;
+    width: 25%;
 }
 
 .header_left_date {
-    margin: 6.3% 0 0 0;
-    width: 35%; 
+    margin: 6.5% 0 0 0;
+    width: 50%; 
 }
 
-.header_right_weather {
-    margin: 0 0 0 0;
+.header_right_search {
+    margin: 0;
     float: right;
-    width:  35%   
+    width:  50%   
 }
+
+.header_right_search form.searchandfilter ul {
+  padding: 0 1.3em;
+  }
+
+.header_right_search form.searchandfilter ul input {
+  padding: 10px 8px 9px;
+  
+  }
 
 .header_left img { 
   margin: 0 auto;
@@ -76,30 +83,27 @@ License URI: http://themeforest.net/wiki/support/legal-terms/licensing-terms/
   height: auto;  
 }
 
-.header_center img { 
-  margin: 15% auto 0;  
-  }
 
 header hr {
-margin: 0.3em 0 0 0;
+margin: 0.3em 0 .5em 0;
  border-color: black;
 }
 
-.current-date, .change-lan {
+.current-date {
   padding: 0 1em 0 0;
-  text-align: right;      
+   margin: 0.1em 0;
+  text-align: center;  
 }
+
 
 header .row {
   background-image: url("./images/0-list_background/list_line.png");
   background-repeat: repeat-x; 
-  background-position: 50% 72%;  
+  background-position: 50% 65%;  
   }
 
 header .header_center a img {
-  position: absolute;
-  left: 36%;
-  bottom: -3%;
+  max-width: 100%;
   }
 
 .header_top {    
@@ -112,54 +116,64 @@ header .header_center a img {
     overflow: hidden;
 }
 
+ul.change-lan {
+  padding: 0 1em 0 0;
+  margin: 0.1em 0;
+  text-align: center;
+}
 
 
+li.lang-item {
+  display: inline;
+  padding: 0 .5em;  
+  }
+
+li.lang-item a {
+  text-decoration: none;
+  }
+
+li.current-lang a {
+  color: rgb(161, 150, 128);
+  }
+
+header .widget {
+    padding: 3px 0;
+}
 
 /*左右導覽列*/
 
 .main_menu_right {
-    float: right;
-    margin-bottom: -10px;
-    min-height: 59px;
-}
-
-.main_menu_left {
     float: left;
     margin-bottom: -10px;
     min-height: 59px;
 }
 
+.main_menu_left {
+    float: right;
+    margin-bottom: -10px;
+    min-height: 59px;
+}
+
+nav.main_menu_left .ohbear-nav, nav.main_menu_right .ohbear-nav{
+  margin: 0 1.6em;
+  }
+
 .main_menu_right img, .main_menu_left img {
    max-width: 100%;
    height: auto;
-  
-  
 } 
-
-
 
 .sf-menu > li > a {
     display: table-cell;
     height: 67px;
-    padding: 0 25px;
+    padding: 0 ;
     vertical-align: middle;
 }
-
-
-
-
 
 header {
     margin: 12px;
   
 }
-
-#color_header  {
-  
-    //margin: 20px;
-  //padding: 30px 20px;
-}
-
 
 
 /*臉書粉絲頁連結*/
@@ -221,24 +235,24 @@ img.imgborder, .imgborder > img, a.imgborder > span.placeholder {
 /********首頁********/
 /*Slider*/
 
-#color_header {
-  background-image: url("./images/1-index/banner_box_L.png"),  url("./images/1-index/banner_box_R.png");
-  background-repeat: no-repeat, no-repeat;
-  background-position:  3.5% 0%, 95% 0%;
-  margin: 0 0 1em 0;
-  
+#color_header { 
+ max-width: 100%;
+ margin: 0 auto;
   }
+
 
 #color_header .huge_it_slideshow_image_wrap_2 {
-  margin: 0 6em 5em 6em;
-  background: url("./images/1-index/banner_box_mid.jpg") repeat-x;
-  padding:  1em;
+  margin: 0 auto 7em;
+  padding:  1em 4em;
+  background: url("./images/1-index/slider_bk.png") no-repeat center center ;
+  background-size: cover;
   }
 
+
 #color_header #huge_it_slideshow_left_2 {
-    background: url("./images/1-index/banner_btn_L.png") no-repeat scroll right top rgba(0, 0, 0, 0);
+    background: url("./images/1-index/banner_btn_L.png") no-repeat scroll left top rgba(0, 0, 0, 0);
     position: absolute;
-    left: -5em;
+    left: -4em;
     display: inline;
     
 }
@@ -246,13 +260,14 @@ img.imgborder, .imgborder > img, a.imgborder > span.placeholder {
 #color_header #huge_it_slideshow_right_2 {
     background: url("./images/1-index/banner_btn_R.png") no-repeat scroll right top rgba(0, 0, 0, 0);
     position: absolute;
-    right: -1.5em;
+    right: 4em;
     display: inline;  
 }
 
 #color_header .huge_it_slideshow_dots_thumbnails_2 {
     position: absolute;
     top: 25em;
+    margin: 0 -6em;
 }
 
 
@@ -319,6 +334,68 @@ img.imgborder, .imgborder > img, a.imgborder > span.placeholder {
    font-size: 1.2em;
   }
 
+.widget_em_widget ul {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+  }
+
+.widget_em_widget ul li {
+  padding-bottom: .5em;
+  }
+
+.front-eventdates {
+  background-color: rgb(255, 176, 12);
+  color: white;
+  font-size: 1.2em;
+  padding: 0.2em 0.4em;
+  margin-bottom: .5em;
+  width: 32%;
+  font-weight: 700;
+}
+
+.front-eventlink a {
+  text-decoration: none;
+  color: rgb(54, 46, 43);
+  font-size: 1.2em;
+  font-weight: 600;
+  }
+
+.front-eventlink a:hover {
+  color: red;
+  }
+
+
+.widget + .widget {
+    margin-top: 30px;
+}
+
+#em_widget-2 {
+  margin-top: 0;
+  }
+
+/*訪客人數統計*/
+#countperday_widget-2 {
+  background: url("./images/1-index/counter_bg.png") no-repeat;
+  height: 160px;
+  }
+
+#countperday_widget-2 ul.cpd {
+  list-style-type: none;
+  padding: 6em 3em;
+}
+
+#countperday_widget-2 ul.cpd li {
+  padding: .5em 0;
+  background-color: white;
+  font-weight: 900;
+  text-align: center;
+  }
+
+#countperday_widget-2 ul.cpd li span.cpd-r {
+    float: none;
+    text-align: center;
+}
 
 /*取消首頁News標題及文章內容的分隔線*/
 .single-th_galleries #main article h1.entry-title, #main .gallery_listing h2.entry-title {
@@ -326,6 +403,8 @@ img.imgborder, .imgborder > img, a.imgborder > span.placeholder {
     margin-bottom: 30px;
     padding-bottom: 10px;
 }
+
+
 
 /********喔熊新鮮事(news)********/
 #ohbear-news .gallery_wrap {
@@ -338,6 +417,10 @@ img.imgborder, .imgborder > img, a.imgborder > span.placeholder {
   border-top: none;
   padding: 0;
   }
+
+#main .gallery_listing h2.entry-title {font-size: 2em; }
+
+#main .gallery_listing.small h2.entry-title a {color: rgb(22, 160, 188); font-weight: 600; letter-spacing: 1.5px; line-height: 1.3em; font-size: .8em;}
 
 #ohbear-news ul.page-numbers a.prev {
    background: url("./images/7-index-news_events/btn_L.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
@@ -443,11 +526,13 @@ img.imgborder, .imgborder > img, a.imgborder > span.placeholder {
   padding: .5em 0 0 .5em;
 }
 
-#ohbear-events + .main-content .wp-caption ~ p {
+#ohbear-events + .main-content .ohbear-events-date ~ p {
    color: black;
    font-size: 1.3em;
    line-height: 1.5em;
   }
+  
+
 
 #ohbear-events + .main-content .fb_iframe_widget  {
   bottom: 1.5em;
@@ -459,17 +544,22 @@ img.imgborder, .imgborder > img, a.imgborder > span.placeholder {
 }
 
 
-.post_title_area {
+.events .post_title_area {
     background: url("") repeat-x scroll 0 100% rgba(0, 0, 0, 0);
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 /********關於喔熊********/
 
 #about hr {
 margin: 1em 0;
- border-color: black;
- 
+ border-color: black; 
 }
+
+#about img {
+  max-width: 100%;
+  }
 
 #about .about-right {
   float: right;
@@ -489,8 +579,6 @@ margin: 1em 0;
 
 #about-ohbear-id-right {
   float: right;
-  
-  //margin: 0 4em 0 0;
   }
 
 #about-ohbear-id {
@@ -523,76 +611,141 @@ margin: 1em 0;
 
 #Ohbear-can {
   position: absolute;
-  top: -1%;
+  top: 0%;
   right: 6%;
    z-index: 2;
   background: transparent;
 }
 
-.events_calendar {
-  
+a#ohbear-ical {
+  position: absolute;
+  top: 1%;
+  left: 0%;
+  }
+
+a#ohbear-ical img {
+  max-width: 60%;
+ }
+
+.em-calendar-wrapper {
   border: rgb(165, 147, 123) solid 1px;
   border-radius: 0 0 50px 50px;
   box-shadow: 10px 10px 0 10px rgb(165, 147, 123);
   margin: 15px 30px 0 15px;
   padding: 25px;
-  
   }
 
 
-.events_calendar .calendar_header {
-    padding: 10px 0 40px;
+.em-calendar-wrapper .calendar_header { 
+    padding: 3em 0 0;
     text-align: center;
-
+    height: 100px;
 }
 
-.events_calendar .calendar_header #previous_month {
+.em-calendar-wrapper .calendar_header span.month_name { font-size: 3.5em; }
+
+.em-calendar-wrapper .days-names {
+    background: rgba(0, 0, 0, 0) url("../images/bg_footer_widgets.png") repeat-x scroll 0 0;
+    opacity: 0.8;
+    overflow: hidden;
+    padding: 10px 0 20px;
+}
+
+.em-calendar-wrapper .days-names span {
+    display: block;
+    float: left;
+    font-size: 22px;
+    text-align: center;
+    width: 122px;
+}
+
+
+.calendar_header .em-calnav-prev {
     background: url("./images/3-schedule/btn_L.png") no-repeat scroll 50% 50% transparent;
     display: block;
-    left: 60px;
+    left: 5%;
     padding: 25px 12px 10px 35px;
     position: absolute;
-    top: 65px;
+    top: 6.5%;
 }
 
-.events_calendar .calendar_header #next_month {
+
+.calendar_header .em-calnav-next {
     background: url("./images/3-schedule/btn_R.jpg") no-repeat scroll 50% 50% transparent;
     display: block;
     padding: 25px 12px 10px 35px;
     position: absolute;
-    right: 730px;
-    top: 65px;
+    left: 9%;
+    top: 6.5%;
 }
 
-.events_calendar .calendar_header a:hover { border: 0; background-color: white !important;  box-shadow: 0; -webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0; }
-
-
-.events_calendar .week span {
-    width: 115px;
-}
-
-
-.events_calendar .day {
+table.fullcalendar td {
+    /*text-align: left;*/
     border: 1px solid #e8e8e8;
     border-radius: 2px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.06) inset;
     float: left;
-    height: 106px;
+    height: 100px;
     margin: 0 3px 3px 0;
     position: relative;
     transition: border-color 200ms ease-in-out 0s;
-    width: 113px;
+    width: 108px;
+    padding: 12px 5px;
+    color: #ddd;
+    display: block;
+    font-size: 22px;
+    font-weight: 700;
+  overflow:hidden; 
+  /*white-space: nowrap;*/  
 }
 
-.events_calendar .day.today {
-    height: 100px;
-    transition: border-color 200ms ease-in-out 0s;
-    width: 107px;
+table.em-calendar td.eventful li, table.em-calendar td.eventful-post li, table.em-calendar td.eventful-pre li, table.em-calendar td.eventful-today li {
+  list-style-type: none;
+  background-color: rgb(246, 180, 44);
+  padding: 0.1em;
+  margin: 0.1em 0;
 }
 
-.events_calendar .day:not(.empty):hover { 
-  width: 107px; 
-  height: 100px; }
+.entry-content li:last-child {
+    background: rgb(246, 180, 44) none repeat scroll 0 0;
+}
+
+.entry-content table tr:hover { background: none; }
+
+table.em-calendar td.eventful a, table.em-calendar td.eventful-today a, table.em-calendar td.eventful-post a, table.em-calendar td.eventful-pre a {
+    color: #545454;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 200;
+}
+
+
+#main table.em-calendar td.eventful a:hover, #main table.em-calendar td.eventful-today a:hover, #main table.em-calendar td.eventful-post a:hover, #main table.em-calendar td.eventful-pre a:hover {
+  color: #c62b02;
+}
+  
+table.em-calendar td.eventless-today, table.em-calendar td.eventful-today {
+  background: none;
+  border: 4px solid #c62b02;
+  height: 94px;
+  width: 102px; 
+}
+
+table.em-calendar td.eventful ul {list-style: none; }
+
+table.em-calendar {
+  table-layout:fixed;
+
+  }
+
+#page-4658 p, #page-4712 p, #page-4713 p {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  }
+
+#page-4658 img, #page-4712 img, #page-4713 img {
+  float: none;
+  }
 
 /********任務花絮********/
 /*主頁面*/
@@ -844,6 +997,87 @@ margin: 1em 0;
     
 }
 
+
+div.page-description {
+  position: absolute;
+  top: -2%;
+  left: 4%;
+  }
+
+.chosen-container-single .chosen-single {
+  border-top: 12px solid rgb(246, 172, 2);
+  border-bottom: 12px solid rgb(246, 172, 2);
+  border-left: 20px solid rgb(246, 172, 2);
+  border-right: 20px solid rgb(246, 172, 2);
+  border-radius: 30px;
+  }
+
+
+.searchandfilter ul li select {
+  border-top: 12px solid rgb(246, 172, 2);
+  border-bottom: 12px solid rgb(246, 172, 2);
+  border-left: 20px solid rgb(246, 172, 2);
+  border-right: 20px solid rgb(246, 172, 2);
+  border-radius: 30px;
+  height: 4.1em;
+  //background: url(./images/5-products/p1_list_box_arrow.png) no-repeat right;
+  //background: transparent;
+  }
+
+nav.gridlist-toggle {
+  position: absolute;
+  right: 11%;
+  top: -1%;
+  
+  }
+
+
+.gridlist-toggle a {
+  width: 4em;
+  height: 4em;
+  }
+
+.gridlist-toggle a#list {
+  background: url("./images/5-products/p1_btn_03_up.png") no-repeat; 
+    }
+
+.gridlist-toggle a#list.active {
+  background: url("./images/5-products/p1_btn_03_down.png") no-repeat;   
+    }
+
+.gridlist-toggle a#grid {
+  background: url("./images/5-products/p1_btn_01_up.png") no-repeat; 
+    }
+
+.gridlist-toggle a#grid.active {
+  background: url("./images/5-products/p1_btn_01_down.png") no-repeat;   
+    }
+
+
+
+.dashicons-excerpt-view::before, .dashicons-exerpt-view::before {
+    content: "";
+}
+
+.dashicons-grid-view::before {
+    content: "";
+}
+
+ul.products.grid div.product_meta {
+  display: none;
+}
+
+.woocommerce ul.products.list li a img {
+   display: none;
+  }
+
+#main .woocommerce ul.products.list li.product:hover .ohbear-product-title {
+   opacity: 0;
+  }
+
+
+
+
 /*單一商品頁面*/
 
 .woocommerce #content div.product div.images, .woocommerce #content div.product div.summary, .woocommerce div.product div.images, .woocommerce div.product div.summary, .woocommerce-page #content div.product div.images, .woocommerce-page #content div.product div.summary, .woocommerce-page div.product div.images, .woocommerce-page div.product div.summary {
@@ -878,6 +1112,14 @@ margin: 1em 0;
    color: rgb(236, 106, 0);
   
 }
+
+.product_meta {
+   padding: 1em 0 0 0;
+   border-top: solid 1px rgb(255, 211, 126);
+   font-size: 1.12em;
+  font-weight: 700; 
+}
+  
 
 .woocommerce div.product p.price, .woocommerce div.product span.price {
     color: rgb(4, 164, 196);
@@ -920,7 +1162,7 @@ margin: 1em 0;
   border-color: black;
   }
 
-div[itemprop="description"] p {
+div[itemprop="description"] p  {
   font-size: 1.12em;
   font-weight: 700;
 }
@@ -942,4 +1184,95 @@ div[itemprop="description"] p {
 
 .caroufredsel_wrapper {
    height: 150px !important;
+}
+
+
+
+
+/********手機版********/
+
+#lang_sel, .mobile, img.mobile {
+  display: none;
+  }
+
+@media (max-width: 1023px) {
+/*頁首*/
+  
+  .mobile-hide, img.mobile-hide {display: none; }
+  .mobile, img.mobile {display: block;}
+  
+  
+  #facebook_side_button {display: none; }
+  .ohbear-front {display: none; }
+  #wpfront-scroll-top-container {display: none; }
+  .header_left_date a, .header_left_date hr {display: none; }
+  .header_right_search hr, .header_right .widget_search, .header_right .change-lan, .bottom-logo {display: none; }
+  li.ohbear-nav {display: none; }
+  header {margin: 0; width: 100%; max-height: 100%;}
+  .header_top .row {display: table; margin: 0 auto 2em; width: 100%; background-image: url("./images/mobile/0-logo-list-bottom/list_line.png"); background-position: 50% 50%; background-size: 50% 40%; } 
+    /*-webkit-background-size: 50%; -moz-background-size: 50%; -o-background-size: 50%; background-size: 50%;}*/
+  .header_left  { width: 30%; margin: 0% auto;}
+  .header_right { width: 30%; margin: 0% auto;}
+  .header_center  { width: 40%;}
+  .header_left_date { margin: 5% 0 0; width: 100%;}
+  .current-date {display: none;}
+  .current-date-mobile {display: block; font-size: 1.3em; position: absolute; top: 46%; left:10%;}
+  
+  #lang_sel {display: block; height: 10em; width: 8em; position: absolute; top: 42%;}
+  .header_right_search { float: left;  margin: 5% 0 0;}
+  #lang_sel li { width: 90px; }
+  #lang_sel ul ul { width: 90px;}
+  #lang_sel a, #lang_sel a:visited {font-size: 1.2em; font-weight:600; border: none; padding-left: 0;}
+  #lang_sel a.lang_sel_sel {background: #fff url("./images/mobile/0-logo-list-bottom/language_btn.png") no-repeat scroll 95% 50%;}
+
+  
+/*Slider*/
+ 
+  #huge_it_slideshow_wrapper {width: 100%; margin: 0 auto;} 
+  #color_header .huge_it_slideshow_image_wrap_2 {margin: 0 0 3em; width: 100%; padding: 1em 0;}
+  #color_header #huge_it_slideshow_left_2 {display: none; }
+  #color_header #huge_it_slideshow_right_2 {display: none; right: -5em;}
+  #color_header .huge_it_slideshow_dots_thumbnails_2 {top: 115%; margin: 0 auto;}
+  
+  
+/**/
+  #main { min-width: 300px; }
+  
+  .ohbear-front-mobile {clear: left; margin: 0 auto; width: 100%; background-color: rgb(200, 187, 155); padding: .7em 0;}
+  #main .main_mobile_menu { display: block; }
+  .main_mobile_menu ul li { width: 45%; float: left; padding: .6em;}
+  .main_mobile_menu ul li img {width: 200%;}
+
+  #about {width: 100%;}
+  .about-left, .about-right {width: 30%;}
+  #main .schedule-left, #main .schedule-right {width: 45%; padding: 0 .5em}
+  .schedule-left {position: absolute; top: 6%; margin: 0 0 0 1em;}
+  #main img.schedule-right {z-index: 2; margin: 0 0 -.6em 0; background: transparent none repeat scroll 0 0;}
+  .schedule-right + p + hr {border-color: black; margin: 1em 0;}
+  #about-ohbear-id-mobile .about-top .about-left {position: absolute; top: 3.2%; margin: 0 0 0 1em;}
+  #about-ohbear-id-mobile .about-top .about-right { margin: 0 1em 0 0; }
+  #about .about-top + hr + img {max-width: 70%;  margin: 0 4em 2em;}
+  #contentarea .grid_8 {max-width:100%; border-right-style: none; border-width: 0; padding: 0;}
+  #main .main-content .wp-caption {max-width:95%;}
+  #main .fb_iframe_widget span {width: 100%!important;}
+  #ohbear-events + .main-content .fb_iframe_widget { bottom: 0em; left: 70%; }
+  .entry-content div.widget_em_widget li:last-child {background: none;}
+  .entry-content div.widget_em_widget ul li::before {content: "";}
+  .entry-content div.widget_em_widget ul > li {background: none;}
+  #ohbear-news + .main-content .fb_iframe_widget { left: 70%; bottom: 0em;}
+  #main #ohbear-news + .main-content + .right-sidebar { margin: 0 1em; width: 100%; border-top: 0.2em dashed;}
+  #main .gallery_wrap .grid_4 {width:100%; margin: 0 auto;}
+  #main .gallery_wrap .grid_4 a.imgborder img {margin: 0 auto; width: 100%;}
+  #ohbear-news .pagination {top: 100%; left: 0%}
+  #ohbear-news ul.page-numbers a.next {background-size: initial; background: rgba(0, 0, 0, 0) url("./images/7-index-news_events/btn_R.jpg") no-repeat scroll 0 0;}
+  #ohbear-news ul.page-numbers a.prev {background-size: initial; background: rgba(0, 0, 0, 0) url("./images/7-index-news_events/btn_L.png") no-repeat scroll 0 0;}
+  
+  
+/*頁尾*/
+  #copyright {width: 100%;}
+  #copyright .mobile-bottom-logo {display: block; margin: .6em auto; float: none; max-width: 60%;}
+  #copyright {background-image: url("./images/mobile/0-logo-list-bottom/botton_line.png"); background-repeat: repeat-x; min-height: 150px; }
+  #copyright .grid_7 {width: 100%;}
+  #copyright p {margin: 0 auto; font-size: 1em;}
+    
 }

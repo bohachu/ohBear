@@ -100,7 +100,11 @@ if ( ! class_exists( 'YITH_WCMG_Frontend' ) ) {
 			global $post;
 
 			$suffix = defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ? '' : '.min';
-			wp_register_script( 'yith-magnifier-slider', YITH_WCMG_URL . 'assets/js/jquery.carouFredSel' . $suffix . '.js', array( 'jquery' ), '6.2.1', true );
+
+			wp_register_script( 'yith-magnifier-slider', YITH_WCMG_URL . 'assets/js/jquery.carouFredSel' . $suffix . '.js', array(
+				'jquery',
+				'jquery-migrate'
+			), '6.2.1', true );
 
 			if ( is_product() || ( ! empty( $post->post_content ) && strstr( $post->post_content, '[product_page' ) ) ) {
 				wp_enqueue_script( 'yith-magnifier-slider' );

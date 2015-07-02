@@ -3,7 +3,7 @@
 remove_action('wp_head', 'wp_generator');
 
 
-
+/*註冊導覽列*/
 if (!function_exists('th_register_menus_OhBear'))
 {
 
@@ -12,7 +12,8 @@ if (!function_exists('th_register_menus_OhBear'))
 	register_nav_menus(
 		array(
 		'left-menu' => __('Left Menu', 'churchope'),
-		'right-menu' => __('Right Menu', 'churchope')
+		'right-menu' => __('Right Menu', 'churchope'),
+    		'mobile-menu' => __('Mobile Menu', 'churchope')
 		)
 	);
 	}
@@ -61,14 +62,22 @@ function wcs_woo_remove_reviews_tab($tabs) {
 /*隱藏woocommerce商品頁面標題*/
 add_filter('woocommerce_show_page_title',false);
 
+/*隱藏woocommerce相關商品顯示*/
+function wc_remove_related_products( $args ) {
+	return array();
+}
+add_filter('woocommerce_related_products_args','wc_remove_related_products', 10); 
+
+
 /*更改woocommerce商品頁面的導覽鈕*/
+
 remove_action('woocommerce_pagination', 'woocommerce_pagination', 10);
 
 function woocommerce_pagination() {
 
 wp_pagenavi('', '', array(
   'prev_text' => '<img src="' . get_bloginfo('stylesheet_directory') . '/images/5-products/p1_btn_L.png' . '">',
-  'next_text' => '<img src="' . get_bloginfo('stylesheet_directory') . '/images/5-products/p1_btn_R.png' . '">',
+  'next_text' => '<img src="' . get_bloginfo('stylesheet_directory') . '/images/5-products/p1_btn_R.png' . '">',  
 ));
 
 }
@@ -83,10 +92,11 @@ add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_p
 
 remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_add_to_cart', 30 );
 
+remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_meta', 40);
+add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_meta', 9 );
 
 add_action('woocommerce_single_product_summary', 'show_the_date',10);    
 function show_the_date() {
-    echo "<hr>";
     echo "<span  id=\"ohbear-product-date\" class=\"entry-date\">上架日期： " . get_the_date() . "</span>";
     }
 
@@ -137,6 +147,69 @@ add_filter ( 'woocommerce_product_thumbnails_columns', 'xx_thumb_cols' );
 
 
 ?>
+
+<?php
+add_filter('body_class','add_body_class_to_search_filter');
+function add_body_class_to_search_filter($classes) {
+	
+	global $sf_form_data;
+	
+	if ($sf_form_data->is_valid_form())
+	{		
+		$classes[] = "woocommerce-page";
+	}
+	// return the $classes array
+	return $classes;
+}
+?>
+
+
+<?php
+
+/**
+ * WooCommerce Extra Feature
+ * --------------------------
+ *
+ * Register a shortcode that creates a product categories dropdown list
+ *
+ * Use: [product_categories_dropdown orderby="title" count="0" hierarchical="0"]
+ *
+ */
+add_shortcode( 'product_categories_dropdown', 'woo_product_categories_dropdown' );
+
+function woo_product_categories_dropdown( $atts ) {
+
+  extract(shortcode_atts(array(
+    'count'         => '0',
+    'hierarchical'  => '0',
+    'show_uncategorized' => 0,
+    'orderby' 	    => ''
+    ), $atts));
+	
+	ob_start();
+	
+	$c = $count;
+	$h = $hierarchical;
+	$o = ( isset( $orderby ) && $orderby != '' ) ? $orderby : 'order';
+		
+	// Stuck with this until a fix for http://core.trac.wordpress.org/ticket/13258
+	woocommerce_product_dropdown_categories( $c, $h, 0, $o );
+
+        wc_enqueue_js( "
+                                jQuery('.dropdown_product_cat').change(function(){
+                                        if(jQuery(this).val() != '') {
+                                                location.href = '" . home_url() . "/?product_cat=' + jQuery(this).val();
+                                        }
+                                });
+                        " );
+	
+	return ob_get_clean();
+	
+}
+?>
+
+
+
 
 <?php
 
@@ -525,6 +598,7 @@ class Widget_Gallery2 extends Widget_Default implements Widget_Interface_Cache
 			echo $before_title . $title . $after_title;
 		}
 		
+     
 		if ($wport->have_posts()) : ?>
 			<ul>
 			<?php  while($wport->have_posts()) : $wport->the_post();?>
@@ -711,5 +785,45 @@ final class Widget
 	}
 }
 
+
+?>
+
+
+<?php
+/*
+function correct_ajax() {
+    wp_enqueue_script( 'script', get_template_directory_uri() . '/js/script.js', array(), '1.0.0', false );
+    $l10n = array('wpml_lang' => $sitepress->get_current_language());
+    wp_localize_script($handle, $object_name, $l10n);
+    
+     
+    global $sitepress;
+    $sitepress->switch_lang($_GET['wpml_lang'], true);
+    load_theme_textdomain( $domain, $path );
+}
+
+add_action( 'wp_enqueue_scripts', 'theme_name_scripts' );
+*/
+?>
+
+<?php
+/*
+if (defined('DOING_AJAX') && DOING_AJAX) {
+  add_action('setup_theme', 'mytheme_setup_theme');
+}
+*/
+ add_action('setup_theme', 'mytheme_setup_theme');
+
+/**
+ * React early in WordPress execution on an AJAX request to set the current language.
+ */
+function mytheme_setup_theme() {
+  global $sitepress;
+  
+  // Switch lang if necessary - check for our AJAX action
+  if (method_exists($sitepress, 'switch_lang') && isset($_GET['wpml_lang']) && $_GET['wpml_lang'] !== $sitepress->get_default_language()) {
+    $sitepress->switch_lang($_GET['wpml_lang'], true);
+  }
+}
 
 ?>

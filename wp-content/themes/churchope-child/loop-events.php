@@ -52,10 +52,9 @@ if (have_posts()) :
 				<div class="content_wrap">
 					<div class="post_title_area">
 						<div class="blogtitles">
-              <a href="<?php echo get_site_url(); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/7-index-news_events/btn_back.png" alt=""></a>
+              <a href="javascript:history.back()" class="mobile-hide"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/7-index-news_events/btn_back.png" alt=""></a>
 							<h1 class="entry-title"><span><?php the_title(); ?></span></h1>
 						</div>
-          <div class="ohbear-events-date"><?php echo ($repeat) ? _e('Every ', 'churchope') . $repeat_interval : $year . '年' . $month . '月' . $day . '日' ; ?></div>
           </div>
         
 					<?php if ($event_time || $event_address || $event_phone)
@@ -73,7 +72,7 @@ if (have_posts()) :
           <?php } ?>
 					<div class="entry-content">
                                             <?php the_content(); ?>
-            <a href="<?php echo get_site_url(); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/7-index-news_events/btn_back.png" alt=""></a>
+            <a href="javascript:history.back()" class="mobile-hide"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/7-index-news_events/btn_back.png" alt=""></a>
                            <?php echo fb_like_button(); ?>
 
 					</div>

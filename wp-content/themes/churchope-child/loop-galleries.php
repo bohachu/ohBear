@@ -44,12 +44,12 @@ if (have_posts()) :?>
 		if (is_single()) :
 			?>
 			<article <?php post_class('clearfix' . $cat_class) ?> >
-             <a href="<?php echo get_site_url(); ?>/新鮮事/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/7-index-news_events/btn_back.png" alt=""></a>
+             <a class="mobile-hide" href="javascript:history.back()"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/7-index-news_events/btn_back.png" alt=""></a>
   					<h1 class="entry-title"><span><?php the_title(); ?></span></h1>
 			   <div class="ohbear-news-date"><?php the_time('Y年m月j日'); ?>  <?php the_time('G:i '); ?></div>     							
 				<div class="entry-content">
                                     <?php the_content(); ?>
-            <a href="<?php echo get_site_url(); ?>/新鮮事/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/7-index-news_events/btn_back.png" alt=""></a>
+            <a class="mobile-hide" href="javascript:history.back()"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/7-index-news_events/btn_back.png" alt=""></a>
                            <?php echo fb_like_button(); ?>
 				</div>
                                 <?php wp_link_pages( array(

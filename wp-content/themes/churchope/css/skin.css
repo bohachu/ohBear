@@ -5,12 +5,12 @@ a { color:#c62b02;}
 #main article.hentry a.simple_button_link:hover, #main article.hentry a.simple_button_black:hover, #main article.hentry a.churchope_button:hover { color:#fff }
 header { background:#ffffff url('') no-repeat 0 0;color:#000000;}
 header a, header .grid_6 .widget_event li .descr { color:#000000;}
-.logo a { font-family:'Open Sans', Arial, Helvetica, sans-serif; letter-spacing:-3px }
+.logo a { font-family:[{"family":"Open Sans","variants":[],"subsets":[]}], Arial, Helvetica, sans-serif; letter-spacing:-3px }
 #color_header {background:#ffffff url('') repeat-x 0 0; }
 header .ribbon { border-top: 16px solid #ffffff;border-left: 16px solid #ffffff;border-right: 17px solid #ffffff;}
-.sf-menu>li>a { text-transform:uppercase; color:#ffffff;font-size:16px; font-family:'Open Sans', Arial, Helvetica, sans-serif; letter-spacing:-1px; text-shadow: 1px 1px 0 rgba(0,0,0,0.2); }
+.sf-menu>li>a { text-transform:uppercase; color:#ffffff;font-size:16px; font-family:[{"family":"Open Sans","variants":[],"subsets":[]}], Arial, Helvetica, sans-serif; letter-spacing:-1px; text-shadow: 1px 1px 0 rgba(0,0,0,0.2); }
 .sf-menu ul { background:#f9f9f9; }
-.sf-menu ul a { display:block; padding:12px 25px 14px; color:#403b3c; font-size: 13px; font-family:'Open Sans', Arial, Helvetica, sans-serif; }
+.sf-menu ul a { display:block; padding:12px 25px 14px; color:#403b3c; font-size: 13px; font-family:[{"family":"Open Sans","variants":[],"subsets":[]}], Arial, Helvetica, sans-serif; }
 .sf-menu ul a:hover, .sf-menu ul li.sfHover>a, .sf-menu ul li.active > a { color:#e8e8e8; background:#2b2324;}
 @media only screen and (max-width: 767px){ 
 	.sf-menu li.sfhover > a,
@@ -37,14 +37,14 @@ header .ribbon { border-top: 16px solid #ffffff;border-left: 16px solid #ffffff;
 #pagetitle, .cycle_content, .cycle_content a, .rev_slider,.rev_slider a { color:#ffffff;}
 #menu-icon {color:#ffffff;}
 #menu-icon em {background:#ffffff;}
-#pagetitle h1, .cycle_content, .rev_slider, .teaser_title, .events_calendar .week span, .events_calendar .calendar_header span.month, #title_sidebar .textwidget h1, #title_sidebar .textwidget h2, #title_sidebar .textwidget h3, #title_sidebar .textwidget h4, #title_sidebar .textwidget h5, .offer_group .offer .title, .offer_group .offer .price, #stylechanger a.section_toggle { font-family:'Open Sans', Arial, Helvetica, sans-serif; }
+#pagetitle h1, .cycle_content, .rev_slider, .teaser_title, .events_calendar .week span, .events_calendar .calendar_header span.month, #title_sidebar .textwidget h1, #title_sidebar .textwidget h2, #title_sidebar .textwidget h3, #title_sidebar .textwidget h4, #title_sidebar .textwidget h5, .offer_group .offer .title, .offer_group .offer .price, #stylechanger a.section_toggle { font-family:[{"family":"Open Sans","variants":[],"subsets":[]}], Arial, Helvetica, sans-serif; }
 #breadcrumbs { color: #ffffff;color: rgba(255,255,255, .5)}
 #breadcrumbs a { color: #ffffff;color: rgba(255,255,255, .8)}
 .events_calendar .day.has_event .event a, .offer_group .offer .title { color:#545454}
 .events_calendar .day.has_event .event a:hover { color:#c62b02 !important}
 .events_calendar .day.has_event .event a .time { color:#797979}
 .events_calendar .day.has_event .event a:hover .time { color:#797979 !important}
-#main h1, #main h2, #main h3, #main h4, #main h5, #main h6 {color:#545454; font-family:'Open Sans', Arial, Helvetica, sans-serif; font-weight: 400; margin-top: 0; }
+#main h1, #main h2, #main h3, #main h4, #main h5, #main h6 {color:#545454; font-family:[{"family":"Open Sans","variants":[],"subsets":[]}], Arial, Helvetica, sans-serif; font-weight: 400; margin-top: 0; }
 #main h1, #main h2, #main h3 { letter-spacing: -1px; }
 
 .t_ico, .social_links:hover {background-color: #c62b02; transition: background 200ms ease-in-out; -webkit-transition: background 200ms ease-in-out; -moz-transition: background 200ms ease-in-out; -o-transition: background 200ms ease-in-out; }
@@ -70,14 +70,14 @@ div.filters ul li a.selected { color:#545454}
 .events .events_meta li.event_time { color:#c62b02;}
 .events .events_meta li.event_address { color:#545454;}
 .location-map-travelmode.selected, .location-map-travelmode:hover { background-color: #c62b02}
-.widget-title, .widget-title a, .widget_calendar caption {color:#545454; font-family:'Open Sans', Arial, Helvetica, sans-serif; letter-spacing:-1px; font-size: 20px; font-weight: 400; text-decoration: none; }
+.widget-title, .widget-title a, .widget_calendar caption {color:#545454; font-family:[{"family":"Open Sans","variants":[],"subsets":[]}], Arial, Helvetica, sans-serif; letter-spacing:-1px; font-size: 20px; font-weight: 400; text-decoration: none; }
 header .widget-title a, header .widget-title, header .widget_calendar caption {color:#000000; text-decoration: none; text-transform: uppercase; font-size: 14px }
 #authorbox h5 { color:#797979}
 .comment-meta .fn, .comment-meta .fn a, #authorbox h5 span { color:#545454;}
-.postdate strong.day, .schedule_time strong.time {color:#545454; font-family:'Open Sans', Arial, Helvetica, sans-serif; letter-spacing:-1px; font-size: 36px; font-weight: 700; }
+.postdate strong.day, .schedule_time strong.time {color:#545454; font-family:[{"family":"Open Sans","variants":[],"subsets":[]}], Arial, Helvetica, sans-serif; letter-spacing:-1px; font-size: 36px; font-weight: 700; }
 .schedule_time strong.time {font-size: 20px;}
 .postdate strong.day img { margin-top: -8px }
-.postdate strong.month, .schedule_time_ampm {color:#545454; font-family:'Open Sans', Arial, Helvetica, sans-serif; letter-spacing:-1px; font-size: 20px; font-weight: 400;line-height: 1.2 }
+.postdate strong.month, .schedule_time_ampm {color:#545454; font-family:[{"family":"Open Sans","variants":[],"subsets":[]}], Arial, Helvetica, sans-serif; letter-spacing:-1px; font-size: 20px; font-weight: 400;line-height: 1.2 }
 .page-numbers li > a { color:#545454;}
 .page-numbers li > span { color:#c62b02;}
 
@@ -152,7 +152,7 @@ header .widget_testimonial .quote { color:#797979;}
 .widget_testimonial .testimonial_author, .testimonial .testimonial_author { color:#c62b02;}
 header .widget_testimonial .testimonial_author { color:#000000;}
 footer .widget_testimonial .testimonial_author { color:#c62b02;}
-footer .widget-title, footer .widget-title a, footer .widget_calendar caption {color:#545454; text-transform: uppercase; font-size: 16px; font-family:'Open Sans', Arial, Helvetica, sans-serif; letter-spacing:-1px; font-weight: 500; text-decoration:none }
+footer .widget-title, footer .widget-title a, footer .widget_calendar caption {color:#545454; text-transform: uppercase; font-size: 16px; font-family:[{"family":"Open Sans","variants":[],"subsets":[]}], Arial, Helvetica, sans-serif; letter-spacing:-1px; font-weight: 500; text-decoration:none }
 #copyright p { color:#000000}
 #copyright p a { color:#000000}
 #copyright nav li a, footer .widget_social_links a, footer .widget_archive li a, footer .widget_categories li a, footer .widget_pages li a { color:#919191;}

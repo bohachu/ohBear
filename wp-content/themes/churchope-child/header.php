@@ -246,7 +246,16 @@
 		<?php	wp_head(); ?>    
 	</head>
 	<body <?php body_class($post_layout . ' ' . $slideshow . ' ' . $widget_title . ' ' . $boxed); ?>>
-
+    
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.3&appId=1490076527950051";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+    
 		<?php echo ($boxed) ? '<div class="wrapper">' : '' ?>        
 		  <!--[if lt IE 7]><?php _e('<p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p>', 'churchope'); ?><![endif]-->    
     <div id="facebook_side_button">
@@ -262,67 +271,54 @@
 					<div class="row">
             <div class="header_left">               
                <div class="header_left_date">
-                <a href="<?php echo get_site_url(); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/0-list_background/taiwan_logo.png" alt="Taiwan_logo"></a>
-
+                <a href="<?php echo icl_get_home_url(); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/0-list_background/taiwan_logo.png" alt="Taiwan_logo"></a>
                <hr>            
-               <div class="current-date"><?php echo date_i18n('Y ● F j日● l', time()); ?></div>
+               <div class="current-date"><?php echo date_i18n('Y ● n/j ● l', time()); ?></div>
+               <div class="current-date-mobile mobile"><?php echo date_i18n('F j', time()); ?></div>
+
               </div>  
               <?php
-							wp_nav_menu(array('theme_location' => 'left-menu', 'container_class' => 'main_menu_left', 'menu_class' => 'sf-menu clearfix mobile-menu', 'fallback_cb' => '', 'container' => 'nav', 'link_before' => '', 'link_after' => '', 'items_wrap' => '<div id="menu-icon"><div><em></em><em></em><em></em></div>' . __('Navigation', 'churchope') . '</div><ul id="%1$s" class="%2$s">%3$s</ul>', 'walker' => new Walker_Nav_Menu_Sub()));
+							wp_nav_menu(array('theme_location' => 'left-menu', 'container_class' => 'main_menu_left', 'menu_class' => 'sf-menu clearfix', 'fallback_cb' => '', 'container' => 'nav', 'link_before' => '', 'link_after' => '', 'items_wrap' => '<ul id="%1$s" class="%2$s">%3$s</ul>', 'walker' => new Walker_Nav_Menu_Sub()));
 							 ?>
              </div>
              <div class="header_center">
-             <a href="<?php echo get_site_url(); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/0-list_background/logo_title.gif"></a>
+             <a href="<?php echo icl_get_home_url(); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/0-list_background/logo_title.gif"></a>
              </div>
             <div class="header_right">
-               <div class="header_right_weather">
-                 <!--
-                 <a href="<?php echo get_site_url(); ?>/購物車/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/0-list_background/btn_shop.png" alt="shop"></a>             
--->
-               <?php the_widget( 'WP_Widget_Search' ); ?> 
-<!--
-
-                <?php echo do_shortcode('[searchandfilter fields="search,category,post_tag" types=",radio,radio" headings=",Categories,Tags"]'); ?>    
-    -->                      
+               <div class="header_right_search">
+                 <div class="mobile-hide">
+                <?php echo do_shortcode("[searchandfilter id='4795']"); ?>
+                 </div>    
                 <hr>
-                 <!--
-                <div class="change-lan"> <a href="<?php echo wpml_get_home_url() ?>">中文</a> ● 日本語 ● English </div>
-                 -->
-                <div class="change-lan">中文 ● 日本語 ● English </div>
-               </div>
- 
-               
+                 <?php
+                   $languages = icl_get_languages('skip_missing=0');
+                    if(!empty($languages)){
+                    echo '<ul class="change-lan">';
+                        foreach($languages as $l){
+                        if($l['active']) {echo '<li class="lang-item current-lang"><a href="' . $l['url'] . '">' ;}
+                        else  {echo '<li class="lang-item"><a href="' . $l['url'] . '">' ;}
+                        echo $l['translated_name'] . '</a></li>';
+                        }
+                     echo '</ul>';
+                   }
+                 ?>  <?php do_action('icl_language_selector'); ?>                               
+               </div>              
                <?php
-							wp_nav_menu(array('theme_location' => 'right-menu', 'container_class' => 'main_menu_right', 'menu_class' => 'sf-menu clearfix mobile-menu', 'fallback_cb' => '', 'container' => 'nav', 'link_before' => '', 'link_after' => '', 'items_wrap' => '<div id="menu-icon"><div><em></em><em></em><em></em></div>' . __('Navigation', 'churchope') . '</div><ul id="%1$s" class="%2$s">%3$s</ul>', 'walker' => new Walker_Nav_Menu_Sub()));
+							wp_nav_menu(array('theme_location' => 'right-menu', 'container_class' => 'main_menu_right', 'menu_class' => 'sf-menu clearfix', 'fallback_cb' => '', 'container' => 'nav', 'link_before' => '', 'link_after' => '', 'items_wrap' => '<ul id="%1$s" class="%2$s">%3$s</ul>', 'walker' => new Walker_Nav_Menu_Sub()));
 							  ?>
               </div>
-
-  
-                
-    
-
-            
 					</div>        
 				</div>
-			</div>
-      
-            
+			</div>            
 		</header>
 
 		<section id="color_header" class="clearfix">
-      
+ 
+      <div id="huge_it_slideshow_wrapper">
      <?php
 				if (is_front_page())
-				{echo do_shortcode("[huge_it_slider id='2']"); } ?>   
-
-      
-      <!--
-
-      <?php
-				if (is_front_page())
-				{get_template_part('title'); } ?>   
--->
-     
+				{echo do_shortcode("[huge_it_slider id='2']"); } ?> 
+       </div>
 		</section>
-   
+  
 		<div role="main" id="main">

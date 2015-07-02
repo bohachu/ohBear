@@ -36,15 +36,18 @@ while ($i <= (int)get_option(SHORTNAME."_footer_widgets_columns")) { ?>
 </section> 
   <?php } ?>  
         <div class="clearfix row" id="copyright">
+         <img class="mobile-bottom-logo mobile" src="<?php echo get_stylesheet_directory_uri(); ?>/images/mobile/0-logo-list-bottom/logotype.png">
    			 <div class="grid_7"><p><?php  echo wpml_t('churchope', 'copyright', stripslashes(get_option(SHORTNAME."_copyright"))); ?></p></div>
-         <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/0-list_background/bottom_logotype.png">
+         <img class="bottom-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/images/0-list_background/bottom_logotype.png">
 		 </div>
 		
 		<?php  echo stripslashes(get_option(SHORTNAME."_GA")); ?>
         </footer>
 <?php echo (get_option(SHORTNAME . "_boxed"))?'</div>':''?>
   
-		<?php  wp_footer(); ?>
+
+<?php  wp_footer(); ?>
+
 
 	</body>
 </html>

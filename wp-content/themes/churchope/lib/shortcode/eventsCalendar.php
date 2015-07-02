@@ -134,15 +134,11 @@ function getEventCalendar($layout, $category, $from, $to, $month = null, $year =
 
 	if ($show_previous_month)
 	{
-		//$calendar .= '<a href="#" id="previous_month"><span>' . $prev_month_name . '</span></a>';
-    $calendar .= '<a href="#" id="previous_month"></a>';
- 		
+    $calendar .= '<a href="#" id="previous_month"></a>'; 		
 	}
 	$calendar .= '<span class="month">' . $month_name . ' ' . $year . '</span>';
-	//$calendar .= '<span class="month"><img src="http://www.astro.ncu.edu.tw/~yhsu/OhBearTaiwan/wp-content/uploads/2015/04/title_201503.png"></span>';
   if ($show_next_month)
 	{
-		//$calendar .= '<a href="#" id="next_month"><span>' . $next_month_name . '</span></a>';
     $calendar .= '<a href="#" id="next_month"></a>';
 	}
   
@@ -372,6 +368,7 @@ function getCalendarHtml($categories, $layout, $from, $to, $month, $year)
 							if ($details['show_event'] === true)
 							{
 
+                
 								// add concatenation to show all events in day
 								if (!$calendar_event)
 								{

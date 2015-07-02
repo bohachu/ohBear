@@ -14,7 +14,7 @@ $post_sidebar = (get_post_meta(get_the_ID(), SHORTNAME . '_post_sidebar', true))
 		<?php get_template_part('loop','events'); ?>
 	</div>   
         <?php if ($post_layout !== 'layout_none_sidebar') { ?>
-            <aside class="grid_4 <?php echo ($post_layout == 'layout_left_sidebar') ? 'left-sidebar' : 'right-sidebar'; ?>">
+            <aside class="mobile-hide grid_4 <?php echo ($post_layout == 'layout_left_sidebar') ? 'left-sidebar' : 'right-sidebar'; ?>">
                 <?php $sidebar = ($post_sidebar) ? $post_sidebar : "default-sidebar";
                 generated_dynamic_sidebar_th($sidebar);
                 ?>

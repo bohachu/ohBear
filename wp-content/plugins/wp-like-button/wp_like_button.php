@@ -3,8 +3,10 @@
   Plugin Name: WP Like button
   Description: WP Like button allows you to add Facebook like button to your wordpress blog. 
   Author: <a href="http://crudlab.com/">CRUDLab</a>
-  Version: 1.3.2
+  Version: 1.3.7
  */
+ ini_set('display_errors', 0);
+error_reporting(E_ERROR | E_WARNING | E_PARSE | E_NOTICE); 
 require_once( ABSPATH . "wp-includes/pluggable.php" );
 add_action('admin_menu', 'fblb_plugin_setup_menu');
 //register_uninstall_hook( __FILE__, 'uninstall_hook');
@@ -74,6 +76,7 @@ function fb_like_button($content = NULL) {
     $post_id = get_the_ID();
     global $wpdb;
     $table = $wpdb->prefix . 'fblb';
+	
     $myrows = $wpdb->get_results("SELECT * FROM $table WHERE id = 1");
     $beforeafter = $myrows[0]->beforeafter;
     $where_like = $myrows[0]->where_like;
@@ -85,6 +88,7 @@ function fb_like_button($content = NULL) {
     $except_ids = $myrows[0]->except_ids;
     $language = $myrows[0]->language;
     $url = $myrows[0]->url;
+    $mobile = $myrows[0]->mobile;
     $width = $myrows[0]->width;
     $str = $content;
     $share = $myrows[0]->share;
@@ -93,16 +97,22 @@ function fb_like_button($content = NULL) {
     if($share == 1){$share = 'true';}else{$share = 'false';}
     if($faces == 1){$faces = 'true';}else{$faces = 'false';}
     if($where_like == 'eachpage'){
-         $actual_link = get_the_permalink();
+         //$actual_link = get_the_permalink();
+		 $actual_link = get_permalink();
     }else if($where_like == 'entiresite'){
         $actual_link = get_site_url();
     }else{
         $actual_link = $url;
     }
+	if(!wp_is_mobile()){
+		    $fb = '<style>.fb_iframe_widget span{width:460px !important;} .fb_iframe_widget iframe {margin: 0 !important;}</style><div style="width:100%; text-align:'.$position.'"><div class="fb-like" style="width:'.$width.'px" data-href="'.$actual_link.'" data-colorschem"'.$color.'" data-width="' . $width . '" data-layout="' . $layout . '" data-action="' . $action . '" data-show-faces="'.$faces.'" data-share="'.$share.'"></div></div>';
+	}else if($mobile && wp_is_mobile()){
+		$fb = '<div style="width:100%; text-align:'.$position.'"><div class="fb-like" style="width:'.$width.'px" data-href="'.$actual_link.'" data-colorschem"'.$color.'" data-width="' . $width . '" data-layout="' . $layout . '" data-action="' . $action . '" data-show-faces="'.$faces.'" data-share="'.$share.'"></div></div>
+        <br>';
+		}
    
     
-    $fb = '<style>.fb_iframe_widget span{width:460px !important;}</style><div style="width:100%; text-align:'.$position.'"><div class="fb-like" style="width:'.$width.'px" data-href="'.$actual_link.'" data-colorschem"'.$color.'" data-width="' . $width . '" data-layout="' . $layout . '" data-action="' . $action . '" data-show-faces="'.$faces.'" data-share="'.$share.'"></div></div>
-        <br>';
+    
     $width = $myrows[0]->width . 'px';
     if ($status == 0) {
         $str = $content;
@@ -165,24 +175,26 @@ if (isset($_REQUEST['update_fblb'])) {
     $type = '';
     $display = $_REQUEST['display'];
     $display_val = 0;
+	$hello = $ttt;
     foreach($display as $d)
     {
-       $display_val += @mysql_real_escape_string($d);
+       $display_val += @sanitize_text_field($d);
     }
-    $beforeafter = @mysql_real_escape_string($_REQUEST['beforeafter']);
+    $beforeafter = @sanitize_text_field($_REQUEST['beforeafter']);
     $except_ids = (isset($_REQUEST['except_ids']))?$_REQUEST['except_ids']:'';
     if($except_ids != NULL){$except_ids = implode(', ',$except_ids);}
-    $eachpage = @mysql_real_escape_string($_REQUEST['eachpage']);
-    $each_page_url = @mysql_real_escape_string($_REQUEST['each_page_url']);
-    $layout = @mysql_real_escape_string($_REQUEST['layout']);
-    $action = @mysql_real_escape_string($_REQUEST['action']);
-    $color = @mysql_real_escape_string($_REQUEST['color']);
-    $language = @mysql_real_escape_string($_REQUEST['language']);
-    $width = @mysql_real_escape_string($_REQUEST['width']);
-    $edit_id = @mysql_real_escape_string($_REQUEST['edit']);
-    $share = @mysql_real_escape_string($_REQUEST['share']);
-    $faces = @mysql_real_escape_string($_REQUEST['faces']);
-    $position = @mysql_real_escape_string($_REQUEST['position']);
+    $eachpage = @sanitize_text_field($_REQUEST['eachpage']);
+    $each_page_url = @sanitize_text_field($_REQUEST['each_page_url']);
+    $layout = @sanitize_text_field($_REQUEST['layout']);
+    $action = @sanitize_text_field($_REQUEST['action']);
+    $color = @sanitize_text_field($_REQUEST['color']);
+    $language = @sanitize_text_field($_REQUEST['language']);
+    $width = @sanitize_text_field($_REQUEST['width']);
+    $edit_id = @sanitize_text_field($_REQUEST['edit']);
+    $share = @sanitize_text_field($_REQUEST['share']);
+    $faces = @sanitize_text_field($_REQUEST['faces']);
+    $position = @sanitize_text_field($_REQUEST['position']);
+    $mobile = @sanitize_text_field($_REQUEST['mobile']);
     ($edit_id == 0 || $edit_id == '') ? $edit_id = 1 : '';
     $ul = '0';
     global $current_user;
@@ -212,6 +224,7 @@ if (isset($_REQUEST['update_fblb'])) {
         'url' => $each_page_url,
         'user_id' => $user_id,
         'position' => $position,
+        'mobile' => $mobile,
         'active' => 1,
         'share' => $share,
         'faces' => $faces,
@@ -283,6 +296,7 @@ function fblb_init() {
     $eachsite[$myrows[0]->where_like] = 'checked';
     $beforeafter[$myrows[0]->beforeafter] = 'checked';
     $position[$myrows[0]->position] = 'checked';
+    $mobile[$myrows[0]->mobile] = 'checked';
     ?>
     <div id="test-popup" class="fblb_white-popup fblb_mfp-with-anim fblb_ mfp-hide"></div>
     <div class="fblb_container">
@@ -341,6 +355,24 @@ function fblb_init() {
                                                     </div>
                                                 </td>
                                             </tr>
+											<tr>
+											    <td></td>
+												<td>
+                                                    <label style="margin-top:8px;">Enable like button for mobile (Responsive layouts) </label>
+												</td>
+											</tr>
+											
+											<tr>
+                                                <td style="width: 160px; vertical-align: top;text-align: right; padding-right: 15px;">
+                                                </td>
+                                                <td>
+                                                    <div class="fblb_form-group fblb_beforeafter">
+                                                        <input type="radio" id="mobile0" name="mobile" <?php echo @$mobile['0']; ?> value="0" class="fblb_form-control" style="float:left"><label style="float:left" for="mobile0">No</label>
+                                                        <input type="radio" id="mobile1" name="mobile" <?php echo @$mobile['1']; ?> value="1" class="fblb_form-control" style="float:left"><label style="float:left" for="mobile1">Yes</label>
+                                                    </div>
+                                                </td>
+                                            </tr>
+											
                                             <tr>
                                                     <td colspan="2">
                                                             <hr>
@@ -699,7 +731,7 @@ For instance, add following code to header or footer.php to display like button
 
 //-------------------------------------- database --------------------
 global $wpfblike_db_version;
-$wpfblike_db_version = '3.0';
+$wpfblike_db_version = '4.0';
 
 function fblb_install() {
     global $wpdb;
@@ -728,6 +760,7 @@ function fblb_install() {
                 language varchar (50),
                 url varchar (255),
                 status int, 
+				mobile int,
                 user_id int,
                 active int,
                 share int,
@@ -783,6 +816,7 @@ function fblb_install_data() {
             'active' => 1,
             'share' => 1,
             'faces' => 1, 
+            'mobile' => 1, 
             'position' => 'center',        
             'beforeafter' => 'before',
             'where_like' => 'eachpage',

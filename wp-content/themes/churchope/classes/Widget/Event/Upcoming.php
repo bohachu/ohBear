@@ -229,6 +229,7 @@ HTML_ENTITIES;
 	 * @global type $sitepress WPML plugin
 	 * @param boolean $all - delete for all language cache
 	 */
+
 	public function deleteWidgetCache()
 	{
 
@@ -279,11 +280,12 @@ HTML_ENTITIES;
 		{
 			$key .= '_' . $code;
 		}
+		
 		elseif ($this->isWPML_PluginActive()) // wpml
 		{
 			$key .= '_' . ICL_LANGUAGE_CODE;
 		}
-
+		
 		return $this->get_field_id($key);
 	}
 

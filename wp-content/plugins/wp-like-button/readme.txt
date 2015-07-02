@@ -2,9 +2,9 @@
 Contributors: amirk27
 Donate link: https://www.2checkout.com/checkout/purchase?sid=102444448&quantity=1&product_id=1
 Tags: Facebook like button, like button, like, fb like button, fb like, button like, Facebook recommend button, recommend button, Facebook share button, share button, share, recommend, facebook button icon, facebook like icon, facebook like shortcode
-Requires at least: 3.9.0
+Requires at least: 3.8.0
 Tested up to: 4.2.1
-Stable tag: 1.3.2
+Stable tag: 1.3.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -84,6 +84,15 @@ We recommend that you include both buttons on your website to let people choose 
 
 
 == Changelog ==
+
+= 1.3.7 =
+* Fixed responsive issues
+
+= 1.3.4 =
+* Made compatible with wordpress 3.8
+
+= 1.3.3 =
+* Fixed some bugs
 
 = 1.3.2 =
 * Fixed few bugs and made it compatible with 4.2.1
