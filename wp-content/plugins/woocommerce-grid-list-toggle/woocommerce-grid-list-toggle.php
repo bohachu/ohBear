@@ -86,7 +86,7 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
 					add_action( 'woocommerce_after_shop_loop_item', array( $this, 'gridlist_buttonwrap_close' ), 11);
 					//add_action( 'woocommerce_after_shop_loop_item', array( $this, 'gridlist_hr' ), 30);
 					//add_action( 'woocommerce_after_shop_loop_item', 'woocommerce_template_single_excerpt', 5);
-					//add_action( 'woocommerce_after_shop_loop_item', 'woocommerce_template_single_title', 5);
+					add_action( 'woocommerce_after_shop_loop_item', 'woocommerce_template_single_title', 5);
 
 					add_action( 'woocommerce_after_shop_loop_item', 'woocommerce_template_single_meta', 10);
 					add_action( 'woocommerce_after_subcategory', array( $this, 'gridlist_cat_desc' ) );
