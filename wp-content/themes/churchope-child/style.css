@@ -793,8 +793,11 @@ table.em-calendar {
   }
 
 #ohbear-activity-center .grid_4 img {
-  width: 190px;
-  height: 190px;
+  /*width: 190px;
+  height: 190px;*/
+  
+  height: auto;
+  max-width: 100%;
   }
 
 #ohbear-activity-logo {
@@ -904,8 +907,12 @@ table.em-calendar {
   }
 
 #ohbear-activity-single-photo img {
-  width: 600px;
-  height: 300px;
+  /*width: 600px;
+  height: 300px;*/
+  
+  height: auto;
+  max-width: 100%;
+  
   }
 
 #ohbear-activity-single-gallery img {
@@ -1201,8 +1208,8 @@ div[itemprop="description"] p  {
 }
 
 .woocommerce div.product div.images .yith_magnifier_zoom_wrap img {
-  width: 450px;
-  height: 300px;
+  /*width: 450px;
+  height: 300px;*/
   }
 
 .yith_magnifier_thumbnail {
