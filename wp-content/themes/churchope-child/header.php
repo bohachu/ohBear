@@ -287,6 +287,7 @@
             <div class="header_right">
                <div class="header_right_search">
                  <div class="mobile-hide">
+                   
                 <?php echo do_shortcode("[searchandfilter id='4795']"); ?>
                  </div>    
                 <hr>

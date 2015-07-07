@@ -331,7 +331,8 @@ img.imgborder, .imgborder > img, a.imgborder > span.placeholder {
   }
 
 #main #front-news + article .gallery_listing h2.entry-title + .entry-content p {
-   font-size: 1.2em;
+   font-size: 1.2em; 
+   line-height: 1.5em;
   }
 
 .widget_em_widget ul {
@@ -420,7 +421,9 @@ img.imgborder, .imgborder > img, a.imgborder > span.placeholder {
 
 #main .gallery_listing h2.entry-title {font-size: 2em; }
 
-#main .gallery_listing.small h2.entry-title a {color: rgb(22, 160, 188); font-weight: 600; letter-spacing: 1.5px; line-height: 1.3em; font-size: .8em;}
+#page-3855 .gallery_listing.small h2.entry-title a {color: rgb(22, 160, 188); font-weight: 600; letter-spacing: 1.5px; line-height: 1.3em; font-size: .8em;}
+
+#page-3855 h2.entry-title + .entry-content p { font-size: 1.2em; line-height: 1.5em;}
 
 #ohbear-news ul.page-numbers a.prev {
    background: url("./images/7-index-news_events/btn_L.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
@@ -864,6 +867,8 @@ table.em-calendar {
     margin: 0 auto;
   }
 
+.post_title_area { background: url("images/bg_footer_widgets.png");}
+
 .ohbear-activity-single .main-content article .post_title_area .blogtitles.nodate {
     padding-left: 0;
     text-align: center;
@@ -1215,6 +1220,11 @@ div[itemprop="description"] p  {
 }
 
 #main div.product div.entry-summary div.fb_iframe_widget {display: none;}
+
+
+/********搜尋********/
+
+div.search-filter-results ul.post-categories {display: none;}
 
 
 /********手機版********/
