@@ -1,32 +1,6 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # WordPress MySQL database migration
 #
 # Generated: Tuesday 7. July 2015 22:33 UTC
-# Hostname: localhost
-# Database: `wordpress_yhsu`
 # --------------------------------------------------------
 
 /*!40101 SET NAMES utf8 */;
