@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce\n"
 "Report-Msgid-Bugs-To: https://github.com/woothemes/woocommerce/issues\n"
-"POT-Creation-Date: 2015-06-10 17:29:07+00:00\n"
+"POT-Creation-Date: 2015-07-07 16:47:13+00:00\n"
 "PO-Revision-Date: 2015-06-09 19:00+0000\n"
 "Last-Translator: 田中　昌平 <shohei.tanaka@artisanworkshop.biz>\n"
 "Language-Team: Japanese (http://www.transifex.com/projects/p/woocommerce/language/ja/)\n"
@@ -5054,20 +5054,20 @@ msgstr "(%s 含む)"
 msgid "WooCommerce"
 msgstr "WooCommerce"
 
-#: includes/abstracts/abstract-wc-order.php:2136
+#: includes/abstracts/abstract-wc-order.php:2143
 msgid "Order status changed from %s to %s."
 msgstr "注文状況は %s から %s に変更されました。"
 
-#: includes/abstracts/abstract-wc-order.php:2398
+#: includes/abstracts/abstract-wc-order.php:2405
 msgid "Item's #%s variation #%s stock reduced from %s to %s."
 msgstr "商品の#%s バリエーション #%sの在庫を%sから%sに減らしました。"
 
-#: includes/abstracts/abstract-wc-order.php:2400
+#: includes/abstracts/abstract-wc-order.php:2407
 #: includes/class-wc-ajax.php:1264 includes/class-wc-ajax.php:1265
 msgid "Item #%s stock reduced from %s to %s."
 msgstr "商品 #%s の在庫数は %s から %s に減少"
 
-#: includes/abstracts/abstract-wc-order.php:2412
+#: includes/abstracts/abstract-wc-order.php:2419
 msgid "Order item stock reduced successfully."
 msgstr "注文商品の在庫が正常に減少しました。"
 
@@ -6272,7 +6272,7 @@ msgid "Please re-enter your password."
 msgstr "パスワードを再入力して下さい"
 
 #: includes/class-wc-form-handler.php:203
-#: includes/class-wc-form-handler.php:852
+#: includes/class-wc-form-handler.php:854
 msgid "Passwords do not match."
 msgstr "パスワードが一致しません"
 
@@ -6344,7 +6344,7 @@ msgstr "カートに追加する商品を選択してください&hellip;"
 #: includes/class-wc-form-handler.php:766
 #: includes/class-wc-form-handler.php:770
 #: includes/class-wc-form-handler.php:779
-#: includes/class-wc-form-handler.php:908
+#: includes/class-wc-form-handler.php:910
 msgid "Error"
 msgstr "エラー"
 
@@ -6360,15 +6360,15 @@ msgstr "パスワードが必要です"
 msgid "A user could not be found with this email address."
 msgstr "このEメールアドレスのユーザーは見つかりませんでした"
 
-#: includes/class-wc-form-handler.php:804
+#: includes/class-wc-form-handler.php:806
 msgid "You are now logged in as <strong>%s</strong>"
 msgstr "あなたは現在 <strong>%s</strong> としてログインしています"
 
-#: includes/class-wc-form-handler.php:848
+#: includes/class-wc-form-handler.php:850
 msgid "Please enter your password."
 msgstr "パスワードを入力して下さい"
 
-#: includes/class-wc-form-handler.php:891
+#: includes/class-wc-form-handler.php:893
 msgid "Anti-spam field was filled in."
 msgstr "スパム対策フィールドが書きかえられました"
 
@@ -9895,7 +9895,7 @@ msgstr "検索結果:"
 msgid "Clear selection"
 msgstr "選択項目をクリア"
 
-#: templates/single-product/add-to-cart/variable.php:93
+#: templates/single-product/add-to-cart/variable.php:96
 msgid "This product is currently out of stock and unavailable."
 msgstr "現在この商品は在庫切れでご利用出来ません"
 
