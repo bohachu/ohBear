@@ -12,9 +12,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce\n"
 "Report-Msgid-Bugs-To: https://github.com/woothemes/woocommerce/issues\n"
-"POT-Creation-Date: 2015-06-10 17:29:07+00:00\n"
-"PO-Revision-Date: 2015-06-10 17:19+0000\n"
-"Last-Translator: Claudio Sanches <contato@claudiosmweb.com>\n"
+"POT-Creation-Date: 2015-07-06 18:06:23+00:00\n"
+"PO-Revision-Date: 2015-06-11 08:13+0000\n"
+"Last-Translator: Gordon Yu <g168661@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/woocommerce/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -540,7 +540,7 @@ msgid ""
 "After %sreading the documentation%s, for further assistance you can use the "
 "%sWordPress.org support forum%s. For help with premium add-ons from "
 "WooThemes, or if you are a WooThemes customer, you can %suse our helpdesk%s."
-msgstr ""
+msgstr "在 %s閱讀說明文件%s 之後，您還可以透過 %sWordPress.org 支援論壇%s 取得進一步的協助。如果是 WooThemes 出品的付費外掛的協助，或者您是 WooThemes 的顧客的話，您可以 %s使用我們的支援平台%s"
 
 #: includes/admin/class-wc-admin-help.php:57
 msgid ""
@@ -558,7 +558,7 @@ msgstr "系統狀態"
 
 #: includes/admin/class-wc-admin-help.php:59
 msgid "WordPress.org Support Forum"
-msgstr ""
+msgstr "WordPress.org 支援論壇"
 
 #: includes/admin/class-wc-admin-help.php:59
 msgid "WooThemes Customer Support"
@@ -1885,7 +1885,7 @@ msgstr "歡迎使用 WooCommerce"
 
 #: includes/admin/class-wc-admin-welcome.php:199
 msgid "Welcome to WooCommerce %s"
-msgstr "歡迎加入 WooCommerce %s"
+msgstr "歡迎使用 WooCommerce %s"
 
 #: includes/admin/class-wc-admin-welcome.php:204
 msgid "Thanks, all done!"
@@ -3039,23 +3039,23 @@ msgid "Product SKU must be unique."
 msgstr "貨號必須是唯一的。"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:1259
-#: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:1531
+#: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:1535
 msgid ""
 "The downloadable file %s cannot be used as it does not have an allowed file "
 "type. Allowed types include: %s"
 msgstr "無法使用 %s 此下載檔案因其檔案類型不被允許. 允許的檔案類型為: %s"
 
-#: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:1266
-#: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:1538
+#: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:1269
+#: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:1542
 msgid ""
 "The downloadable file %s cannot be used as it does not exist on the server."
 msgstr "無法使用 %s 此下載檔案因為在伺服器中找不到檔案."
 
-#: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:1367
+#: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:1371
 msgid "Variation #%s of %s"
 msgstr "#%s 的變化類型 %s"
 
-#: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:1411
+#: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:1415
 msgid "Variation SKU must be unique."
 msgstr "變化類型貨號須為唯一"
 
@@ -6089,7 +6089,7 @@ msgstr "隱藏這個通知"
 msgid ""
 "<strong>Welcome to WooCommerce</strong> &#8211; You're almost ready to start"
 " selling :)"
-msgstr "<strong>歡迎使用 WooCommerce</strong> &#8211; 再一個步驟店就可以開張囉 :)"
+msgstr "<strong>歡迎使用 WooCommerce</strong> &#8211; 再一個步驟商店就可以開張囉 :)"
 
 #: includes/admin/views/html-notice-install.php:14
 msgid "Skip setup"

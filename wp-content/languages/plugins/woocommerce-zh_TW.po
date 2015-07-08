@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce\n"
 "Report-Msgid-Bugs-To: https://github.com/woothemes/woocommerce/issues\n"
-"POT-Creation-Date: 2015-06-10 17:29:07+00:00\n"
+"POT-Creation-Date: 2015-07-06 18:06:22+00:00\n"
 "PO-Revision-Date: 2015-06-09 15:25+0000\n"
 "Last-Translator: Gordon Yu <g168661@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/woocommerce/language/zh_TW/)\n"
@@ -5060,20 +5060,20 @@ msgstr "(包含 %s)"
 msgid "WooCommerce"
 msgstr "WooCommerce"
 
-#: includes/abstracts/abstract-wc-order.php:2136
+#: includes/abstracts/abstract-wc-order.php:2143
 msgid "Order status changed from %s to %s."
 msgstr "訂單狀態由 %s 更改到 %s."
 
-#: includes/abstracts/abstract-wc-order.php:2398
+#: includes/abstracts/abstract-wc-order.php:2405
 msgid "Item's #%s variation #%s stock reduced from %s to %s."
 msgstr "項目的 #%s 變化類型 #%s 庫存由 %s 減為 %s."
 
-#: includes/abstracts/abstract-wc-order.php:2400
+#: includes/abstracts/abstract-wc-order.php:2407
 #: includes/class-wc-ajax.php:1264 includes/class-wc-ajax.php:1265
 msgid "Item #%s stock reduced from %s to %s."
 msgstr "商品 #%s 庫存由 %s 減少到 %s。"
 
-#: includes/abstracts/abstract-wc-order.php:2412
+#: includes/abstracts/abstract-wc-order.php:2419
 msgid "Order item stock reduced successfully."
 msgstr "訂單商品庫存已成功減少。"
 
@@ -6278,7 +6278,7 @@ msgid "Please re-enter your password."
 msgstr "請再次輸入您的密碼。"
 
 #: includes/class-wc-form-handler.php:203
-#: includes/class-wc-form-handler.php:852
+#: includes/class-wc-form-handler.php:854
 msgid "Passwords do not match."
 msgstr "密碼不符"
 
@@ -6350,7 +6350,7 @@ msgstr "請選擇一個商品加入您的購物車&hellip;"
 #: includes/class-wc-form-handler.php:766
 #: includes/class-wc-form-handler.php:770
 #: includes/class-wc-form-handler.php:779
-#: includes/class-wc-form-handler.php:908
+#: includes/class-wc-form-handler.php:910
 msgid "Error"
 msgstr "錯誤"
 
@@ -6366,15 +6366,15 @@ msgstr "一定要輸入密碼。"
 msgid "A user could not be found with this email address."
 msgstr "找不到用此電子郵件註冊的使用者"
 
-#: includes/class-wc-form-handler.php:804
+#: includes/class-wc-form-handler.php:806
 msgid "You are now logged in as <strong>%s</strong>"
 msgstr "您現在登入的身份為 <strong>%s</strong>"
 
-#: includes/class-wc-form-handler.php:848
+#: includes/class-wc-form-handler.php:850
 msgid "Please enter your password."
 msgstr "請輸入您的密碼"
 
-#: includes/class-wc-form-handler.php:891
+#: includes/class-wc-form-handler.php:893
 msgid "Anti-spam field was filled in."
 msgstr "防垃圾訊息欄位被填入了."
 
@@ -9901,7 +9901,7 @@ msgstr "搜尋："
 msgid "Clear selection"
 msgstr "清除已選項目"
 
-#: templates/single-product/add-to-cart/variable.php:93
+#: templates/single-product/add-to-cart/variable.php:96
 msgid "This product is currently out of stock and unavailable."
 msgstr "此商品目前已售完無法訂購"
 

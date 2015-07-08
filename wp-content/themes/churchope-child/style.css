@@ -15,6 +15,9 @@ License URI: http://themeforest.net/wiki/support/legal-terms/licensing-terms/
 /********每頁都套用的********/ 
 /*頁首*/
 
+#rss-ohbear  { display: none; }
+.lang-item a, .icl-en, .icl-ja { display: none; }
+.lang-item.current-lang a { display: inline; }
 
 .wrapper_top {
  background: url("./images/0-list_background/bg_paper_topline.png") repeat-x scroll 0 0 rgb(229, 226, 217); 
@@ -1320,4 +1323,13 @@ div.search-filter-results ul.post-categories {display: none;}
   #copyright .grid_7 {width: 100%;}
   #copyright p {margin: 0 auto; font-size: 1em;}
     
+}
+
+
+.widget + .widget {
+  margin-top: 0;
+}
+
+.ohbear-front .right-sidebar {
+    padding-top: 0;
 }
