@@ -2,7 +2,6 @@
 /*隱藏meta標籤的WordPress版本*/
 remove_action('wp_head', 'wp_generator');
 
-
 /*註冊導覽列*/
 if (!function_exists('th_register_menus_OhBear'))
 {
@@ -20,10 +19,6 @@ if (!function_exists('th_register_menus_OhBear'))
 
 }
 add_action('init', 'th_register_menus_OhBear');
-
-
-
-
 
 /*non-WC theme compatibility*/
 
@@ -111,10 +106,6 @@ add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_e
 //remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_add_to_cart', 30 );
 //add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_add_to_cart', 5 );
 
-
-
-
-
 /*更改woocommerce商品庫存顯示方式*/
 add_filter( 'woocommerce_get_availability', 'custom_get_availability', 1, 2);
 
@@ -128,7 +119,6 @@ function custom_get_availability( $availability, $_product ) {
   return $availability;
 }
 
-
 /*更改woocommerce加入購物車的顯示方式*/
 add_filter( 'woocommerce_product_single_add_to_cart_text', 'woo_custom_cart_button_text' );    // 2.1 +
  
@@ -138,16 +128,12 @@ function woo_custom_cart_button_text() {
  
 }
 
-
-
 add_filter ( 'woocommerce_product_thumbnails_columns', 'xx_thumb_cols' );
  function xx_thumb_cols() {
      return 5; // .last class applied to every 5th thumbnail
  }
 
-
 ?>
-
 <?php
 add_filter('body_class','add_body_class_to_search_filter');
 function add_body_class_to_search_filter($classes) {
@@ -162,8 +148,6 @@ function add_body_class_to_search_filter($classes) {
 	return $classes;
 }
 ?>
-
-
 <?php
 
 /**
@@ -207,10 +191,6 @@ function woo_product_categories_dropdown( $atts ) {
 	
 }
 ?>
-
-
-
-
 <?php
 
 /**
@@ -488,9 +468,6 @@ abstract class Widget_Default extends WP_Widget
 }
 
 ?>
-
-
-
 <?php
 /**
  * Interface for caching widget data using Transients API.
@@ -537,14 +514,6 @@ interface Widget_Interface_Cache
         function deleteWidgetCache();
 }
 ?>
-
-
-
-
-
-
-
-
 <?php
 
 /**
@@ -636,7 +605,6 @@ class Widget_Gallery2 extends Widget_Default implements Widget_Interface_Cache
 		$gallery_terms = get_terms(Custom_Posts_Type_Gallery::TAXONOMY);
 			
 		?>
-
 		<div>
 			<p>
 				<label for="<?php echo $this->get_field_id( 'title' ); ?>">
@@ -746,9 +714,6 @@ class Widget_Gallery2 extends Widget_Default implements Widget_Interface_Cache
 	}
 }
 ?>
-
-
-
 <?php
 /**
  * Class collection with all theme widgets 
@@ -787,8 +752,6 @@ final class Widget
 
 
 ?>
-
-
 <?php
 /*
 function correct_ajax() {
@@ -805,7 +768,6 @@ function correct_ajax() {
 add_action( 'wp_enqueue_scripts', 'theme_name_scripts' );
 */
 ?>
-
 <?php
 /*
 if (defined('DOING_AJAX') && DOING_AJAX) {
@@ -825,5 +787,4 @@ function mytheme_setup_theme() {
     $sitepress->switch_lang($_GET['wpml_lang'], true);
   }
 }
-
 ?>

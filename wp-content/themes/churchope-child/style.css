@@ -15,9 +15,12 @@ License URI: http://themeforest.net/wiki/support/legal-terms/licensing-terms/
 /********每頁都套用的********/ 
 /*頁首*/
 
+/*暫時先隱藏的部分*/
 #rss-ohbear  { display: none; }
-.lang-item a, .icl-en, .icl-ja { display: none; }
-.lang-item.current-lang a { display: inline; }
+.lang-item a { display: none; }
+#about-ohbear-story {display: none;}
+
+
 
 .wrapper_top {
  background: url("./images/0-list_background/bg_paper_topline.png") repeat-x scroll 0 0 rgb(229, 226, 217); 
@@ -1232,9 +1235,15 @@ div[itemprop="description"] p  {
 #main div.product div.entry-summary div.fb_iframe_widget {display: none;}
 
 
+/********聯絡喔熊********/
+/*map[name="contact_pic_map"] area {border: 1px solid red;}*/
+
+
 /********搜尋********/
 
 div.search-filter-results ul.post-categories {display: none;}
+
+
 
 
 /********手機版********/
@@ -1244,7 +1253,8 @@ div.search-filter-results ul.post-categories {display: none;}
   }
 
 @media (max-width: 1023px) {
-/*頁首*/
+   
+  /*頁首*/
   
   .mobile-hide, img.mobile-hide {display: none; }
   .mobile, img.mobile {display: block;}
@@ -1264,7 +1274,7 @@ div.search-filter-results ul.post-categories {display: none;}
   .header_center  { width: 40%;}
   .header_left_date { margin: 5% 0 0; width: 100%;}
   .current-date {display: none;}
-  .current-date-mobile {display: block; font-size: 1.3em; position: absolute; top: 46%; left:10%;}
+  .current-date-mobile {display: block; font-size: 1.2em; position: absolute; top: 46%; left:4%;  font-size: 1.2em; font-weight: 600; }
   
   #lang_sel {display: block; height: 10em; width: 8em; position: absolute; top: 42%;}
   .header_right_search { float: left;  margin: 5% 0 0;}
@@ -1322,10 +1332,14 @@ div.search-filter-results ul.post-categories {display: none;}
   #copyright {background-image: url("./images/mobile/0-logo-list-bottom/botton_line.png"); background-repeat: repeat-x; min-height: 150px; }
   #copyright .grid_7 {width: 100%;}
   #copyright p {margin: 0 auto; font-size: 1em;}
+  
+
+  /*暫時先隱藏的部分-手機版*/
+  #lang_sel { display: none; }
     
 }
 
-
+/*暫時*/
 .widget + .widget {
   margin-top: 0;
 }

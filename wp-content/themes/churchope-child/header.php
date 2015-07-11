@@ -243,7 +243,18 @@
 		}
 		?>		
 
-		<?php	wp_head(); ?>    
+		<?php	wp_head(); ?>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-64883807-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+    
 	</head>
 	<body <?php body_class($post_layout . ' ' . $slideshow . ' ' . $widget_title . ' ' . $boxed); ?>>
     
@@ -273,8 +284,9 @@
                <div class="header_left_date">
                 <a href="<?php echo icl_get_home_url(); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/0-list_background/taiwan_logo.png" alt="Taiwan_logo"></a>
                <hr>            
-               <div class="current-date"><?php echo date_i18n('Y ● n/j ● l', time()); ?></div>
-               <div class="current-date-mobile mobile"><?php echo date_i18n('F j', time()); ?></div>
+               <!--<div class="current-date"><?php echo date_i18n('Y ● n/j ● l', time()); ?></div>-->
+                <div class="current-date"><?php echo date_i18n('Y / m / d', time()); ?></div>
+               <div class="current-date-mobile mobile"><?php echo date_i18n('Y / m / d', time()); ?></div>
 
               </div>  
               <?php
