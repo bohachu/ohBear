@@ -5,7 +5,12 @@ $post_layout = (get_post_meta(get_the_ID(), SHORTNAME . "_post_layout", true)) ?
 $post_sidebar = (get_post_meta(get_the_ID(), SHORTNAME . '_post_sidebar', true)) ? get_post_meta(get_the_ID(), SHORTNAME . '_post_sidebar', true) : get_option(SHORTNAME . '_post_sidebar');
 ?>
 <div id="contentarea" class="row clearfix ohbear-activity-single">
-  <a id="ohbear-activity-single-back" href="<?php echo get_permalink(icl_object_id(4233, 'page', false)); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/7-index-news_events/btn_back.png" alt=""></a>
+     <div id="ohbear-activity" class="mobile">
+     <img class="activity-left" src="<?php echo get_stylesheet_directory_uri(); ?>/images/mobile/5-activities/activities_title.png" alt="news_title">
+     <img class="activity-right" src="<?php echo get_stylesheet_directory_uri(); ?>/images/mobile/5-activities/activities_pic.png" alt="news_pic">
+     <hr>
+     </div>  
+  <a class="mobile-hide" id="ohbear-activity-single-back" href="<?php echo get_permalink(icl_object_id(4233, 'page', false)); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/7-index-news_events/btn_back.png" alt=""></a>
 	<div class="main-content <?php echo ($post_layout == 'layout_none_sidebar') ? 'grid_12' : 'grid_5'; ?>">    
    
     <?php get_template_part('loop'); ?>

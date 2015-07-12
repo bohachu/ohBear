@@ -284,10 +284,18 @@
                <div class="header_left_date">
                 <a href="<?php echo icl_get_home_url(); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/0-list_background/taiwan_logo.png" alt="Taiwan_logo"></a>
                <hr>            
-               <!--<div class="current-date"><?php echo date_i18n('Y ● n/j ● l', time()); ?></div>-->
                 <div class="current-date"><?php echo date_i18n('Y / m / d', time()); ?></div>
-               <div class="current-date-mobile mobile"><?php echo date_i18n('Y / m / d', time()); ?></div>
-
+                      <?php if ( is_front_page() ) {	
+                        echo '<div class="current-date-mobile mobile">';
+                        echo date_i18n('Y / m / d', time()); 
+                        echo '</div>';
+                        }
+                           else {
+                        echo '<a class="back-mobile mobile" href="javascript:history.back()"><img src="';
+                        echo get_stylesheet_directory_uri();
+												echo '/images/mobile/0-logo-list-bottom/back_btn.png" >回上一頁</a>';
+                             } ?>
+                  
               </div>  
               <?php
 							wp_nav_menu(array('theme_location' => 'left-menu', 'container_class' => 'main_menu_left', 'menu_class' => 'sf-menu clearfix', 'fallback_cb' => '', 'container' => 'nav', 'link_before' => '', 'link_after' => '', 'items_wrap' => '<ul id="%1$s" class="%2$s">%3$s</ul>', 'walker' => new Walker_Nav_Menu_Sub()));

@@ -313,7 +313,7 @@ img.imgborder, .imgborder > img, a.imgborder > span.placeholder {
   margin: 20px 5px 0 5px;
   }
 
-#front-news .news-right,  #front-events .events-right, #ohbear-news .news-right, #ohbear-events .events-right {
+#front-news .news-right,  #front-events .events-right, #ohbear-news .news-right, #ohbear-events .events-right{
   float: right;
     margin: 0 5px;
   }
@@ -1032,12 +1032,12 @@ div.page-description {
 
 
 .searchandfilter ul li select {
-  border-top: 12px solid rgb(246, 172, 2);
-  border-bottom: 12px solid rgb(246, 172, 2);
-  border-left: 20px solid rgb(246, 172, 2);
-  border-right: 20px solid rgb(246, 172, 2);
-  border-radius: 30px;
   height: 4.1em;
+  border-color: rgb(246, 172, 2);
+    border-radius: 2em;
+    border-style: solid;
+    border-width: 1em 2em;
+    
   //background: url(./images/5-products/p1_list_box_arrow.png) no-repeat right;
   //background: transparent;
   }
@@ -1213,10 +1213,13 @@ div[itemprop="description"] p  {
   font-weight: 700;
 }
 
+
 .woocommerce div.product div.images .yith_magnifier_zoom_wrap img {
-  /*width: 450px;
+    /*width: 450px;
   height: 300px;*/
-  }
+  border: 0.3em solid rgb(211, 191, 164);
+}
+  
 
 .yith_magnifier_thumbnail {
   padding: 0 1em 0 0;
@@ -1274,7 +1277,8 @@ div.search-filter-results ul.post-categories {display: none;}
   .header_center  { width: 40%;}
   .header_left_date { margin: 5% 0 0; width: 100%;}
   .current-date {display: none;}
-  .current-date-mobile {display: block; font-size: 1.2em; position: absolute; top: 46%; left:4%;  font-size: 1.2em; font-weight: 600; }
+  .current-date-mobile, a.back-mobile {display: block; font-size: 1.2em; position: absolute; top: 46%; left:4%;  font-size: 1.2em; font-weight: 600; text-decoration: none;}
+  a.back-mobile img {float: left; margin: 0 .5em 0 0;}
   
   #lang_sel {display: block; height: 10em; width: 8em; position: absolute; top: 42%;}
   .header_right_search { float: left;  margin: 5% 0 0;}
@@ -1324,7 +1328,161 @@ div.search-filter-results ul.post-categories {display: none;}
   #ohbear-news .pagination {top: 100%; left: 0%}
   #ohbear-news ul.page-numbers a.next {background-size: initial; background: rgba(0, 0, 0, 0) url("./images/7-index-news_events/btn_R.jpg") no-repeat scroll 0 0;}
   #ohbear-news ul.page-numbers a.prev {background-size: initial; background: rgba(0, 0, 0, 0) url("./images/7-index-news_events/btn_L.png") no-repeat scroll 0 0;}
+
+/*任務花絮*/
+.page-template-template-activity #contentarea {
+    background-image: url("./images/4-activities/p1_box_L.pngg"), url("./images/4-activities/p1_box_R.pngg");
+   margin: 0 auto;
+    width: 100%;
+}
+
+
+#ohbear-activity-center {
+    background-size: contain ;
+    margin: 0 auto;
+    padding: 4em 0;
+    width: 100%;
+}  
+
+#ohbear-activity-center .grid_4 {
+    width: 100%;
+}
+
+#main .gallery_listing.small {
+    width: 100%;
+    float: none;
+}
+
+#ohbear-activity-center .grid_4 img {
+    width: 100%;
+}
+
+#ohbear-activity-center .row .pagination {
+    bottom: -4em;
+    
+}
+#ohbear-activity-logo {
+   display: none;
+}  
+
+#ohbear-activity .activity-left {
+  float: left;
+  margin: 5.5em 1em 0;
+  width: 35%;
+  }
+
+#ohbear-activity .activity-right {
+  float: right;
+  margin: 0 5px;
+  width: 35%;
+  }
+
+#ohbear-activity-single-back {display: none;}
+
+
+.ohbear-activity-single .main-content {
+    background: rgba(0, 0, 0, 0) url("./images/4-activities/p2_box.pngg") no-repeat scroll 0 0;
+    border-right-style: none;
+    border-width: 0;
+    margin: 0 auto;
+    min-height: 0;
+    padding: 0 ;
+    width: 100%;
+}
+
+.ohbear-activity-single .main-content article {
+    margin: 0;
+    padding: 0 1em;
+}  
+
+.ohbear-activity-single .main-content article .entry-content p {
+    font-size: 1.2em;
+}
+
+#main .ohbear-activity-single .right-sidebar {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.page-template-template-activity #contentarea ul.page-numbers a.next {
+    background-size: initial; 
+}  
+
+.page-template-template-activity #contentarea ul.page-numbers a.prev {
+    background-size: initial; 
+}   
+
+
+
   
+/*授權商品*/
+.product-columns-3 #contentarea {
+    background-image: url("./images/mobile/6-products/bar_L.pngg"), url("./images/mobile/6-products/bar_R.pngg");
+    margin: 3em auto;
+}
+
+.woocommerce .products {
+    background: rgba(0, 0, 0, 0) url("./images/mobile/6-products/bar.png") repeat-x scroll 0 0; 
+    background-size: contain;
+   
+}
+
+.woocommerce .products ul, .woocommerce ul.products {
+    margin: 0 auto 3em;
+    padding: 0;
+}
+
+
+ 
+div.page-description {
+    left: -10%;
+    position: absolute;
+    top: -2.3%;
+
+}
+
+nav.gridlist-toggle {
+    position: absolute; 
+    right: 1%;
+    top: -2.3%;
+    display: none;
+}
+
+.woocommerce ul.products li.product:nth-child(3n), .woocommerce-page ul.products li.product:nth-child(3n) {
+    float: left;
+}
+ 
+.woocommerce.product-columns-3 ul.products li.product, .woocommerce-page.product-columns-3 ul.products li.product {
+    width: 100%;
+     margin: 3em auto;
+}
+
+ul.products.grid li.product a + h1 {
+    display: block;
+    position: absolute;
+    text-align: center;
+    /*bottom: -1.8em;*/
+    padding: 0.4em 0;
+}
+
+input, textarea, select {
+    font-size: 0.8em;
+  }
+
+.searchandfilter select {
+    max-width: 13em;
+    min-width: 1em;
+}
+  
+.woocommerce #content div.product div.images, .woocommerce #content div.product div.summary, .woocommerce div.product div.images, .woocommerce div.product div.summary, .woocommerce-page #content div.product div.images, .woocommerce-page #content div.product div.summary, .woocommerce-page div.product div.images, .woocommerce-page div.product div.summary {
+   float: left;
+   width: 100%;
+   margin: 0 auto 2em;
+}
+
+.woocommerce div.product div.summary.entry-summary h1.product_title {
+ text-align: center;
+}
   
 /*頁尾*/
   #copyright {width: 100%;}

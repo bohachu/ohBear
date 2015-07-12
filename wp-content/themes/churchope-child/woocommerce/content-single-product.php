@@ -31,7 +31,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
   <img id="ohbear-product-intro" src="<?php echo get_stylesheet_directory_uri(); ?>/images/5-products/p2_introduce_title.png ">
   <hr>
-  <a href="<?php echo get_site_url(); ?>/products/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/7-index-news_events/btn_back.png" alt=""></a>
+  <a class="mobile-hide" href="javascript:history.back()" ><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/7-index-news_events/btn_back.png" alt=""></a>
 
 <script>
 $(document).ready(function() {
