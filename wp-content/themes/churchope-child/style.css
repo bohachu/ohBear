@@ -1113,7 +1113,10 @@ ul.products.list li.product a + h1 + div.gridlist-buttonwrap .product_meta span.
   }
 
 .woocommerce ul.products.list li a img {
-   display: none;
+    margin-left: 0.4em;
+    margin-right: 0 !important;
+    margin-top: 0.4em;
+    width: 6% !important;
   }
 
 .woocommerce ul.products.list li.product {
